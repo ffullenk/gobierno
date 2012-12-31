@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Panel de Administraci&oacute;n: Oficina Regional de Emergencias</title>
+<style media="screen" type="text/css">
+ #container
+{
+width: 90%;
+margin: 10px auto;
+background-color: #fff;
+color: #333;
+border: 1px solid gray;
+line-height: 130%;
+}
+
+#top
+{
+padding: .5em;
+background-color: #ddd;
+border-bottom: 1px solid white;
+height:75px;
+}
+
+#top h1
+{
+padding: 0;
+margin: 0;
+}
+
+#leftnav
+{
+float: left;
+width: 160px;
+margin: 0;
+padding: 1em;
+}
+
+#content
+{
+margin-left: 200px;
+border-left: 1px solid white;
+padding: 1em;
+max-width: 36em;
+}
+
+#footer
+{
+clear: both;
+margin: 0;
+padding: .5em;
+color: #333;
+background-color: #eaeaea;
+border-top: 1px solid white;
+}
+
+#leftnav p { margin: 0 0 1em 0; }
+#content h2 { margin: 0 0 .5em 0; }
+
+</style>
+
+</head>
+
+<body>
+<div id="container">
+  <div id="top"><h1></h1></div>
+  <div id="leftnav">
+    <p>Panel de Administraci&oacute;n Sistema Generación Informes Alfas, Oficina Regional de Emergencias Regi&oacute;n de Coquimbo.</p>
+  </div>
+  <div id="content">
+    <h2>Acceso al Panel de Control</h2>
+    <div >
+       <div >
+         <dl>
+           <dt>Datos Usuario</dt>
+           <dd>
+             <form name="pcontrol" id="pcontrol" method="post" action="">
+             <table>
+               <tr>
+                 <td width="108"><label for="user"><img src="/index/usuari.gif" alt="*" />Usuario</label></td>
+                 <td width="108"><label for="pass"><img src="/index/clau.gif" alt="*" />Contrase&ntilde;a</label></td>
+               </tr>
+               <tr>
+                 <td><input type="text" class="inptext" name="usuario" /></td>
+                 <td><input type="password" class="inptext" name="contrasenya" /></td>
+               </tr>
+             </table>
+             <input type="submit" class="btn" value="Entrar" />
+		     </form>
+           </dd>
+         </dl>
+       </div>
+
+       <div >
+         <dl>
+           <dt>¿Olvid&oacute; sus datos?</dt>
+           <dd>
+             <form action="" method="POST" name="form3" id="form3">
+             <p>Escriba su email y le enviaremos los datos de su panel de control.</p>
+             <table>
+               <tr>
+                 <td><label for="email">E-mail:</label></td>
+                 <td><input name="email" type="text" id="email" class="inptext" maxlength="255" /></td>
+                 <td><input type="submit" value="Recibir" class="btn" id="rebre" /></td>
+               </tr>
+             </table>
+             </form>
+           </dd>
+         </dl>
+       </div>
+     </div>
+  </div>
+  <div id="footer"><strong>www.gorecoquimbo.cl</strong>: Desarrollado por <a href="mailto:ljimenez@gorecoquimbo.cl">Luis Jim&eacute;nez Villalobos</a> para la Oficina Regional de Emergencias regi&oacute;n de Coquimbo.</div>
+</div>
+</body>
+</html>

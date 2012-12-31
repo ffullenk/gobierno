@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<imageview>
+	<book title="Basic Framework" index="basefrm">
+		<content>
+			<![CDATA[
+			<div id="text_hr">Introduction</div>
+			<div id="text_block">
+				Imageview 6 was designed with a flexible way of skinning in mind.<br />
+				This means it can be customized to match your web site, give it your own theme, make a very dynamic Windows-like gui...<br />
+				<br />
+				By default 2 templates are provided: Professional &amp; Classic.<br />
+				While Classic is meant to be a light weight skin that loads quickly, 
+				Professional was made to provide a nice and clean interface at the cost of taking a few seconds longer to load.<br />
+				<br />
+				In the this little guide I'll try to cover the following:
+				<ul>
+					<li><a href="#CSKIN">Creating A Template</a></li>
+					<li><a href="#BEP">Basic Element Placement</a></li>
+					<li><a href="#CSS">Basic CSS classes and ID's you'll be interested in</a></li>
+				</ul>
+				You can find a full reference of all object, classes, ID's &amp; Hooks in the <a href="javascript:OpenBook('skin', 'extref');">Extended Reference</a>.
+			</div>
+			<div id="text_hr">Creating A Template<a name="CSKIN" id="CSKIN"></a></div>
+			<div id="text_block">
+				Before you start writing code for your template... we must set up the base for it.
+				<ol>
+					<li>
+						Create an empty text file /imageview6/system/skins/<strong>{skin_name}</strong>/skin.xml<br />
+						<strong>{skin_name}</strong> should be replaced with the name of your skin.
+					</li>
+					<li>
+						Create the base XML structure for the template.<br />
+						Replace <strong>{your_name}</strong>, <strong>{your_site}</strong> &amp; <strong>{description}</strong> with the correct values.
+						Replace <strong>{pb_color}</strong> with either<br />
+						<span style="font-weight: bold; color: black;">black</span>, <span style="font-weight: bold; color: red;">red</span>, <span style="font-weight: bold; color: orange;">orange</span>, <span style="font-weight: bold; color: blue;">blue</span>, <span style="font-weight: bold; color: green;">green</span> or <span style="font-weight: bold; color: purple;">purple</span>.
+						<div id="text_code">&lt;?xml version=&quot;1.0&quot; encoding=&quot;iso-8859-1&quot;?&gt;<br />
+						  	&lt;imageview&gt;<br />
+							&nbsp;&nbsp;&nbsp;&lt;skin&gt;<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;information&gt;<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;author&gt;<strong>{your_name}</strong>&lt;/author&gt;<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;url&gt;<strong>{your_site}</strong>&lt;/url&gt;<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;version&gt;1.0&lt;/version&gt;<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;description&gt;<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;![CDATA[<strong>{description}</strong>]]&gt;<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/description&gt;<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/information&gt;<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;progressbar&gt;<strong>{pb_color}</strong>&lt;/progressbar&gt;<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;layout&gt;<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;![CDATA[<strong>{your_layout}</strong>]]&gt;<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/layout&gt;<br />
+							&nbsp;&nbsp;&nbsp;&lt;/skin&gt;<br />
+							&lt;/imageview&gt;						
+						</div>
+					</li>
+					<li>You are now ready to start creating the layout.</li>
+				</ol>
+			</div>
+			<div id="text_hr">Basic Element Placement<a name="BEP" id="BEP"></a></div>
+			<div id="text_block">
+				There are a few elements that must always be present:
+				<ul>
+					<li>Album Selector (Treeview or Dropdown)</li>
+					<li>Content Container</li>
+				</ul>
+				Without these elements Imageview would be useless.<br /><br />
+				All the xhtml code for the layout will go inside the <strong>{your_layout}</strong> block of <em>skin.xml</em>.<br />
+				There are some predefined variables that will be replace with the correct code:
+				<ul>
+					<li><strong>%base%</strong> :: This will be replaced by the URI of your skin folder.</li>
+					<li><strong>%album_dropdown%</strong> :: A dropdown list with all groups and albums will be inserted here.</li>
+					<li><strong>%album_tree%</strong> :: Same as above, but a treeview instead of a dropdown (note: use only one at a time)</li>
+					<li><strong>%content%</strong> :: The content frame will be inserted here.</li>
+				</ul>
+				Using <strong>%content%</strong> isn't recommended, instead place a div with the id of <em>iContent</em> in your code.
+				<div id="text_code">
+					&lt;div id=&quot;iContent&quot;&gt;<br />
+					&nbsp;&nbsp;&nbsp;&amp;nbsp;<br />
+					&lt;/div&gt;
+				</div>
+				Now start experimenting around with those variables in the <strong>{your_layout}</strong> portion.
+			</div>
+			<div id="text_hr">Basic CSS classes and ID's you'll be interested in<a name="CSS" id="CSS"></a></div>
+			<div id="text_block">
+				Once you got either a Treeview or Dropdown for the album selection and the Content Container on the page,<br />
+				You probebly want to move it around, give it a more personalized look,...<br />
+				<br />
+				I'll show you how to attach a style sheet and the basic ID's and Classes to use in your style sheet.<br />
+				To do so add the following line above the <strong>&lt;layout&gt;</strong> tag:
+				<div id="text_code">
+					&lt;!-- Include for all browsers --&gt;<br />
+					&lt;style file=&quot;general.css&quot; /&gt;<br />
+					&lt;!-- Include for Internet Explorer 5.5 and 6 --&gt;<br />
+					&lt;style file=&quot;iefixes.css&quot; IEHack=&quot;True&quot; /&gt;
+				</div>
+				As you have probably noticed... if you add the <strong>IEHack="True"</strong> attribute the style tag, it will only be included 
+				for Internet&nbsp;Explorer 5.5 &amp; 6 (not for version 7).<br />
+				An attribute media can also be added it works the same way as in html<br/>
+				<br />
+				Here is a list of classes and ID's that you need to change:
+				<ul>
+					<li><strong>#iContent</strong> :: This is the parent div that holds all output of imageview (except album Dropdown &amp; Tree).</li>
+					<li><strong>#iHeader</strong> :: This is a child div of <em>#iContent</em> and holds the description and controle box.</li>
+					<li><strong>#iThumbnailContainer</strong> :: This is a child div of <em>#iContent</em> and holds the thumbnails.</li>
+					<li><strong>#iImage</strong> :: This is a child div of <em>#iContent</em> and holds the image.</li>
+				</ul>
+				You should have enough information to create basic skins. 
+				However for a full reference on the classes, ID's, javascript hooks, object exposed to javascript check out the <a href="javascript:OpenBook('skin', 'extref');">Extended Reference</a>.
+			</div>
+			]]>
+		</content>
+	</book>
+	<book title="Extended Reference" index="extref">
+		<content>
+			<![CDATA[
+				<div id="text_hr">Introduction</div>
+				<div id="text_block">
+					Here you'll find a complete reference on the available CSS classes and ID's, Javascript Hooks and Objects.<br />
+					With this information, you should be able to create completely customized templates.
+					<ul>
+						<li>skin.xml</li>
+						<ul>
+							<li><a href="#TLXML">Template</a></li>
+							<li><a href="#TLVAR">Variables</a></li>
+						</ul>
+						<li><a href="#CSS">Style Sheets</a></li>
+						<li>Javascript</li>
+						<ul>
+							<li><a href="#JSHOOK">Hooks</a></li>
+							<li><a href="#JSOBJ">Exposed Objects</a></li>
+						</ul>
+					</ul>
+				</div>
+				<div id="text_hr">skin.xml Template<a name="TLXML" id="TLXML"></a></div>
+				<div id="text_block">
+					All you need to do is replace the values that are <strong>bold</strong>.
+					<div id="text_code">&lt;?xml version=&quot;1.0&quot; encoding=&quot;iso-8859-1&quot;?&gt;<br />
+						  	&lt;imageview&gt;<br />
+							&nbsp;&nbsp;&nbsp;&lt;skin&gt;<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;information&gt;<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;author&gt;<strong>{your_name}</strong>&lt;/author&gt;<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;url&gt;<strong>{your_site}</strong>&lt;/url&gt;<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;version&gt;1.0&lt;/version&gt;<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;description&gt;<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;![CDATA[<strong>{description}</strong>]]&gt;<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/description&gt;<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/information&gt;<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;progressbar&gt;<strong>{pb_color}</strong>&lt;/progressbar&gt;<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;layout&gt;<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;![CDATA[<strong>{your_layout}</strong>]]&gt;<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/layout&gt;<br />
+							&nbsp;&nbsp;&nbsp;&lt;/skin&gt;<br />
+							&lt;/imageview&gt;						
+					</div>
+					<strong>{pb_color}</strong> can be one of the following:&nbsp;<span style="font-weight: bold; color: black;">black</span>, <span style="font-weight: bold; color: red;">red</span>, <span style="font-weight: bold; color: orange;">orange</span>, <span style="font-weight: bold; color: blue;">blue</span>, <span style="font-weight: bold; color: green;">green</span> or <span style="font-weight: bold; color: purple;">purple</span>
+				</div>
+				<div id="text_hr">skin.xml Variables<a name="TLVAR" id="TLVAR"></a></div>
+				<div id="text_block">
+					These variables are available to be used inside skin.xml.
+					<ul>
+						<li><strong>%base%</strong> :: This will be replaced by the URI of your skin folder.</li>
+						<li><strong>%album_dropdown%</strong> :: A dropdown list with all groups and albums will be inserted here.</li>
+						<li><strong>%album_tree%</strong> :: Same as above, a tree instead of a dropdown (note: only one of them can be used at once)</li>
+						<li><strong>%content%</strong> :: The content frame will be inserted here.</li>
+					</ul>
+					<strong>Experts Only:</strong> It's also posible to provided some of the elements listed below yourself.<br />
+				</div>
+				<div id="text_hr">Style sheets<a name="CSS" id="CSS"></a></div>
+				<div id="text_block">
+					Below you will find a complete list of CSS classes and ID's
+					<ul>
+						<li><strong>Document Element</strong></li>
+						<ul>
+							<li><strong>#iAlbumSelect</strong> :: select element :: The album Dropdown</li>
+							<li><strong>#iContent</strong> :: div element :: Root element that will hold all output Imageview Generates</li>
+							<ul>
+								<li><strong>#iHeader</strong> :: div element :: The header that holds description, control box...</li>
+								<ul>
+									<li><strong>#iDescription</strong> :: div element :: Holds the description of an album</li>
+									<li><strong>#iImageInfo</strong> :: div element :: Holds the name &amp; description of an image</li>
+									<ul>
+										<li><strong>#iImgName</strong> :: span element :: Holds the name of the image</li>
+										<ul>
+											<li><strong>.label</strong> :: span element :: Holds the label</li>
+											<li><strong>.text</strong> :: span element :: Holds the text</li>
+										</ul>
+										<li><strong>#iImgDesc</strong> :: span element :: Holds the description of the image</li>
+										<ul>
+											<li><strong>.label</strong> :: span element :: Holds the label</li>
+											<li><strong>.text</strong> :: span element :: Holds the text</li>
+										</ul>
+									</ul>
+									<li><strong>#iControle</strong> :: div element :: Holds the buttons to navigate between images, rss icons, ...</li>
+								</ul>
+								<li><strong>#iThumbnailContainer</strong> :: div element :: Holds the thumbnails</li>
+								<ul>
+									<li><strong>.thumbnail</strong> :: div element :: The thumbnail box</li>
+									<ul>
+										<li><strong>.thumbnail div</strong> :: div element :: The inside of the box that holds the image</li>
+										<li><strong>.thumbnail:hover div</strong> :: div element :: Same as above but during mouse over</li>
+										<li><strong>.thumbnail span</strong> :: span element :: The lable of the thumbnail</li>
+									</ul>
+								</ul>
+								<li><strong>#iImage</strong> :: div element :: Holds the image or loading form</li>
+								<ul>
+									<li><strong>.frmLoadImage</strong> :: div element :: Loading form</li>
+								</ul>
+								<li><strong>.frmAuth</strong> :: div element :: Auth form</li>
+								<ul>
+									<li><strong>.frmAuth #iAuthTitle</strong> :: div element :: Header of the auth form</li>
+									<li><strong>.frmAuth #iAuthContent</strong> :: div element :: Window background of the auth form</li>
+									<li><strong>.txtAuthPw</strong> :: input element :: Password box on the auth form</li>
+									<li><strong>.chRemember</strong> :: input element :: Checkbox on the auth form</li>
+									<li><strong>.cmdAuth</strong> :: input element :: Login button on the auth</li>
+								</ul>
+							</ul>
+						</ul>
+					</ul>
+				</div>
+				<div id="text_hr">Javascript Hooks<a name="JSHOOK" id="JSHOOK"></a></div>
+				<div id="text_block">
+					Below are the Javascript Hooks that can be used:
+					<ul>
+						<li><strong>init_skin(oImageview)</strong><sup>1</sup> :: Executes right after oImageview has been initialized</li>
+						<li><strong>AlbumLoaded_skin()</strong> :: Executes after an album is loaded</li>
+						<li><strong>ImageLoaded_skin()</strong> :: Executes after an image is loaded</li>
+					</ul>
+					<sup>1</sup>&nbsp;oImageview gets passed as a variable for init_skin, oImageview isn't globaly accessble yet at this stage.<br />
+					<br />
+					To use one of them, simple create a function in javascript with that name and Imageview will execute it for you.
+					<div id="text_code">
+						&lt;script type=&quot;text/javascript&quot;&gt;<br />
+						&nbsp;&nbsp;&nbsp;function init_skin(oImageview){<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//your code here<br />
+						&nbsp;&nbsp;&nbsp;}<br />
+						&lt;/script&gt;
+					</div>
+				</div>
+				<div id="text_hr">Javascript Exposed Objects<a name="JSOBJ" id="JSOBJ"></a></div>
+				<div id="text_block">
+					Here is a list of the objects Imageview Exposes:<br />
+					<ul>
+						<li><strong>oImageview</strong> ::</li>
+						<ul>
+							<li><strong>skin</strong> :: Skin properties</li>
+							<ul>
+								<li><strong>rssIcon</strong> :: Path to the RSS icon</li>
+								<li><strong>keyIcon</strong> :: Path to the icon displayed on the Auth form</li>
+								<li><strong>uploadIcon</strong> :: Path to the upload icon</li>
+								<li><strong>slideIcon</strong> :: Path to the start slideshow icon</li>
+								<li><strong>slideIcon_disabled</strong> :: Path to the stop slideshow icon</li>
+								<li><strong>prevIcon</strong> :: Path to the previous icon</li>
+								<li><strong>prevIcon_disabled</strong> :: Path to the disabled previous icon</li>
+								<li><strong>upIcon</strong> :: Path to the up lever icon (return to album)</li>
+								<li><strong>nextIcon</strong> :: Path to the next cion</li>
+								<li><strong>nextIcon_disabled</strong> :: Path to the disabled next icon</li>
+								<li><strong>progressBar</strong> :: Path to the progressbar that is displayed while loading an image</li>
+							</ul>
+							<li><strong>browser</strong> :: Bowser Information</li>
+							<ul>
+								<li><strong>userAgent</strong> :: Browser's name e.g. 'Internet Explorer', 'Opera', 'Mozilla'</li>
+								<li><strong>version</strong> :: Browser's verion number</li>
+							</ul>
+							<li><strong>state</strong> :: Information on the current state of Imageview</li>
+							<ul>
+								<li><strong>album</strong> :: currently loaded album</li>
+								<li><strong>image</strong> :: currently loaded image (empty if viewing album)</li>
+								<li><strong>locked</strong> :: true if the album is locked (false if album is unlocked or not protected)</li>
+								<li><strong>nextImg</strong> :: the next image (only if browsing through image, empty during slideshow or album view)</li>
+								<li><strong>prevImg</strong> :: the previous image (only if browsing through image, empty during slideshow or album view)</li>
+							</ul>
+							<li><strong>LoadAdmin()</strong> :: Loads the administrator interface</li>
+							<li><strong>LoadHelp()</strong> :: Loads the documentation</li>
+						</ul>
+						<li><strong>webFXTreeConfig</strong> :: Tree Properties</li>
+						<ul>
+							<li><strong>folderIcon</strong> :: Path to group icon</li>
+							<li><strong>openFolderIcon</strong> :: Path to open group icon</li>
+							<li><strong>fileIcon</strong> :: Path to album icon</li>
+						</ul>
+					</ul>
+					You can use them to overwrite the default icons, do browser specific corrections:
+					<div id="text_code">
+						&lt;script type=&quot;text/javascript&quot;&gt;<br />
+						&nbsp;&nbsp;&nbsp;function init_skin(oImageview){<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//use costume RSS icon<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;oImageview.skin.rssIcon = '%base%/images/icons/rss.png';<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(oImageview.browser.userAgent == &quot;Internet Explorer&quot;){<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(oImageview.browser.version < 7){<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//we are using IE6 or lower<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />
+						&nbsp;&nbsp;&nbsp;}<br />
+						&lt;/script&gt;
+					</div>
+				</div>
+			]]>
+		</content>
+	</book>
+</imageview>

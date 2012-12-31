@@ -1,0 +1,50 @@
+#nav-usgs, #nav-site, #nav-bcrumb, #nav-main, #nav-sub {
+  display: none !important;
+}
+
+body { 
+  color: #333 !important; 
+  background: #FFF !important;
+  font-size: 12pt;
+}
+* { 
+  color: inherit !important; 
+  background: transparent !important;
+}
+
+#content a {
+  color: #00C !important;
+  text-decoration: underline !important;
+}
+
+#header, #nav-bcrumb, #content, #wrapper1, #wrapper2, #wrapper3, #nav-main, #main, #sidebar, #footer {
+  border: 0;
+}
+#header img, #header h3 {
+  display: block;
+}
+#header h3 a {
+  color: #333;
+}
+
+#content {
+  margin-top: 2em;
+}
+
+#wrapper3 {
+	width:100%;
+}
+
+#main, #sidebar {
+  width: 100%;
+  float: none !important;
+  border-top: 1px solid #FFF;
+}
+
+#sidebar hr, #footer hr {
+  display: block;
+}
+
+#details, #summary, #maps, #scitech, #news {
+  display:block !important;
+}

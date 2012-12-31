@@ -1,0 +1,435 @@
+/* Hoja de Estilo Para la Pagina Principal de CPANEL */
+body {
+	background-color : #FFF;
+	font-size : 11px;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+
+#container
+{
+width: 90%;
+margin: 10px auto;
+background-color: #fff;
+color: #333;
+border: 1px solid gray;
+line-height: 130%;
+}
+
+#top
+{
+padding: .5em;
+background-color: #ddd;
+border-bottom: 1px solid white;
+background-image:url(../../imagenes/panel/ftop.gif)  ;
+height:75px;
+}
+
+#top h1
+{
+padding: 0;
+margin: 0;
+font-family:Georgia, "Times New Roman", Times, serif;
+color:#FFFFFF;
+text-align:center;
+font-size:12pt;
+line-height:15pt;
+
+}
+
+#leftnav
+{
+float: left;
+width: 160px;
+margin: 0;
+padding: 1em;
+}
+
+#content
+{
+margin-left: 200px;
+border-left: 1px solid white;
+padding: 1em;
+/*max-width: 36em;*/
+}
+
+#content h2 {
+font:Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#990000;
+}
+
+
+#aki
+{
+padding:1em;
+margin:0;
+}
+
+#footer
+{
+clear: both;
+margin: 0;
+padding: .5em;
+color: #333;
+font-size : 0.8em;
+background-color: #eaeaea;
+border-top: 1px solid white;
+}
+
+#leftnav p { margin: 0 0 1em 0; }
+#content h2 { margin: 0 0 .5em 0; }
+
+#misesion {
+margin:0;
+padding:0;
+background-color:#F9F9F9;
+text-align:center;
+border:1px solid #99CC00;
+}
+#misesion p {
+font:"Times New Roman", Times, serif;
+font-size:10px;
+font-weight:bold;
+background-color:#fff;
+}
+
+#contenidos {
+margin-top:15px;
+padding:0;
+}
+
+.ingresar { 
+	font-family: Verdana;
+	font-weight : bold;
+	font-size : 10px;
+	padding: 2px;
+    color:#666;
+   border:1px solid;
+   border-color:#999;
+   text-align: center;
+background-image:url(../../imagenes/panel/buscar.gif); }
+
+
+#mconregistro {
+background-color: #F7F7F7;
+border:1px solid #EaEaEa;
+color: #000;
+padding:10px;
+margin-left:35px;
+margin-right:75px;
+margin-top:0;
+margin-bottom:0;
+}
+
+
+#msinregistro {
+border:1px solid #ccc;
+background-color: #99CC00;
+color: #FFFFFF;
+font-weight:bold;
+padding:3px;
+margin-left:35px;
+margin-right:75px;
+}
+
+
+#errorForm {
+margin-left:35px;
+margin-right:75px;
+padding-left: 55px;
+padding-bottom:15px;
+/*background-color:#EBEDEE;
+border:1px solid #E4E4E4;*/
+text-align:center;
+color:#990000;
+}
+
+#errorLogin {
+margin-left:35px;
+margin-right:75px;
+padding-left: 55px;
+padding-bottom:15px;
+background-color:#F7F7F7;
+border:1px solid #E4E4E4;
+text-align:center;
+color:#990000;
+}
+
+
+#tablaRegistros {
+/*margin:0;
+border:1px solid #E4E4E4;
+width:98%;
+background-color:#FFFFFF;
+text-align:center;
+margin:1em auto;*/
+text-align:center;
+border:1px solid #E4E4E4;
+background-color:#FFFFFF;
+padding:5px;
+
+}
+
+#tablaRegistros table {
+margin-left:auto;
+margin-right:auto;
+/*border:1px solid #666;*/
+/* INHERITED ALIGNMENT IS CENTER. ONLY INCLUDE THIS IF YOU WANT */
+/* TO CHANGE THE ALIGNMENT OF THE CONTENTS OF THE TABLE */
+text-align:left;
+}
+
+.tablaAdmin {
+border:1px solid #666;
+margin-top:5px;
+margin-bottom:5px;
+}
+
+.tituloTabla {
+background-color:#CCCC99;
+color:#006699;
+text-align:center;
+font-weight:bold;
+
+}
+
+/* 
+ *
+ * Estilos de Formularios
+ *
+ */
+#zeroForm {
+margin-left:35px;
+margin-right:75px;
+}
+
+#zeroForm H5 {
+background-color:#EBEDEE;
+border:1px solid #E4E4E4;
+padding:3px;
+font-size:16px;
+text-align:center;
+color:#990000;
+}
+
+#zeroForm dl {
+background-color:#EBEDEE;
+border:1px solid #E4E4E4;
+padding:15px;
+}
+
+#zeroForm .submit {
+color: #000; /*#000;*/
+background: #fff; /*#ffa20f;*/
+border: 1px outset #d7b9c9;
+}
+
+
+
+/* 
+Formulario Informes: Alfas
+*/
+#informeForm {
+margin-left:35px;
+margin-right:75px;
+}
+
+#informeForm H5 {
+background-color:#EBEDEE;
+border:1px solid #E4E4E4;
+padding:3px;
+font-size:16px;
+text-align:center;
+color:#990000;
+}
+
+#informeForm dl {
+background-color:#fff;
+border:1px solid #E4E4E4;
+padding:15px;
+}
+
+#informeForm .submit {
+color: #000; /*#000;*/
+background: #EBEDEE; /*#ffa20f;*/
+border: 1px outset #d7b9c9;
+}
+
+
+ legend
+{
+color: #fff;
+background: #ffa20c;
+border: 1px solid #781351;
+padding: 2px 6px
+} 
+
+ fieldset
+{
+border: 1px solid #781351;
+margin:5px;
+padding:10px;
+}
+
+#formulario dt { 
+color: #0000ff;
+}
+
+#formulario input, select {
+color: #333;
+background: #f5f5f5;
+border: 1px solid #666;
+margin:0;
+padding:0
+} 
+
+#formulario textarea {
+color: #333;
+background: #f5f5f5;
+border: 1px solid #666;
+margin:0;
+padding:0
+} 
+
+
+
+#formulario .recurso {
+margin:5px 0 10px 0;
+padding:3px 5px 10px 3px; /* arriba, derecho, abajo, izquierdo*/
+background-color:#f5f5f5;
+border:1px solid #999;
+}
+
+#formulario .punto {
+margin:5px 0 10px 0;
+padding:3px 5px 10px 3px; /* arriba, derecho, abajo, izquierdo*/
+background-color:#fff;
+border:1px solid #999;
+}
+
+
+#formulario .elimina {
+background:#993300;
+color:#FFFFFF;
+font-size:10px;
+font-family:Arial, Helvetica, sans-serif;
+margin:10px 0 5px 0;
+}
+
+/* Formulario Editar y crear */
+.edita {
+font-family:Arial, Helvetica, sans-serif;
+font-size:10px;
+color: #fff; /*#000;*/
+background:#99CC00; /*#ffa20f;*/
+border: 1px ridge  #d7b9c9;
+}
+
+.elimina {
+font-family:Arial, Helvetica, sans-serif;
+font-size:10px;
+color: #fff; /*#000;*/
+background:#990000; /*#ffa20f;*/
+border: 1px ridge  #d7b9c9;
+}
+
+
+.crea {
+font-family:Arial, Helvetica, sans-serif;
+font-size:10px;
+color: #fff; /*#000;*/
+background:#333366; /*#ffa20f;*/
+border: 1px solid #d7b9c9;
+}
+
+#formulario .btnsjv {
+font-family:Arial, Helvetica, sans-serif;
+font-size:10px;
+color: #fff; /*#000;*/
+background:#0066CC;
+border: 1px solid #d7b9c9;
+}
+
+
+/*   */
+#consveralfa {
+display:inline;
+}
+
+
+/*  */
+#mnota {
+border:1px solid #ccc;
+background-color: #fff;
+color: #000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+text-align:justify;
+font-weight:normal;
+padding:3px;
+margin-left:35px;
+margin-right:75px;
+padding:5px;
+}
+
+.contenido {
+text-align:center;
+}
+
+/* Para el menu principal izquierdo */
+#navcontainer
+{
+/*width: 12em;*/
+border: 1px solid #90bade;
+padding: 0 0 1em 0;
+margin-bottom: 1em;
+font-family: Verdana, Lucida, Geneva, Helvetica, Arial, sans-serif;
+background-color: #90bade;
+color: #333;
+}
+
+#navcontainer ul
+{
+list-style: none;
+margin: 0;
+padding: 0;
+border: none;
+}
+
+#navcontainer li
+{
+border-bottom: 1px solid #90bade;
+margin: 0;
+}
+
+#navcontainer li a
+{
+display: block;
+padding: 5px 5px 5px 0.5em;
+border-left: 10px solid #1958b7;
+border-right: 10px solid #508fc4;
+background-color: #2175bc;
+color: #fff;
+text-decoration: none;
+width: 100%;
+}
+
+html>body #navcontainer li a { width: auto; }
+
+#navcontainer li a:hover
+{
+border-left: 10px solid #1c64d1;
+border-right: 10px solid #5ba3e0;
+background-color: #2586d7;
+color: #fff;
+}
+
+#navcontainer p {
+text-align:center;
+font-family:Arial, Verdana, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+color:#2175bc;
+vertical-align:middle; }
+
+/* */

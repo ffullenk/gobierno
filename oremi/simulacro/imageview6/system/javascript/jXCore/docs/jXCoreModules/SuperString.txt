@@ -1,0 +1,27 @@
+####################################
+# jXCore :: Javascript Library     #
+# By Jorge Schrauwen 2006          #
+# -- http://blackdot.be            #
+####################################
+
+How do I use this module?
+------------------------------
+jXCore.include('SuperString', './PathTojXCore');
+
+What Does it do?
+------------------------------
+String concatenation is slow in javascript... using this should speed it up.
+e.g.
+
+//plain example
+var MyText = new jXCore.SuperString();
+var Today = new Date()
+MyText.add('Data: ');
+MyText.add(Today.toUTCString());
+alert(MyText);
+
+//can be done with even less code - speed is the same
+var MyText = new jXCore.SuperString();
+var Today = new Date()
+MyText.add('Data: ');
+alert(MyText.add(Today.toUTCString()));

@@ -1,0 +1,17 @@
+####################################
+# jXCore :: Javascript Library     #
+# By Jorge Schrauwen 2006          #
+# -- http://blackdot.be            #
+####################################
+
+How do I use this module?
+------------------------------
+jXCore.include('BrowserInfo', './PathTojXCore');
+
+What Does it do?
+------------------------------
+Will tell you more about the browser jXCore is running in.
+e.g.
+
+var BInfo = jXCore.BrowserInfo;
+alert(BInfo.userAgent + ' ' + BInfo.version);

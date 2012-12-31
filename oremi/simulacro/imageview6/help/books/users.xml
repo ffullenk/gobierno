@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<imageview>
+	<book title="Welcome To Imageview 6" index="w2i6">
+		<content>
+			<![CDATA[
+				<div id="text_hr">Welcome to Imageview 6</div>
+				<div id="text_block">
+					Imageview 6 is an easy to use Photo Album manager.<br />
+					If you get lost using Imageview, have a look at the <a href="javascript:OpenBook('users', 'ui6');">user manual</a> located in the panel on the left.<br />
+					The administrator's manual &amp; skinning guide are located on the left as well.
+				</div>
+				<div id="text_hr">Special Thanks</div>
+				<div id="text_block">
+				I would like to thank a few people who have helped me with the development of Imageview 6.
+				<ul>
+					<li>jXMLHttpRequest.js</li>
+					<ul>
+						<li><a href="http://www.wdonline.com/" target="_blank">Jeremy McPeak</a></li>
+						<li><a href="http://erik.eae.net/" target="_blank">Erik Arvidsson</a></li>
+					</ul>
+					<li>Testers</li>
+					<ul>
+						<li>Threeten</li>
+						<li>Jürgen Pulkrab</li>
+						<li>Martine Tysmans</li>
+					</ul>
+				</ul>
+				</div>
+				<div id="text_hr">Change Log</div>
+				<div id="text_block">
+				<ul>
+					<li><strong>February 2009</strong></li>
+					<ul>
+						<li>20090225 Release 6.2.1</li>
+						<li>20090225 Fixed with cache on images are now forced refreshed to bypass browser cache</li>
+						<li>20090225 Update switched to ExtendedPreFetch (much faster!)</li>
+						<li>20090225 Fixed admin not loading when using tree mode</li>
+						<li>20090225 Fixed broken album tree</li>
+						<li>20090225 Update removed duplicate code in albumtree.php</li>
+					</ul>
+					<li><strong>January 2009</strong></li>
+					<ul>
+						<li>20090109 Update no album preloading if loaded in the last 5 min, most likely still in cache</li>
+						<li>20090109 Added skip preload when click on dialog</li>
+						<li>20090109 Fixed album change before prelaod finished problems</li>
+						<li>20090108 Draft implemtation of album prelaoder</li>
+						<li>20090108 Update use preload options for images</li>
+						<li>20090108 Update preloaded to use new options</li>
+						<li>20090108 Update interface, albums and images have seperate prelaod option</li>
+						<li>20090107 Release 6.2.0</li>
+						<li>20090107 Update enabled more accurate preloader</li>
+						<li>20090106 Fixed enabled soft_error in imgproc.php, should fix missing images when annotating</li>
+						<li>20090106 Update soft_error flag to jImageProccessor.php</li>
+					</ul>
+					<li><strong>December 2008</strong></li>
+					<ul>
+						<li>20081214 Fixed installer bugs</li>
+						<li>20081214 Tweakes for Firefox 3</li>
+						<li>20081212 Faster imageview.js decoding</li>
+					</ul>
+					<li><strong>September 2007</strong></li>
+					<ul>
+						<li>20070923 Update locked albums are now marked in album manager/li>
+						<li>20070923 Update help icon updated for Leaf, Orange, Cherry, Water and Graphite templates</li>
+						<li>20070923 Added clicking on text next to the checkbox works</li>
+						<li>20070923 Fixed oPostData undefined error in IE7</li>
+						<li>20070903 Release 6.1.0</li>
+						<li>20070903 Create New Skin: Cherry</li>
+						<li>20070903 Create New Skin: Graphite</li>
+						<li>20070903 Create New Skin: Water</li>
+						<li>20070903 Updated and rename Professional skin to Leaf</li>
+						<li>20070902 Create New Skin: Orange</li>
+					</ul>
+					<li><strong>August 2007</strong></li>
+					<ul>
+						<li>20070829 Release 6.0.7</li>
+						<li>20070829 Fixed cancel upload in IE6/7</li>
+						<li>20070829 Fixed cache not being update inside admin</li>
+						<li>20070829 Password checking now done in imageview.js</li>
+						<li>20070828 Included unpack.php in install folder (for the odd server configurations)</li>
+					</ul>
+					<li><strong>July 2007</strong></li>
+					<ul>
+						<li>20070630 Release 6.0.6</li>
+						<li>20070703 Fixed broken imageprocessor</li>
+						<li>20070703 Fixed broken search engine page</li>
+						<li>20070703 Fixed broken rss feed</li>
+						<li>20070703 Implemented new cache manager</li>
+						<li>20070703 Added maxlength to color field in settings</li>
+						<li>20070703 Fixed removal of serial key when updating/adding users</li>
+						<li>20070701 Fixed reload album when admin login visible</li>
+					</ul>
+					<li><strong>June 2007</strong></li>
+					<ul>
+						<li>20070630 Release 6.0.5</li>
+						<li>20070630 Fixed cache bug in IE and Opera</li>
+						<li>20070630 Fixed dblclick no longer generated a usable link</li>
+						<li>20070630 Added link hash gets removed after usage</li>
+						<li>20070630 Fixed some javascript syntax errors</li>
+						<li>20070630 Update Installer</li>
+						<li>20070630 Added import license.key</li>
+						<li>20070630 Moved License Key to config.xml</li>
+						<li>20070629 Fixed history error due to validation</li>
+						<li>20070629 Fixed configuration reload</li>
+						<li>20070629 URL generated is now hash</li>
+						<li>20070627 Release 6.0.4</li>
+						<li>20070627 Minor code cleanups</li>
+						<li>20070627 Updated login dialog to fit in with the rest of imageview</li>
+						<li>20070627 Added better security to new authentication system</li>
+					</ul>
+					<li><strong>May 2007</strong></li>
+					<ul>
+						<li>20070530 Release 6.0.3</li>
+						<li>20070530 Fixed authentication system, now works with CGI php aswel</li>
+						<li>20070530 Fixed minor bugs and annoyances</li>
+						<li>20070530 Added registration  field to troubleshooting</li>
+						<li>20070506 Release 6.0.2</li>
+						<li>20070506 Implemented Search Engine friendly version</li>
+						<li>20070506 Fixed bug where license file wasn't detected correctly</li>
+						<li>20070505 Release 6.0.1</li>
+						<li>20070505 Fixed IE doesn't display auth form (found: Michael Elbert)</li>
+						<li>20070505 Fixed bug when using php 4 (found: Michael Elbert)</li>
+					</ul>
+					<li><strong>April 2007</strong></li>
+					<ul>
+						<li>20070429 D-Day Release 6.0</li>
+						<li>20070428 Fixed bug where album name couldn't contain an &amp;</li>
+						<li>20070428 Fixed installer encoding selection bug</li>
+						<li>20070428 Fixed error when invaldi album was loaded</li>
+						<li>20070428 Fixed bug in rss encoding of filenames</li>
+						<li>20070428 Tagged RC2</li>
+						<li>20070425 Security Fix now strips html from user description &amp; label's</li>
+						<li>20070424 Fix bug in init_skin() due to new init procedure</li>
+						<li>20070423 Fix bug in transparent PNG IE6</li>
+						<li>20070422 Code Optimization Init function</li>
+						<li>200704XX Create of Install System</li>
+						<li>20070404 Small celebration - The work is done!</li>
+						<li>20070404 Finished the admin documentation</li>
+						<li>20070404 Update documentation index with expanded admin subjects</li>
+						<li>20070404 Finished user management section for admin documentation</li>
+						<li>20070403 Finished user documentation</li>
+						<li>20070402 Fixed user upload for strange characters</li>
+						<li>20070402 Fixed rss output for strange characters</li>
+						<li>20070402 Minor fixes for Internet Explorer 7 compatibility</li>
+						<li>20070402 Minor fixes for Safari compatibility</li>
+						<li>20070402 Minor fixes for Opera compatibility</li>
+						<li>20070402 Fixed quote bug in image manager</li>
+						<li>20070401 Fixed color conversion bug when using imagemagick</li>
+						<li>20070401 Fixed first thumbnails missing when using imagemagick</li>
+						<li>20070401 Added reload after user image upload</li>
+						<li>20070401 Fixed encodeURI/escape URI platform problem</li>
+						<li>20070401 Fixed preload failed when default album was empty</li>
+						<li>20070401 Implemented support for extended characters in filesand album names</li>
+						<li>20070401 Fixed label name wasn't truncated when uploading</li>
+						<li>20070401 Implemented easterbunny for extra protection of your images</li>
+						<li>20070401 Added support for more characters in description field for image and albums</li>
+					</ul>
+					<li><strong>March 2007</strong></li>
+					<ul>
+						<li>20070331 Fixed problem where image descriptions containing html got corrupted</li>
+						<li>20070330 Fixed security hole where that allowed of user upload to all albums</li>
+						<li>20070330 Implemented User Upload System</li>
+						<li>20070330 Fixed user upload icon not displaying for empty albums</li>
+						<li>20070330 Fixed cancel upload wouln't work inside the uploader in the admin interface</li>
+						<li>20070330 Fixed Safari upload bug</li>
+						<li>20070330 Fixed accepted image formats. IE sends image/pjpeg for some reason</li>
+						<li>20070329 Cleanup of uploader in the admin interface</li>
+						<li>20070329 Fixed user access limit bug after login where user got admin powers</li>
+						<li>20070329 Fixed bug where thumbnail width/height could be set below 50</li>
+						<li>20070329 Updated troubleshooting with rebuild thumbnail function</li>
+						<li>20070329 Fixed row not displaying if description was empty</li>
+						<li>20070329 Implemented image uploader in the admin interface</li>
+						<li>20070323 Implemented user access controle for admin and user accounts</li>
+						<li>20070318 Implemented usage of html code in album/image description</li>
+						<li>20070318 Finished edit dialog</li>
+						<li>20070317 Implemented information fetch edit dialog</li>
+						<li>20070317 Create basic layout edit dialog</li>
+						<li>20070317 Truncate long descriptions</li>
+						<li>20070317 2nd part of remove image complete</li>
+						<li>20070313 Fixed new line bug when updating config file</li>
+						<li>20070311 Completed first part of remove image</li>
+						<li>20070311 Fixed bug where cache of album wasn't remove</li>
+						<li>20070310 Fixed bug where IE lost the head style</li>
+						<li>20070310 Create layout for Image manager</li>
+					</ul>
+					<li><strong>February 2007</strong></li>
+					<ul>
+						<li>20070220 Fixed Album image flicker when using protected images</li>
+						<li>20070207 Fixed Update bug - empty albums nolonger get ghost image</li>
+					</ul>
+					<li><strong>January 2007</strong></li>
+					<ul>
+						<li>20070115 Fixed Description bug - You can now use special characters</li>
+						<li>20070109 Fixed Album Name bug</li>
+						<li>20070108 Fixed bug where empty album crashed Imageview</li>
+						<li>20070107 Fixed bug in album manager - always createalbum()</li>
+					</ul>
+					<li><strong>December 2006</strong></li>
+					<ul>
+						<li>20061222 Fixed description bug in admin</li>
+						<li>20061221 Fixed loadform displayed when not needed</li>
+						<li>20061221 Fixed filename space bug</li>
+						<li>20061221 Finished album manager layout</li>
+						<li>20061220 Finished Remove Album Function</li>
+						<li>20061220 Finished Album Manger Interface</li>
+						<li>20061220 Finished AlbumObject Class</li>
+						<li>20061219 Added redirects for album folders</li>
+						<li>20061219 Fixed Recursive chmod on linux</li>
+						<li>20061218 Added Throubleshooting page</li>
+						<li>20061218 Fixed x.gif error logging problem</li>
+					</ul>
+					<li><strong>October 2006</strong></li>
+					<ul>
+						<li>20061029 Fixed minor mistakes in documentation</li>
+						<li>20061029 Auto-Update user list fixed</li>
+						<li>20061029 Finished Delete User function</li>
+						<li>20061028 Finished Update User function</li>
+						<li>20061028 Finished Create User function</li>
+						<li>20061027 Created layout for users page</li>
+						<li>20061017 Finished settings page</li>
+						<li>20061017 Fixed bug in admincfg.php</li>
+						<li>20061016 Fixed minor error in Dark Emotion</li>
+						<li>20061016 Finished layout of settings page</li>
+						<li>20061007 Started the Admin inferface</li>
+					</ul>
+					<li><strong>September 2006</strong></li>
+					<ul>
+						<li>20060903 Implemented jXCoreModule - Events</li>
+						<li>20060901 Removed Messy Keybind event code</li>
+					</ul>
+					<li><strong>August 2006</strong></li>
+					<ul>
+						<li>20060826 Updated Image Protection - New suports IE6 & Safari</li>
+						<li>20060826 Fixed Internal Windows System bug in IE6</li>
+						<li>20060825 Added Internal Window System</li>
+						<li>20060825 Moved away from popup window for documentation</li>
+						<li>20060825 Fixed ontop bug in help window</li>
+						<li>20060825 Optimized internal storage of data (hopefully allow for special characters)</li>
+						<li>20060825 Fixed bug in Authentication code</li>
+						<li>20060823 Reverted back to the old preloaded - New one is too slow in a RWE</li>
+						<li>20060823 Added Image Protection - User can't right-click->save the image</li>
+						<li>20060821 Fixed bugs in LoadImage - Couldn't load image from locked album</li>
+						<li>20060821 Updated Dark Emotion to be compatible with Internet Explorer 6</li>
+						<li>20060817 Optimized xhtml generation procedure</li>
+						<li>20060817 Fixed bugs in new xhtml generation procedure</li> 
+						<li>20060816 Addded Dark Emotion skin</li>
+						<li>20060816 Rewrote LoadImage to extend skinning support</li>
+						<li>20060815 Rewrote LoadAlbum to extend skinning support</li>
+						<li>20060813 Added Preload configuration: none, interface, all</li>
+						<li>20060813 Updated Preloaded so the list is created dynamicaly</li>
+						<li>20060813 Updated Preloaded so it shows file + download progress</li>
+						<li>20060813 Updated skin.xml, now has parameter for preload progressbar color</li>
+						<li>20060812 Updated Preloader to show download progress instead of file</li>
+					</ul>
+					<li><strong>July 2006</strong></li>
+					<ul>
+						<li>20060728 Fix problems with spaces in filename. (hopefully)</li>
+						<li>20060722 Rewrote code generation to use jXCore.SuperString</li>	
+						<li>20060722 Added support for media attribute in skin.xml</li>	
+						<li>20060716 Fixed Safari Navigation Keys</li>	
+						<li>20060716 Updated Preload detector</li>	
+						<li>20060716 Update HistoryRecorder: iframe -&gt; frame</li>	
+						<li>20060707 Implemented jXCore into Imageview.js</li>	
+						<li>20060707 Finished rewrite, jXCore framework is created</li>	
+						<li>20060706 Started complete rewrite of my scripts optimized for speed & file size</li>	
+					</ul>
+					<li><strong>June 2006</strong></li>
+					<ul>
+						<li>20060628 Change keyboard image navigation keys to left &amp; right</li>
+						<li>20060622 Added keyboard image navigation (+/- keys)</li>
+						<li>20060622 Added Extended Reference Book to Documentation System</li>
+						<li>20060621 Added Basic Framework Book to the Documentation System</li>
+						<li>20060621 Fixed Documentation System - Bug in IE6, wouldn't load books</li>
+						<li>20060620 Implementation of Documentation System (Framework &amp; Welcome book)</li>
+						<li>20060619 Optimization of image files &plusmn; 16% decrease in size</li>			
+					</ul>
+					<li><strong>April 2006</strong></li>
+					<ul>
+						<li>History works again in Firefox and Internet Explorer</li>
+						<li>Creation of Professional Skin - Dynamic Interface</li>
+						<li>Updated pngfix.js and switched to better browser handling</li>
+						<li>Rewrite of Classic Skin - to make it compatible with the new system</li>
+					</ul>
+					<li><strong>March 2006</strong></li>
+					<ul>
+						<li>Extended Skinning support - to allow more flexibility that is needed to finish the client side</li>
+						<li>Optimization of oImageview Core - jXMLHttpRequest Implementation &amp; Other varied fixes</li>
+						<li>Creation of jXMLHttpRequest.js - Optimized and updated rewrite of xmlhttp.js (Opera, IE7 and Safari Compatibility)</li>
+						<li>Implementation of Pre loading</li>
+					</ul>
+					<li><strong>Late 2005 - April 2006</strong></li>
+					<ul>
+						<li>Classic Skin - First working version (User side only, Limited functionality)
+						<li>Debug Skin - Simple skin for debugging the Imageview Core (won't be included)</li>
+						<li>xmlhttp.js, jBrowser.js, jPreload.js - Javascript Classes for xml Parsing, Browser Detection and Pre loading</li>
+						<li>oImageview Core (javascript)</li>
+						<li>PHP Core</li>
+					</ul>
+				</ul>
+				</div>
+			]]>
+		</content>
+	</book>
+	<book title="Using Imageview 6" index="ui6">
+		<content>
+			<![CDATA[
+				<div id="text_hr">Introduction</div>
+				<div id="text_block">
+					I'll try to explain how to use Imageview 6 from a user perspective.<br />
+					This manual page will come in sections so you can skip to the section you want and skip the once you don't care about.
+					<ul>
+						<li><a href="#REQ">Requirements</a></li>
+						<li><a href="#CHALB">Viewing Albums</a></li>
+						<li><a href="#CHALBLOCK">Viewing Locked Albums</a></li>
+						<li><a href="#LSIMG">Browsing Images</a></li>
+						<li><a href="#SLIDE">Slideshows</a></li>
+						<li><a href="#RSS">RSS Feeds</a></li>
+						<li><a href="#UPL">Uploading Images</a></li>
+					</ul>
+				</div>
+				<div id="text_hr">Requirements<a name="REQ" id="REQ"></a></div>
+				<div id="text_block">
+					<ul>
+						<li><strong>Resolution</strong></li>
+						<ul>
+							<li><em>1024x768</em>&nbsp;(recommended)</li>
+							<li>800x600&nbsp;&nbsp;&nbsp;(minimum - no admin)</li>
+						</ul>
+						<li><strong>Browser</strong></li>
+						<ul>
+							<li><em>Mozilla Firefox</em>&nbsp;(recommended)</li>
+							<li>Internet Explorer 6 &amp; 7</li>
+							<ul>
+								<li><a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=3144b72b-b4f2-46da-b4b6-c5d7485f2b42&DisplayLang=en" target="_blank">Microsoft XML Core Services</a> (require when using IE 6)</li>
+							</ul>
+							<li>Safari</li>
+							<li>Opera 8+</li>
+						</ul>
+					</ul>
+				</div>
+				<div id="text_hr">Viewing Albums<a name="CHALB" id="CHALB"></a></div>
+				<div id="text_block">
+					Imageview 6 has <strong>two</strong> ways of displaying a list of albums.<br />
+					Which one you see depend on the template the administrator has selected.<br />
+					<ol>
+						<li>
+							Dropdown:<br />
+							<img src="images/%book%/dropdown.png" alt="[Dropdown]" style="margin-bottom: 6px;" />
+						</li>
+						<li>
+							Tree view:<br />
+							<img src="images/%book%/treeview.png" alt="[Treeview]" style="margin-bottom: 6px;" />
+						</li>
+					</ol>
+					Simply click on the dropdown and select the album you want.<br />
+					For the tree view the same applies, just click on the album you want.<br />
+					Double clicking on the group icons will open them and show the containing albums.
+				</div>
+				<div id="text_hr">Viewing Locked Album<a name="CHALBLOCK" id="CHALBLOCK"></a></div>
+				<div id="text_block">
+					Follow the same procedure as above.<br />
+					In a dropdown locked albums are marked with a <strong>*</strong>. In a tree view the icon will have a lock over it.<br />
+					Instead of seeing the thumbnails you will be greeted by an authentication dialog.<br />
+					<img src="images/%book%/authprompt.png" alt="[Authentication Dialog]" style="margin-bottom: 6px;" /><br />
+					Fill in the password and click login. The thumbnails should now display.<br />
+					The password will be cleared when the browser is closed. Checking the checkbox will prevent it from getting cleared.
+				</div>
+				<div id="text_hr">Browsing Images<a name="LSIMG" id="LSIMG"></a></div>
+				<div id="text_block">
+					The images are displayed as thumbnails. Their size can vary depending on the admin's preferences.<br />
+					<img src="images/%book%/thumbnails.png" alt="[Thumbnails]" style="margin-bottom: 6px;" /><br />
+					Hovering over a thumbnail will highlight it as with the 2nd thumbnails in the screenshot above.<br />
+					Clicking on a thumbnail will load the image in the original size.<br />
+					<br />
+					When and image is loaded you can use the navigation icons to go to the next and previous images.<br />
+					You can also return to the album by clicking the upwards pointing arrow. <br />
+					<img src="images/%book%/imgnav.png" alt="[PREV] [UP] [NEXT]" align="middle" style="margin-bottom: 6px;" />&nbsp;[Note: The appearance of the icons depend on the template the admin has selected.]<br />
+					Would you like to show a particular image to a friend or relative?<br />
+					You might have noticed that the URL in the address bar doesn't update. Double-Clicking the image will update the URL.
+				</div>
+				<div id="text_hr">Slideshows<a name="SLIDE" id="SLIDE"></a></div>
+				<div id="text_block">
+					When viewing an album look for the navigation icons.<br />
+					The number of icons depend on the admin's preferences.<br />
+					<img src="images/%book%/albnav.png" alt="[SLIDE] [UPL] [RSS]" align="middle" style="margin-bottom: 6px;" />&nbsp;[Note: The appearance of the icons depend on the template the admin has selected.]<br />
+					To start a slideshow click the left most icon. Not sure which icon to click? Hover your mouse over the icon!<br />
+					A label should tell you what clicking the icon does.<br />
+					<br />
+					The slideshow should start and display the first image.<br />
+					The time it takes for the next image to appear depend on your download speed and the admin's preference.<br />
+					You can start, stop and return to the album using the navigation icons.<br />
+					<img src="images/%book%/slidenav.png" alt="[START] [STOP] [UP]" align="middle" style="margin-bottom: 6px;" />&nbsp;[Note: The appearance of the icons depend on the template the admin has selected.]<br />
+				</div>
+				<div id="text_hr">RSS Feeds<a name="RSS" id="RSS"></a></div>
+				<div id="text_block">
+					When viewing an album look for the navigation icons.<br />
+					The number of icons depend on the admin's preferences.<br />
+					<img src="images/%book%/albnav.png" alt="[SLIDE] [UPL] [RSS]" align="middle" style="margin-bottom: 6px;" />&nbsp;[Note: The appearance of the icons depend on the template the admin has selected.]<br />
+					To open a RSS feed click on the right most icon. This icon might not always be available depending on the admin's preferences.
+					Not sure which icon to click? Hover your mouse over the icon!<br />
+					A label should tell you what clicking the icon does.
+
+				</div>
+				<div id="text_hr">Uploading Images<a name="UPL" id="UPL"></a></div>
+				<div id="text_block">
+					When viewing an album look for the navigation icons.<br />
+					The number of icons depends on the admin's preferences.<br />
+					<img src="images/%book%/albnav.png" alt="[SLIDE] [UPL] [RSS]" align="middle" style="margin-bottom: 6px;" />&nbsp;[Note: The appearance of the icons depend on the template the admin has selected.]<br />
+					To upload an image click the middle or right icon depending on the admin's preference. This icon is not always available.<br />
+					Not sure which icon to click? Hover your mouse over the icon! A label should tell you what clicking the icon does.<br />
+					<br />
+					A window will pop up so make sure your popup blocker isn't blocking it.<br />
+					The <strong>name</strong> and <strong>description</strong> fields can be left blank.<br />
+					If <strong>name</strong> is left blank the first 20 characters of the filename will be used.<br />
+					<img src="images/%book%/uploaddlg.png" alt="[Thumbnails]" style="margin-bottom: 6px;" /><br />
+				</div>
+			]]>
+		</content>
+	</book>
+	<book title="License Information" index="lic">
+		<content>
+			<![CDATA[
+				<div id="text_hr">License Information</div>
+				<div id="text_block">
+					I'm still providing Imageview 6 freely like I did with the previous versions.<br />
+					However experience has told me that asking nicely to put a link to my site in return almost never happened.<br />
+					So I'd like to thank the few that did link back!<br />
+					<br />
+					In the free version the first thumbnail will be a link to my site.<br />
+					If you want to get rid of the link you can purchase a license. (see table).<br /><br />
+					<table border="0" cellspacing="0" cellpadding="1" style="width: 600px; background: #DDDDDD; border: 1px solid #999999;">
+					  <tr>
+						<td width="60" style="border-bottom: solid 1px #999999; background: #CCCCCC; font-weight: bold;">License</td>
+						<td width="60" style="border-bottom: solid 1px #999999; background: #CCCCCC; font-weight: bold;">Expire</td>
+						<td style="border-bottom: solid 1px #999999; background: #CCCCCC; font-weight: bold;">Price</td>
+					  </tr>
+					  <tr>
+						<td>Personal</td>
+						<td>5 years </td>
+						<td>15 USD </td>
+					  </tr>
+					  <tr>
+						<td colspan="3"><font color="#999999">Can be used on a personal website.</font></td>
+					  </tr>
+					  <tr>
+						<td style="background: #FFFFFF;">Commercial</td>
+						<td style="background: #FFFFFF;">10 years </td>
+						<td style="background: #FFFFFF;">35 USD </td>
+					  </tr>
+					  <tr>
+						<td style="background: #FFFFFF;" colspan="3"><font color="#999999">Can be used as part of a package for a customer or used to in other ways that give you profit.</font></td>
+					  </tr>
+					  <tr>
+						<td>Special</td>
+						<td>5 years </td>
+						<td>free</td>
+					  </tr>
+					  <tr>
+						<td colspan="3"><font color="#999999">Same as personal. - charity, promotional, in return for services someone gave me, &hellip;</font></td>
+					  </tr>
+					</table>
+					<br />
+					If you are interested in a license you can request one <a href="http://www.blackdot.be/?inc=projects/imageview&index=license.php" target="_blank">here</a>.<br />
+					An invoice will be sent via paypal. Other arrangements on payment can be made.<br /><br />
+					Once the payment is complete I will send you a license file that needs to be placed inside the admin folder.<br />
+					The next time you save your settings Imageview will import the license key,<br />
+					inside the administrator go to <strong>General->Settings</strong> and press <strong>Save</strong>.<br />
+					<br />
+					<strong>Attention: License keys are linked to a domain name and expiration date.<br />
+					You can install Imageview multiple times on the same domain (not sub domains) until the key expires.</strong>
+				</div>
+				</li>
+			]]>
+		</content>
+	</book>
+</imageview>

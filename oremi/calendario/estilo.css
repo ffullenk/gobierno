@@ -1,0 +1,64 @@
+BODY  {
+	font-family : verdana,arial,helvetica;
+	font-size : 9pt;
+	background-color : #ffffff;
+}
+
+TD  {
+	font-family : verdana,arial,helvetica;
+	font-size : 8pt;
+}
+
+INPUT  {
+	font-family : verdana,arial,helvetica;
+	font-size : 7pt;
+}
+
+TEXTAREA  {
+	font-family : verdana,arial,helvetica;
+	font-size : 7pt;
+}
+
+SELECT  {
+	font-family : verdana,arial,helvetica;
+	font-size : 7pt;
+}
+
+.altn  {
+	font-family : verdana,arial,helvetica;
+	font-size : 9pt;
+	color: #7cb6de;
+	background-color: #e4e8ff;
+}
+
+.tit  {
+	font-family : verdana,arial,helvetica;
+	font-size : 8pt;
+	color: #7cb6de;
+	background-color: #e4e8ff;
+	font-weight: bold;
+}
+
+.hoy {
+	font-family : verdana,arial,helvetica;
+	font-size : 8pt;
+	color: 333333;
+}
+
+.domingo {
+	font-family : verdana,arial,helvetica;
+	font-size : 8pt;
+	color: 990000
+}
+
+.diario {
+	font-family : verdana,arial,helvetica;
+	font-size : 8pt;
+	color: 4671b7
+}
+
+.tform {
+	border-width: 1px;
+	border-color: 75263c;
+	border-style: solid;
+}

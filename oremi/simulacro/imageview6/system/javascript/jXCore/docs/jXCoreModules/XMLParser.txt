@@ -1,0 +1,23 @@
+####################################
+# jXCore :: Javascript Library     #
+# By Jorge Schrauwen 2005          #
+# -- http://blackdot.be            #
+####################################
+
+How do I use this module?
+------------------------------
+jXCore.include('XMLParser', './PathTojXCore');
+
+What Does it do?
+------------------------------
+A handy XMLParser written by Jeremy McPeak & Erik Arvidsson,
+It will parse any wellformed XML document into an Object Array.
+e.g.
+
+var XParse = new jXCore.XMLParser;
+XParse.oncomplete = function(oXML){
+	alert(oXML['root']['nested']['value']);
+}
+//load(URI, aSync, PostData, UserName, Password)
+XParser.setUnique(true); //disable cached responses (default false)
+XParser.load('List.xml', true);

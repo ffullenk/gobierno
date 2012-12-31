@@ -1,0 +1,18 @@
+####################################
+# jXCore :: Javascript Library     #
+# By Jorge Schrauwen 2007          #
+# -- http://blackdot.be            #
+####################################
+
+How do I use this module?
+------------------------------
+jXCore.include('Utils', './PathTojXCore');
+
+What Does it do?
+------------------------------
+Provides usefull functions.
+
+1. Extends String objects with:
+   1. stripHTML: removes html tags
+   2. escapeHTML: converts special characters into the correct form
+   3. unescapeHTML: reversal of escapeHTML

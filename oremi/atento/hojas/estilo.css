@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0px;
+	padding: 0px;
+	color : #000;
+	background-color : #FFF;
+	font-size : 11px;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+
+.button {
+	border : solid 1px #cccccc;
+	background: #F2F2F2;
+	color : #666666;
+	font-weight : bold;
+	font-size : 11px;
+	padding: 10px;
+	margin: 0px 0px 0px 125px;
+}
+
+
+.inputlabel {
+	font-weight: bold;
+	text-align: left;
+	margin: 0 0 1em 0;
+	
+	}
+
+.inputbox {
+	width: 300px;
+	margin: 0 0 1em 0;
+	height: 25px;
+	border: 1px solid #cccccc;
+	}
+
+.selectbox {
+	width: 300px;
+	margin: 0 0 1em 0;
+	height: 25px;
+	border: 1px solid #cccccc;
+	}
+
+.footer {
+
+}
+
+
+#TablaForm {
+   margin:0 auto;
+
+   border: 1px solid #cccccc;
+   background: #E9ECEF;
+   padding-top: 15px;
+   padding-left: 10px;
+   padding-bottom: 10px;
+   padding-right: 10px;
+}
+
+#Hora {
+   margin:0 auto;
+   border: 1px solid #cccccc;
+   background: #E9ECEF;
+   font-size : 10px;
+   font-family : Verdana, Tahoma;
+   padding: 10px;
+}
+
+#Encargado {
+   border: 1px solid #996600;
+   background: #003867;
+   color: white;
+   font-size : 10px;
+   font-family : Verdana, Tahoma;
+   padding: 10px;
+}

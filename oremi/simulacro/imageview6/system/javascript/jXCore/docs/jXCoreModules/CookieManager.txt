@@ -1,0 +1,21 @@
+####################################
+# jXCore :: Javascript Library     #
+# By Jorge Schrauwen 2006          #
+# -- http://blackdot.be            #
+####################################
+
+How do I use this module?
+------------------------------
+jXCore.include('CookieManager', './PathTojXCore');
+
+What Does it do?
+------------------------------
+Will tell you more about the browser jXCore is running in.
+e.g.
+
+//create(name, value, time, unit, path) unit and time can be omitted default unit -> seconds
+var oCMange = jXCore.CookieManager;
+oCMange.create('jxcTest', 'Girls with fishnets are sexy!');
+alert(oCMange.read('jxcTest'));
+oCMange.remove('jxcTest');
+alert(oCMange.read('jxcTest'));

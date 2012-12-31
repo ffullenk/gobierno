@@ -1,0 +1,23 @@
+/* Hides from IE-mac \*/* html #nav-site a { width: 1%; /* IE only--Allow entire region of link to to be clickable in IE 6, 5.5/Win. */ }/* End hide from IE-mac *//* Hides from IE-mac \*/* html #nav-sub a { width: 1%; /* IE only--Allow entire region of link to to be clickable in IE 6, 5.5/Win. */ }/* End hide from IE-mac */
+
+/* Hides from IE-mac \*/
+* html #header, * html #eq-program, * html #content, * html #nav-site, * html #nav-sub, * html #nav-bcrumb, * html #footer { width: 99.7%; } /* don't want horiz. scrollbar
+/* End hide from IE-mac */
+
+/* Hides from IE-mac \*/
+* html #nav-usgs li a { display: inline; background-position: .2em .4em; }
+/* End hide from IE-mac */
+
+/* Hides from IE-mac \*/#sections a span { float:none; }/* End hide from IE-mac */
+
+#nav-site ul, #nav-sub ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font: .90em "Lucida Grande", Verdana, sans-serif;
+}
+
+
+#parameters {
+	width:95% !important;
+}

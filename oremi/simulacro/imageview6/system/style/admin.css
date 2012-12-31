@@ -1,0 +1,112 @@
+/*
+Imageview 6 Admin Style
+By Jorge Schrauwen
+*/
+
+body{
+	color: #000000;
+	background: #FAFAFA;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin: 0px;
+}
+
+a{color: #6699FF;}
+a:hover{color: #e50d0d;}
+a:visited{color: #000000;}
+
+img{
+	border: 0px;
+}
+
+.tableHead{
+	background: #CCCCCC;
+	color: black;
+	font-weight: bold;
+}
+
+.tableSpace{
+	padding-bottom: 8px;
+}
+
+/* Image Manager */
+div #iImageList{
+	height: 522px;
+	border: 1px solid #CCCCCC;
+	overflow: auto;
+}
+
+/* book markup */
+div #text_hr{
+	font-weight: bold;
+	text-align: right;
+	color: #e50d0d;
+	border-bottom: solid 2px #e50d0d;
+}
+
+div #text_block{
+	color: #000000;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+/* Layout */
+#iMenu{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 180px;
+	height: 600px;
+	border-right: solid 1px #EEEEEE;
+}
+
+#iMenu #mHeader{
+	height: 15px;
+	background: url(../images/interface/menu_header.png) top left no-repeat;
+	padding: 5px 5px 5px 20px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+#iMenu #mHeader #bClose{
+	position: absolute;
+	right: 5px;
+}
+
+#iMenu #mGroup{
+	height: 14px;
+	color: #000000;
+	background: url(../images/interface/menu_group.png) left top no-repeat;
+	margin-top: 2px;
+	padding: 3px 3px 3px 30px;
+	font-weight: bold;
+}
+
+#iMenu #mItem{
+	height: 14px;
+	color: #000000;
+	background: #EEEEEE;
+	margin-top: 1px;
+	padding: 3px 3px 3px 30px;
+	cursor: pointer;
+}
+
+#iMenu #mFooter{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	height: 15px;
+	width: 170px;
+	background: url(../images/interface/menu_footer.png) bottom left repeat-x;
+	padding: 5px;
+}
+
+#iContent{
+	position: absolute;
+	top: 0px;
+	left: 180px;
+	width: 610px;
+	height: 590px;
+	padding: 5px;
+	overflow: auto;
+}

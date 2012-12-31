@@ -1,0 +1,37 @@
+/* Imported Styles
+----------------------------------------------------------------- */
+@import url(base.css);
+@import url(blue.css);
+@import url(universal.css);
+@import url(custom.css);
+
+/* @import url("print.css") print; */
+
+
+
+/* Hacks
+----------------------------------------------------------------- */
+
+/* IE 5.x, 6/Win Only Styles
+   Hacks are embedded within imported CSS file
+   (not sure of a hack to import CSS for just these broswers???)
+*/
+@import url(ie5-6win.css);
+
+
+/* IE5/Mac Only Styles
+   Uses the IE5/Mac Band Pass Filter:
+   http://stopdesign.com/examples/ie5mac-bpf/
+*/
+/*\*//*/
+  @import "ie5mac.css";
+/**/
+
+
+/* IE5.x/Win Only Styles
+   Uses the Mid Pass Filter:
+   http://tantek.com/CSS/Examples/midpass.html
+*/
+@media tty {
+ i{content:"\";/*" "*/}} @import 'ie5win.css'; /*";}
+}/* */

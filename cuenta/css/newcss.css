@@ -1,0 +1,300 @@
+/* CSS Document */
+html.center, body.center {
+	height: 100%;
+}
+body {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 1.6em;
+	color: #000;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+	padding: 0;
+}
+
+div {
+	position: relative;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	_height: 1em;
+	border-bottom: 1px solid #6D6D6D;
+	margin: 6px 0 8px 0;
+	padding: 0 0 8px 0;
+	font-family : Georgia, "Hoefler Text", "Times New Roman", Times, serif;
+	font-variant : small-caps;
+	font-size : 16px;
+	line-height : 24px;
+	font-weight : normal;
+	letter-spacing : 1px;
+}
+
+h3 {
+	font-size: 13px;
+	line-height: 19px;
+	padding: 0 0 8px 0;
+	font-weight: bold;
+	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+}
+
+h4 {
+	font-size: 11px;
+	font-weight: bold;
+	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+}
+
+ol li {
+	margin: 0 0 1.5em 0;
+	padding: 0;
+}
+
+input.button-search {
+	width: 75px;
+	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #666;
+	margin-top: 4px;
+}
+
+input {
+	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+}
+
+input.textfield-search {
+	width: 95%;
+}
+
+form {
+	display: inline;
+}
+
+textarea {
+	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+blockquote, q {
+	font-style: italic;
+	margin: 1em auto 1em auto;
+	width: 85%;
+}
+
+#master {
+	width: 756px;
+	margin: 0 auto 0 auto;
+}
+
+#main {
+	width: 756px;
+	background-repeat:repeat-y;
+}
+
+#topshadow {
+	width: 756px;
+	height: 29px;
+	background-repeat:no-repeat;
+}
+
+#header {
+	width: 698px;
+	height: 158px;
+	background-color:#000;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#topnav {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+	width: 698px;
+	background-color: #000;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	text-align: center;
+}
+
+#topnav ul {
+	padding: 5px 0 5px 0;
+	margin: 0 auto 0 auto;
+}
+
+#topnav li {
+	list-style-type: none;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+#topnav a:link, #topnav a:visited {
+	line-height: 14px;
+	margin: 0 10px 4px 10px;
+	text-decoration: none;
+	color: #CCC;
+	padding-bottom: 5px;
+}
+
+#topnav a.indicator:link, #topnav a.indicator:visited {
+	border-bottom: 4px solid #FFF;
+	padding-bottom: 5px;
+	color: #FFF;
+}
+
+#topnav a:hover {
+	color: #FFF;
+}
+
+#content {
+	width: 698px;
+	margin: 0 auto 0 auto;
+	text-align: left;
+}
+
+#mainpane {
+	float: left;
+	width: 540px;
+	background-color: #FFF;
+	overflow-x: hidden;
+}
+
+#mainpanecontent {
+	padding: 30px 45px 30px 45px;
+}
+
+#mainpanecontent a:link {
+	color: #6A0A0A;
+	font-weight: bold;
+	text-decoration:none;
+	border-bottom: 1px dotted #6A0A0A;
+}
+
+#mainpanecontent a:hover {
+	border-bottom: 1px solid #6A0A0A;
+}
+
+#mainpanecontent a:visited:after {
+	color: #828282;
+	font-weight: normal;
+	content: "\00A0\221A";
+	font-size: 75%;
+}
+
+#mainpanecontent a:visited {
+	font-size: 100%;
+	font-weight: bold;
+	color: #828282;
+	text-decoration:none;
+	border-bottom: 1px dotted #828282;
+}
+
+#mainpanecontent a:visited:hover {
+	border-bottom: 1px solid #828282;
+}
+
+#sidepane {
+	width: 155px;
+	margin-left: 540px;
+	font-size: 10px;
+	line-height: 150%;
+	padding-bottom: 10px;
+}
+
+#sidepane div {
+	padding: 9px 12px 5px 12px;
+}
+
+#sidepane ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	_list-style: disc;
+	_margin-left: 16px;
+}
+
+#sidepane li {
+	padding-left: 10px;
+	_padding-left: 0;
+	background-image: url(http://www.mikeindustries.com/blog/images/bullet.gif);
+	_background-image: none;
+	background-repeat: no-repeat;
+	background-position: 0 .6em;
+	margin: 0;
+}
+
+#sidepane a:link {
+	text-decoration:none;
+	color: #000;
+}
+
+#sidepane a:hover {
+	text-decoration: underline;
+}
+
+#sidepane a:visited {
+	color: #555;
+	text-decoration:none;
+}
+
+#sidepane h4 {
+	font-size: 10px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+#abouttheauthor p {
+	margin: 0;
+	padding: 0;
+}
+
+#selectatheme a:link {
+	display: inline;
+}
+
+#selectatheme img {
+	border: 1px solid #000;
+	display: inline;
+	margin: 4px 7px 0 0;
+}
+
+#clearer {
+	clear: both;
+	height: 0;
+}
+
+#footer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+	background-color: #000;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	text-align: center;
+	clear: both;
+	color: #FFF;
+	width: 698px;
+}
+
+#footer p {
+	padding: 5px;
+	margin: 0px;
+}
+
+#bottomshadow {
+	width: 756px;
+	height: 29px;
+	background-repeat:no-repeat;
+}

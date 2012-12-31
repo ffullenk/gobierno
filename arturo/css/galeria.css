@@ -1,0 +1,56 @@
+#container {
+	width:1020px;
+	font-size:12px;
+	background-color: #F5F5F5;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+#container p { text-align:justify; padding:5px 10px 5px; margin:0px; }
+#container p ol, #container p ul { margin:0px auto 0px; }
+#container p.notes { color:#999999; font-size:10px; }
+
+
+
+/* thumbnail slider begin */
+
+/* apply the gallery design - links slider */
+#gallery_container {
+	width:900px;
+	height:58px;
+	display:block;
+	position:relative;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+/* the width is set to show the number of thumbnails that will be visible */
+#thumb_container{
+	position:relative;
+	overflow:hidden;
+	width:800px;
+	height:54px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+/* the thumbnails container */
+#thumbs {
+	white-space:nowrap;
+	display:block;
+	position:relative;
+}
+
+#thumbs a { padding:0px; margin:0px; }
+#thumbs a img{ }
+
+/* the forward and backward buttons */
+.addfwd { display:block; position:absolute; cursor:pointer; width:25px; height:54px; top:0px; right:0px; background:url(../imagenes/gallery_fwd.jpg) no-repeat;  }
+.addbkwd { display:block; position:absolute; cursor:pointer; width:25px; height:54px; top:0px; left:0px; background:url(../imagenes/gallery_back.jpg) no-repeat;  }

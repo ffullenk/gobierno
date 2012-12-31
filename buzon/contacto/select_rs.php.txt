@@ -1,0 +1,32 @@
+<?php 
+
+require("jsrsServer.php.inc");
+jsrsDispatch( "makeList modelList optionsList" );
+
+function makeList() {
+  return serializeSql( "select makeID, makeName from makes order by makeName" );
+}
+
+function modelList( $makeID ){
+  return serializeSql("select modelID, modelName from models where makeID=" . $makeID . " order by modelName");
+}
+
+function optionsList( $modelID ){
+  return serializeSql("select optionID, optionName from options where modelID=" . $modelID . " order by optionName");
+}
+
+function serializeSql( $sql ){
+  $link = mysql_connect("localhost", "mysql", "mysql");
+  mysql_select_db ("selectdemo");
+  
+  $result = mysql_query ($sql);
+  $s = '';
+  while ($row = mysql_fetch_row($result)) {
+   $s .= join( $row, '~') . "|";
+  }
+  
+  mysql_close($link);
+  return $s;
+}
+   
+?> 

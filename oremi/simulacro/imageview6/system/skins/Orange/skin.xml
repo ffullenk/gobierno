@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<imageview>
+  <skin>
+  	<information>
+  		<author>Jorge Schrauwen</author>
+		<url>http://www.blackdot.be</url>
+		<version>2.0</version>
+		<description>
+			<![CDATA[
+			The Orange Version.
+			This is a fresh looking template that put focus on the images, descriptions are less important.
+			This template is very suited if you want to show of images that speak for themselfs.
+			]]>
+		</description>
+	</information>
+	<style file="orange.css" />
+	<progressbar>orange</progressbar>
+	<layout>
+	<![CDATA[
+		<div id="iProHeader">
+			<div id="iProHeader_Logo">&nbsp;</div>
+			<div id="iProHeader_Fill">
+				<a href="javascript:oImageview.LoadAdmin();"><img class="iIcon" alt="[Administation]" src="%base%/images/icons/admin.png" /></a>
+				<a href="javascript:oImageview.LoadHelp();"><img class="iIcon" alt="[Documentation]" src="%base%/images/icons/help.png" /></a>
+				%album_dropdown%
+			</div>
+			<div id="iProHeader_Right">&nbsp;</div>
+		</div>
+		<div id="iInfoBox">
+			<div id="iInfoBox_Left">&nbsp;</div>
+			<div id="iInfoBox_Fill">&nbsp;</div>
+			<div id="iInfoBox_Right">&nbsp;</div>
+		</div>
+		<div id="iContent"><div id="iThumbnailContainer">&nbsp;</div></div>
+		<img id="jCopyNotice" src="%base%/images/copynotice.png" alt="&copy; Jorge Schrauwen" />
+		<script type="text/javascript">
+			function fixLayout(){
+				var height = document.body.clientHeight;
+				if(height == 0){
+					height = document.documentElement.clientHeight;
+				}
+				height = height-10;
+				
+				var width = document.body.clientWidth;
+				if(width == 0){
+					width = document.documentElement.clientWidth;
+				}
+				width = width-10;
+				
+				//general fix
+				document.getElementById('iContent').style.width = width + 'px'; 
+				document.getElementById('iContent').style.height = (height-41) + 'px'; 
+				//info bar
+				document.getElementById('iInfoBox_Fill').style.width = (width-75) + 'px'; 
+				document.getElementById('iProHeader_Fill').style.width = (width-173) + 'px'; 
+				//thumbnail and image frame
+				if(document.getElementById('iThumbnailContainer')){
+					document.getElementById('iThumbnailContainer').style.width = (width-55) + 'px'; 
+					document.getElementById('iThumbnailContainer').style.height = (height-85) + 'px';
+				}
+				if(document.getElementById('iImage')){
+					document.getElementById('iImage').style.width = (width-55) + 'px'; 
+					document.getElementById('iImage').style.height = (height-85) + 'px';
+				}
+			}
+			function init_skin(oImageview){
+				//Use special icons
+				oImageview.skin.rssIcon = '%base%/images/icons/rss.png';
+				oImageview.skin.prevIcon = '%base%/images/icons/back.png';
+				oImageview.skin.prevIcon_disabled = '%base%/images/icons/back_disabled.png';
+				oImageview.skin.upIcon = '%base%/images/icons/up.png';
+				oImageview.skin.nextIcon = '%base%/images/icons/next.png';
+				oImageview.skin.nextIcon_disabled = '%base%/images/icons/next_disabled.png';
+				oImageview.skin.slideIcon = '%base%/images/icons/slideshow.png';
+				oImageview.skin.slideIcon_disabled = '%base%/images/icons/slideshow_disabled.png'; 
+				oImageview.skin.keyIcon = '%base%/images/icons/password.png'; 
+				oImageview.skin.uploadIcon = '%base%/images/icons/upload.png';
+				oImageview.skin.progressBarColor = 'orange';
+				
+				//Fix the layout in Internet Explorer 5.5 and 6
+				if(oImageview.browser.userAgent == "Internet Explorer"){
+					if(oImageview.browser.version < 7){
+						if(fixLayout){
+							window.attachEvent("onresize", fixLayout);
+							document.getElementById('iContent').attachEvent("onpropertychange", fixLayout);
+						}
+					}
+				}
+			}			
+		</script>
+	]]>
+	</layout>
+  </skin>
+</imageview>

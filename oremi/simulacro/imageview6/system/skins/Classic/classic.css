@@ -1,0 +1,72 @@
+/*
+Imageview 6 Classic Skin
+By Jorge Schrauwen 2005
+*/
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+#iList{
+	background-color: #EEEEEE;
+	position: absolute;
+	top: 10px;
+	bottom: 31px;
+	left: 10px;
+	width: 150px;
+	overflow: auto;
+}
+
+#iMenu{
+	background-color: #EEEEEE;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	height: 16px;
+	width: 150px;
+}
+
+#iContent{
+	background-color: #EEEEEE;
+	position: absolute;
+	top: 10px;
+	bottom: 10px;
+	left: 165px;
+	right: 10px;
+}
+
+#iHeader{
+	height: 18px;
+	border-bottom: solid 1px #000000;
+}
+
+#iControle{
+	position: absolute;
+	right: 1px;
+	top: 1px;
+}
+
+#iDescription, #iImageInfo{
+	float: left;
+	height: 14px;
+}
+
+/* Overwrite ImageLoader + AuthForm */
+.frmLoadImage, .frmAuth{
+	background-color: #FAFAFA;
+}
+
+#iThumbnailContainer, #iImage{
+	position: absolute;
+	top: 19px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	overflow: auto;
+}
+
+#iImage{
+	padding: 2px;
+	width: 99%;
+}

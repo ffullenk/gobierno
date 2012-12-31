@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Imageview 6 :: Documentation :: By Jorge Schrauwen</title>
+<style type="text/css">@import "../system/style/help.css";</style>
+<!--[if lt IE 7]>
+	<style type="text/css">iMenu #mItem{cursor: hand;}</style>
+	<script type="text/javascript" src="../system/javascript/pngfix.js"></script>
+<![endif]-->
+<script type="text/javascript" src="../system/javascript/jXCore/jXCore.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+	//jXCore Includes
+	jXCore.include('XMLParser', '../system/javascript/jXCore/');
+	
+    //functions		
+	function OpenBook(sBook, sIndex){
+		var xmlBook = new jXCore.XMLParser();
+		xmlBook.oncomplete = function(oBookXML){
+			var oBook = null;
+			if(oBookXML['imageview']['book'][0]['title'] == undefined){
+				oBook = oBookXML['imageview']['book'];
+			}else{
+				for(i=0; i <= oBookXML['imageview']['book'].length-1; i++){
+					if(oBookXML['imageview']['book'][i]['index'] == sIndex)
+						oBook = oBookXML['imageview']['book'][i];
+				}
+			}
+			
+			if(oBook != null){
+				document.title = oBook['title'];
+				document.getElementById('iContent').innerHTML = oBook['content'].replace(new RegExp(/%book%/g), sBook);
+				document.getElementById('iContent').scrollTop  = 0; //reset scrollbar
+			}
+		}
+		xmlBook.load('books/' + sBook + '.xml', true);
+	}
+	
+	function DestroyWindow(){
+		//remove the window & background
+		var oParent = top.frames['frImageview'];
+		var oWindow = oParent.$('wPopup');
+		var oBackground = oParent.$('bgPane');
+		top.document.title = 'Imageview 6 :: ' + oParent.oImageview.decode(oParent.oImageview.state.album) + ' :: By Jorge Schrauwen';
+		oWindow.parentNode.removeChild(oWindow);
+		oBackground.parentNode.removeChild(oBackground);		
+	}
+	
+	//Initialization
+	function init(){
+		OpenBook('users', 'w2i6');
+	}
+//]]>
+</script>
+</head>
+
+<body onload="init();">
+<div id="iMenu">
+	<div id="mHeader">
+		Documentation
+		<img onclick="DestroyWindow();" id="bClose" src="../system/images/icons/exit.png" alt="[X]" align="absmiddle" style="cursor: pointer; cursor: hand;"/>
+	</div>
+	<div id="mGroup">User</div>
+	<div id="mItem" onclick="OpenBook('users', 'w2i6');">Welcome</div>
+	<div id="mItem" onclick="OpenBook('users', 'ui6');">Using Imageview</div>
+	<div id="mItem" onclick="OpenBook('users', 'lic');">License</div>
+	<div id="mGroup">Administration</div>
+	<div id="mItem" onclick="OpenBook('admin', 'conf');">Configuration</div>
+	<div id="mItem" onclick="OpenBook('admin', 'user');">User Management</div>
+	<div id="mItem" onclick="OpenBook('admin', 'albmanage');">Managing Albums</div>
+	<div id="mItem" onclick="OpenBook('admin', 'imgmanage');">Managing Images</div>
+	<div id="mItem" onclick="OpenBook('admin', 'imgupload');">Uploading Images</div>
+	<div id="mGroup">Template</div>
+	<div id="mItem" onclick="OpenBook('skin', 'basefrm');">Basic Framework</div>
+	<div id="mItem" onclick="OpenBook('skin', 'extref');">Extended Reference</div>
+	<div id="mFooter">&nbsp;</div>
+</div>
+<div id="iContent">&nbsp;</div>
+</body>
+</html>

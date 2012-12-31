@@ -1,0 +1,11 @@
+/* Box Model Hacks */
+
+#header {
+  height: 69px;
+}
+ul#nav-usgs {
+  height: 67px;
+}
+#main {
+  text-align: center;
+}

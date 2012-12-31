@@ -1,0 +1,139 @@
+/*
+Imageview 6 Orange Skin
+By Jorge Schrauwen 2005
+*/
+
+body{
+	background: #EEEEEE url(images/bg.png);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin: 5px;
+}
+
+#jCopyNotice{
+	position: absolute;
+	bottom: 2px;
+	right: 2px;
+}
+
+img[class=iIcon]{
+	vertical-align: middle;
+}
+
+/* Header */
+#iProHeader_Logo{
+	z-index: 2;
+	position: absolute;
+	left: 5px;
+	height: 51px;
+	width: 133px;
+	float: left;
+	background: url(images/header_logo.png) left top no-repeat;
+}
+
+#iProHeader_Fill{
+	z-index: 2;
+	position: absolute;
+	left: 138px;
+	right: 35px;
+	height: 31px;
+	background: url(images/header_fill.png) left top repeat-x;
+	/* placement of dropdown */
+	text-align: right;
+	padding: 10px;
+}
+
+#iProHeader_Right{
+	z-index: 2;
+	position: absolute;
+	right: 5px;
+	height: 51px;
+	width: 30px;
+	float: right;
+	background: url(images/header_right.png) right top no-repeat;
+}
+
+/* InfoBox */
+#iInfoBox_Left{
+	z-index: 0;
+	position: absolute;
+	top: 46px;
+	left: 30px;
+	width: 15px;
+	height: 39px;
+	background: url(images/infobox_left.png) left top no-repeat;
+}
+
+#iInfoBox_Fill{
+	z-index: 0;
+	position: absolute;
+	top: 46px;
+	left: 45px;
+	right: 50px;
+	height: 39px;
+	background: url(images/infobox_fill.png) left top repeat-x;
+}
+
+#iInfoBox_Right{
+	z-index: 0;
+	position: absolute;
+	top: 46px;
+	right: 35px;
+	width: 15px;
+	height: 39px;
+	background: url(images/infobox_right.png) left top no-repeat;
+}
+
+
+/* extend Imageview elements */
+#iContent{
+	z-index: 3;
+	position: absolute;
+	top: 46px;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+	overflow: hidden;
+}
+
+#iControle{
+	z-index: 3;
+	position: absolute;
+	top: 11px;
+	right: 46px;
+}
+
+#iDescription, #iImageInfo{
+	z-index: 3;
+	position: absolute;
+	top: 11px;
+	left: 41px;
+	right: 110px;
+	overflow: auto;
+}
+
+#iThumbnailContainer, #iImage{
+	z-index: 3;
+	position: absolute;
+	top: 39px;
+	left: 30px;
+	right: 35px;
+	bottom: 5px;
+	overflow: auto;
+}
+
+.frmLoadImage, .frmAuth{
+	z-index: 3;
+	background-color: #FAFAFA;
+	margin-top: 90px;
+}
+
+.frmAuth #iAuthTitle{
+	color: #FFFFFF;
+	background-color: #7f3434;
+	border-bottom: 1px solid #DEDEDE;
+}
+
+.thumbnail:hover div{
+	background-color: #ffcccc;
+}

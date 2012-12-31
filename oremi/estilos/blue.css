@@ -1,0 +1,201 @@
+/* background color outside of page */
+/*
+body {  
+	color: #333;
+}
+*/
+
+h1 { 
+	color: #00508F;
+}
+
+#main h2 {	
+	color: #336600;	
+	padding:0px;
+	margin-left:10px;
+	margin-bottom:0px;
+	margin-top:0px;
+	font-weight:bold;
+}
+
+#main h3 {	
+	color: #000;
+	padding:0px;
+	margin-left:10px;
+	margin-bottom:10px;
+	margin-top:14px;
+	font-weight:bold;
+}
+
+a {
+	color: #00C;
+}
+/* these conflict with the USGS styles, but we're using them anyway */
+a:visited {
+	color: #000;
+}
+a:hover {
+	color: #C00;
+}
+
+/* these are so that the CCSA text in the upper right doesn't turn black */
+A.ccsa:visited {
+	color: #fff;
+}
+A.ccsa:hover {
+        color: #fff;
+}
+
+/* Navbars----------------------------------------------------------------- */
+/* ----- Site-wide navbars (top/bottom horizontal navigation) ----- */
+#nav-site a:hover, #nav-sub a:hover {  
+	color: #666;  
+	/* testing */  
+	text-shadow: #5A89B9 1px 1px 1px;
+}
+#nav-site strong a, #nav-site strong a:hover {
+	color: #010033;  
+	/* background: #95C5E1 url(/images/bg_nav-site1.gif) 0 100px; */
+	background: #D6E4EF;
+}
+#nav-site {
+	background: #4C82B4 url(/images/bg_nav-site1.gif);
+}
+
+#nav-site a {
+	color: #000;
+}
+#nav-sub {
+	background: #ADADAD url(/images/bg_nav-sub1.gif);
+}
+#nav-sub a {
+	color: #000;
+}
+
+/* ----- Breadcrumb ----- */
+#nav-bcrumb {
+	background: #D3E3F0;
+}
+#nav-bcrumb p, #nav-bcrumb p a {
+	color: #1C4173;
+}
+#nav-bcrumb p strong {
+	color: #333;
+}
+
+/* ----- Left sidebar ----- */
+#nav-main ul li a {
+	color: #003;
+	background: #D4E4F0;
+	border-top: 1px #FFF solid;
+	border-bottom: 1px #BAD5E8 solid;
+}
+#nav-main ul li a:hover {
+	background: #E1EFFA;
+	color: #000;
+}
+
+#nav-main ul li strong a {
+	color: #000032;
+	font-weight: bold;
+	background: #FFF;
+}	
+
+/* --- START: hank tertiary nav --- */	
+/*#nav-main ul ul li a {
+	color: #003;
+	background: #EFF4F7;
+	border-top: 0px;
+	border-bottom: 0px;
+}	
+#nav-main ul ul li a:hover {
+	background: #EFF4F7;
+	text-decoration: underline;
+	color: #000;
+}	*/
+/* --- END: hank tertiary nav ----- */
+
+/* ----- USGS.gov links ----- */
+ul#nav-usgs {
+	background: url(/images/bg_header1.gif) repeat-y left;
+}
+ul#nav-usgs li a {
+	color: #FFF;
+	/* background: url(../images/bullet1.gif) .2em .2em no-repeat; */
+}
+/* Main page content----------------------------------------------------------------- */
+#content {
+	background: #FFF url(/images/bg_nav-main.gif) repeat-y left top;
+}
+.three-column #wrapper2 {
+	background: url(/images/bg_sidebar.gif) repeat-y right;
+}
+#wrapper3 {
+	background: url(/images/bg_nav-main.gif) repeat-y left top;
+	border-top: 1px solid #FFF;
+}
+
+/* Sidebar----------------------------------------------------------------- */
+#sidebar {
+	border-top: 1px solid #FFF;
+}
+
+/* ----- Learning Links Tables ----- */
+.results {
+	width:95%;
+	border: 1px solid #999;
+	font-size: .85em;
+}
+.resultsHead {
+	background: #BFF2BF;
+	padding: 5px 5px 5px 3px;
+	color: #000;
+	border-bottom: 1px solid #999;
+}
+.resultsHead A{
+	color: #0000CC;
+	font-weight:bold;
+}
+.resultsSubHead {
+	background: #DDD;
+	padding: 5px 5px 5px 3px;
+	color: #000;
+	border-bottom: 1px solid #999;
+	width: 50%;
+}
+.resultsSubHead2 {
+	background: #DDD;
+	padding: 5px 5px 5px 3px;
+	color: #000;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+	width: 50%;
+}
+.resultsLeft {
+	background: #FFF;
+	padding: 5px 5px 5px 3px;
+	color: #000;
+}
+.resultsRight {
+	background: #FFF;
+	padding: 5px 5px 5px 3px;
+	color: #000;
+	border-left: 1px solid #999;
+}
+
+/* three column */
+.r3Sub {
+	background: #DDD;
+	padding: 5px 5px 5px 3px;
+	color: #000;
+	border-bottom: 1px solid #999;
+	width: 34%;
+}
+.r3Sub2 {
+	background: #DDD;
+	padding: 5px 5px 5px 3px;
+	color: #000;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+	width: 33%;
+}

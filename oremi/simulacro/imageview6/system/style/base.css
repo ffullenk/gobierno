@@ -1,0 +1,111 @@
+/*
+Imageview 6 Default Style
+By Jorge Schrauwen
+*/
+
+body{
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+img{
+	border: 0px;
+}
+
+/* Description */
+#iDescription{
+	padding: 2px;
+}
+
+/* View Image */
+#iImage{
+	text-align: center;
+}
+
+
+/* Image information bar */
+#iImageInfo{
+	margin-bottom: 2px;
+	padding: 2px;
+}
+
+#iHeader .label{
+	font-weight: bold;
+}
+
+#iImgDesc{
+	margin-left: 5px;
+}
+
+/* Forms */
+.frmAuth{
+	/* Position */
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	/* Layout */
+	background-color: #EEEEEE;
+	border: 1px solid #CCCCCC;
+	width: 180px;
+	/* Text */
+	font-size: 10px;
+}
+
+.frmAuth #iAuthTitle{
+	background-color: #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.frmAuth #iAuthContent{
+	padding: 4px;
+}
+
+.txtAuthPw{
+	width: 170px;
+	border: 1px solid #999999;
+	background-color: #FFFFFF;
+	font-size: 10px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.cmdAuth{
+	width: 50px;
+	border: 1px solid #999999;
+	background-color: #DDDDDD;
+	font-size: 10px;
+	margin-top: 1px;
+}
+
+.chRemember{
+	vertical-align: text-bottom;
+}
+
+.frmPreload{
+	/* Position */
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	/* Layout */
+	background-color: #EEEEEE;
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+	width: 200px;
+	/* Text */
+	font-size: 10px;
+	text-align: left;
+	padding: 9px;
+}
+
+.iProgressbar{
+	height: 14px;
+	padding: 1px;
+	background: top left no-repeat url(../images/loadbar/progressbar_bg.png);
+}
+
+.dAdvProgBar{
+	width: 182px;
+	padding: 0px;
+	margin: 0 auto;
+}

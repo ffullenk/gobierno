@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<imageview>
+	<settings>
+		<encode>escape</encode>
+		<library>gd</library>
+		<imagemagick></imagemagick>
+		<thumbnails width="100" height="100" quality="75" />
+		<annotation text="" color="#FFFFFF" />
+		<cache>false</cache>
+		<imageprotection>true</imageprotection>
+		<display>
+			<default><![CDATA[ONEMI]]></default>
+			<skin><![CDATA[Leaf]]></skin>
+			<rss>false</rss>
+			<preload sizecheck="true">
+				<interface>true</interface>
+				<albums>true</albums>
+				<images>false</images>
+			</preload>
+			<slideshow>5</slideshow>
+		</display>
+	</settings>
+	<users>
+		<user name="ljimenez" password="3548841f7cc77e3626949035a7d874d9ae0fe36a" type="admin" />
+		<user name="rzeballos" password="3894c7699c686a50e3ac1e4e84bf65378bf0f016" type="user" />
+	</users>
+</imageview>

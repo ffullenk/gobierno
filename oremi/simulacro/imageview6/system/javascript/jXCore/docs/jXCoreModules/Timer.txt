@@ -1,0 +1,22 @@
+####################################
+# jXCore :: Javascript Library     #
+# By Jorge Schrauwen 2005          #
+# -- http://blackdot.be            #
+####################################
+
+How do I use this module?
+------------------------------
+jXCore.include('Timer', './PathTojXCore');
+
+What Does it do?
+------------------------------
+Will runs a function at a given interval and can be started and stop
+e.g.
+//create the jXCore.Timer
+var oTimer = new jXCore.Timer();
+oTimer.onTick = function(){ //is fired everytime the interval is met.
+	var iSec = parseInt($('iCount').innerHTML); //iCount is a div with a ini value of 0
+	iSec = (iSec+1); //we add 1 to the value of iCount
+	$('iCount').innerHTML = iSec; //we update iCount
+}
+oTimer.start(1000); //start the timer with and interval of 1000ms (1 sec)

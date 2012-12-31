@@ -1,0 +1,377 @@
+/* CSS Document */
+body {
+        margin: 20px auto;
+        padding: 0;
+        font-family: Verdana, sans-serif;
+        font-size: small;
+        text-align: center;
+        line-height: 1.5em;
+        color: #353535;
+        background: #353535; /*353535;*/
+        }
+
+/* ---[ enlaces ]------------------------------- */
+
+a:link {
+        color: #40659B;
+        }
+a:visited {
+        color: #8EA4C2;
+        }
+a:hover {
+        color: #036;
+        }
+a.more {
+        padding-right: 7px;
+        background: url(../img/more-blue.gif) no-repeat 100% 5px;
+        }
+
+/* ---[ elementos basicos ]--------------------- */
+
+p {
+        margin: 1em 0 1em;
+        padding: 0;
+
+        }
+h1 {
+        font-family: "Trebuchet MS", Verdana, sans-serif;
+        font-size: 150%;
+        font-weight: normal;
+        padding: 0;
+        margin: 0;
+        }
+h2 {
+        font-family: "Trebuchet MS", Verdana, sans-serif;
+        font-size: 150%;
+        font-weight: normal;
+        padding: 0;
+        margin: 0 0 1em 0;
+        }
+h3 {
+        margin: 1.5em 0 0 0;
+        padding-bottom: 3px;
+        font-family: "Trebuchet MS", Verdana, sans-serif;
+        font-size: 120%;
+        font-weight: normal;
+        color: #7B9905;
+        border-bottom: 1px solid #eee;
+        }
+h3 a:link, h3 a:visited {
+        font-size: 110%;
+        text-decoration: none;
+        color: #40659B;
+        }
+h3 a:hover {
+        color: #036;
+        }
+h4, h5 {
+        margin: 1.5em 0 0 0;
+        font-family: "Trebuchet MS", Verdana, sans-serif;
+        font-size: 110%;
+        font-weight: normal;
+        color: #333;
+        }
+h1 span, h2 span, h3 span {
+        color: #999;
+        }
+em {
+        font-style: italic;
+        }
+strong {
+        font-weight: bold;
+        }
+
+/* ---[ principal ]------------------------------- */
+
+#wrap {
+        position: relative;
+        margin: 0 auto;
+        padding: 0;
+        font-size: 95%;
+        text-align: left;
+        width: 750px;
+        border-top: 1px solid #353535;
+        border-left: 1px solid #353535;
+        border-right: 1px solid #353535;
+        background: #fff;
+        }
+#logo {
+        background: #3874BB url(../imagenes/ctafnd01.jpg) no-repeat top right;
+        background-repeat: no-repeat;
+        height: 100px;
+        padding: 0;
+        margin: 0;
+        }
+#logo img  {
+        display: block;
+        width: 0;
+        }
+
+
+/* switcher */
+
+#theme {
+        position: absolute;
+        top: 97px;
+        right: 5px;
+        margin: 0;
+        padding: 0;
+        }
+/* ---[ title box ]-------------------------------- */
+
+#title {
+        clear: left;
+/*        padding: 25px 310px 25px 25px;*/
+		height: 25;
+        background: url(../imagenes/ctacab01.jpg) repeat-x ;
+        }
+#title h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 100%; 
+        font-weight: normal;
+		font-family: "Ocr A Extended", Verdana, sans-serif;
+        color: #fff;
+		text-align:right;
+        }
+#title h1 span {
+        color: #666;
+        }
+#title a:visited {
+        color: #40659B;
+        }
+#title a:hover {
+        color: #036;
+        }
+h2#recent {
+        margin: 0 0 4px 0;
+        padding: 0;
+        font-size: 90%;
+        font-weight: normal;
+        color: #7B9905;
+        }
+
+/* ---[ main column ]----------------------------- */
+
+#main-body {
+        float: left;
+        width: 521px;
+        }
+#content {
+        margin: 25px 0;
+        padding: 0 25px;
+        background: #fff;
+        }
+
+/* lists */
+
+#content ul {
+        list-style: none;
+        margin: 1em 0 1em 0;
+        padding-left: 24px;
+        }
+#content ul li {
+        padding: 0 0 4px 13px;
+        line-height: 1.4em;
+        background: url(../img/arrows.gif) no-repeat 0 5px;
+        }
+
+
+#content .note {
+        font-size: 90%;
+        line-height: 1.6em;
+        color: #777;
+        padding: 8px 0 0 0;
+        border-top: 1px solid #eee;
+        }
+#content .note strong {
+        color: #333;
+        }
+#content .note code {
+        color: #444;
+        }
+
+#home #content .note, #content .plain {
+        padding: 0;
+        border: none;
+        }
+
+/* ---[ entries ]---------------------------------- */
+
+#home #content h3 {
+        margin: 0;
+        padding: 0;
+        border: none;
+        }
+p#menu {
+        color: #999;
+        font-size: 90%;
+        margin-top: 0;
+        }
+p#menu.month {
+        margin-top: 1em;
+        }
+
+/* ---[ right column ]----------------------------- */
+
+#sidebar {
+        width: 219px;
+        float: right;
+        margin: 0 0 25px 0;
+        padding: 0;
+        font-size: 90%;
+        line-height: 1.5em;
+        color: #888;
+        }
+#sidebar h3 {
+        margin: 30px 0 12px 0;
+        padding: 5px 10px;
+        color: #fff;
+        font-size: 120%;
+        border: none;
+        background: #f90 url(../imagenes/ctabtnmen01.jpg) repeat-x top left;
+        }
+#sidebar h3#quick {
+        margin-top: 24px;
+        }
+#sidebar h3.sub {
+        background: #538620 url(../imagenes/ctabtnmen01.jpg) repeat-x top left;
+        }
+#sidebar h4 {
+        font-size: 92%;
+        font-weight: normal;
+        margin: 0;
+        }
+#sidebar p, #sidebar ul, #sidebar dl {
+        margin: 4px 10px 4px 10px;
+        padding: 0;
+        list-style: none;
+        }
+#sidebar li {
+        margin: 0 0 .5em 0;
+        padding: 0 0 0 13px;
+        line-height: 1.4em;
+        background: #fff no-repeat 0 5px; /*url(../imagenes/flecha.gif)*/
+        }
+#sidebar #quickbits li {
+        padding-left: 16px;
+        background-image: url(../imagenes/flecha.gif);
+        background-position: 0 3px;
+        }
+#sidebar img {
+        vertical-align: middle;
+        }
+
+/* ---[ footer ]----------------------------------- */
+
+#footer {
+        position: relative;
+        clear: both;
+        margin: 0;
+        padding: 0;
+        font-size: 70%;
+        color: #fff;
+		height:25px;
+        background: #000;
+        }
+#footer p {
+        margin: 0;
+        padding-left: 5px;
+        padding-right: 5px;
+        }
+#footer a {
+        color: #888;
+        }
+#footer a:hover {
+        color: #ccc;
+        }
+
+/* ---[ forms ]------------------------------------ */
+
+#contactform, #comments-form, #shirt-form, #search-form {
+        margin: 0 0 25px 0;
+        padding: 15px;
+        background: url(../img/form-bg.gif) repeat-x top left;
+        }
+#search-form {
+        margin: 0 0 0 0;
+        background-image: url(../img/search-form-bg.gif);
+        }
+#search-form p {
+        margin: 0 0 10px 0;
+        }
+#search-form input {
+        vertical-align: middle;
+        }
+#contactform #realname, #contactform #email, #contactform #url {
+        width: 200px;
+        border: 1px solid #ccc;
+        padding: 2px;
+        color: #444;
+        }
+#contactform textarea {
+        width: 400px;
+        height: 180px;
+        font-family: inherit;
+        font-size: 120%;
+        border: 1px solid #ccc;
+        }
+
+/* ---[ misc. ]---------------------------------------- */
+
+hr {
+        border-top: 1px dashed #ccc;
+        color: #fff;
+        background-color: #fff;
+        height: 1px;
+        }       
+h3 img {
+        vertical-align: middle;
+        }
+.center {
+        text-align: center;
+        }
+a img {
+        border: none;
+        }
+.hide {
+        display: none;
+        }
+
+
+/* */
+#content h1 { margin:0;padding:0;color:#40659B;}
+.centramayor { text-align: center; font-weight:bold; font-size: 120%;}
+.normal {text-align: justify;}
+.foot-der{text-align: right;}
+.foot-izq{text-align: left;}
+
+
+/*
+Specific fixes for IE5 only 
+*/
+
+body {
+        font-size: x-small; /* IE5 Win */
+        voice-family: "\"}\""; 
+        voice-family: inherit;
+        font-size: small;
+        }
+html>body { /* be nice to Opera */
+        font-size: small;
+        }
+
+#wrap {
+        width: 752px; /* IE5 Win */
+        voice-family: "\"}\""; 
+        voice-family: inherit;
+        width: 750px;
+        }
+html>body #wrap { /* be nice to Opera */
+        width: 750px;
+        }
+
+
+/* Fixes float escaping bug in IE/Win, hides from IE Mac \*/
+* html #footer p { height: 1%; }
+/* End hide from IE Mac */

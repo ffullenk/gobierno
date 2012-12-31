@@ -1,0 +1,32 @@
+####################################
+# jXCore :: Javascript Library     #
+# By Jorge Schrauwen 2006          #
+# -- http://blackdot.be            #
+####################################
+
+How do I use this module?
+------------------------------
+jXCore.include('PreFetch', './PathTojXCore');
+
+What Does it do?
+------------------------------
+This will preload image, additional script, flash files...
+It will fire Obj.oncomplete when done and obj.onprogress when a file is downloaded
+e.g.
+
+var MyPreFetch = new jXCore.PreFetch;
+MyPreFetch.add('Background.png');
+MyPreFetch.add('MySelf.png');
+MyPreFetch.add('software.zip');
+MyPreFetch.onprogress = function(oProg){
+	if(MyPreFetch.checksize) {
+		alert(Math.round((100/oProg.size.total)*oProg.size.transfured) + "% done...');
+	} else { //size unavailable so fallback to file count
+		alert(Math.round((100/oProg.file.total)*oProg.file.transfured) + "% done...');
+	}
+	
+}
+MyPreFetch.oncomplete = function(){
+	alert('Yes We are done!);
+}
+MyPreFetch.start();

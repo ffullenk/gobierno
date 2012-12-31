@@ -1,0 +1,28 @@
+####################################
+# jXCore :: Javascript Library     #
+# By Jorge Schrauwen 2005 	   #
+# -- http://blackdot.be		   #
+####################################
+
+- 20090106 Added onsizecheckcomplete to PreFetch
+- 20090105 Change oncomplete now get oProgress as parameter and not iComplete
+- 20071101 Added getStyle to jXCoreModule - Utils
+- 20070108 Create jXCoreModule - Utils
+- 20061016 Added $$() function (document.getElementsByName)
+- 20060903 Added Path variable to jXCoreModule - CookieManager
+- 20060903 Renamed jXCoreModule - Cookie to CookieManager
+- 20060822 Fixed NaN output if slow server in jXCoreModule - PreFetch
+- 20060811 Added size based progress jXCoreModule - PreFetch
+- 20060810 Fixed bug in rounding of iStatus in jXCoreModule - PreFetch
+- 20060810 Fixed mistakes in documentation
+- 20060810 Added Skip() to jXCoreModule - PreFetch
+- 20060728 Create jXCoreModule - Timer
+- 20060728 Fixed bug in IE7 where jXMLHttpRequest still used activex
+- 20060722 Create jXCoreModule - SuperString
+- 20060716 Fix bug in activex controle list
+- 20060708 Fix bug in XMLParser, Document was also parse on Safari if there is no XML
+- 20060708 Create jXCoreModule - PreFetch
+- 20060707 Create jXCoreModule - Cookie
+- 20060707 Create jXCoreModule - BrowserInfo
+- 20060707 Create jXCoreModule - XMLParser
+- 20060707 Create jXCore

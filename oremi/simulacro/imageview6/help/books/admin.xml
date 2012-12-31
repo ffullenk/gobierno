@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<imageview>
+	<book title="Configuration" index="conf">
+		<content>
+			<![CDATA[
+				<div id="text_hr">Introduction</div>
+				<div id="text_block">
+					Most options on the <strong>Settings</strong> section should be self explaining.<br />
+					But I'll try to clarify a few that might not seem logical.<br />
+					<br />
+					<font color="#FF9900"><strong>Clearing the browser cache may be needed for changes to appear!</strong></font><br />
+					<br />
+					To open the <strong>Settings</strong> section go to <strong>General->Settings</strong> inside the administration area.
+					<ul>
+						<li><a href="#GEN">General</a></li>
+						<li><a href="#DISPLAY">Display</a></li>
+						<li><a href="#THUMB">Thumbnails</a></li>
+					</ul>
+				</div>
+				<div id="text_hr">General<a name="GEN" id="GEN"></a></div>
+				<div id="text_block">
+					<img src="images/%book%/cfggeneral.png" alt="[General Section]" align="middle" style="margin-bottom: 6px;" /><br/>
+					<strong>Image Library:</strong> Settings it to <em>GD 2</em> would work in most cases. (jpeg &amp; PNG)<br />
+					Only use <em>ImageMagick</em> when you know what you're doing. It will be a bit slower but will allow for more file formats to be supported.
+					(jpeg, PNG, gif, tiff and bmp)<br />
+					<strong>Imagemagick Path:</strong> Only available when Library is set to <em>ImageMagick</em>, set this to the full path to the convert binary.<br />
+					e.g. <em>/bin/usr/convert</em> or <em>c:\Program Files\ImageMagick\convert.exe</em><br />
+					<strong>Image Protection:</strong> Enable this to stop people from saving your images, a 1px transparent gif will be saved instead.<br />
+					<strong>Image Cache:</strong> Enable this to cache copies of the annotated images, it takes up disk space but image will be transferred.<br />
+					<strong>Image Annotation:</strong> Text to be added to an image &amp; the color to be used.<br />
+					<strong>URI Encoding:</strong> Switch between encoding modes for URI's.<br />
+					If images with special characters don't work try using a different setting.<br />
+				</div>
+				<div id="text_hr">Display<a name="DISPLAY" id="DISPLAY"></a></div>
+				<div id="text_block">
+					<img src="images/%book%/cfgdisplay.png" alt="[Display Section]" align="middle" style="margin-bottom: 6px;" /><br/>
+					<strong>Template:</strong> Set the template Imageview uses. Classic &amp; Professional are included.<br />
+					You can create your own template by using the <a href="javascript:OpenBook('skin', 'basefrm');">template framework</a>.<br />
+					<strong>Default Album:</strong> Set the default album that is display when Imageview is loaded.<br />
+					<strong>RSS Feeds:</strong> Enable this to display the RSS feed link.<br />
+					<strong>Preloading:</strong> Set what is preloaded. <em>Interface</em> or <em>Interface &amp; Thumbnails</em> is recommended<br />
+					Settings this to none has the effect of the <acronym title="User Interface">UI</acronym> appearing in chunks and not all at once.<br />
+					<strong>Slideshow Time:</strong> Set the interval between images when in slideshow mode.<br />
+				</div>
+				<div id="text_hr">Thumbnails<a name="THUMB" id="THUMB"></a></div>
+				<div id="text_block">
+					<img src="images/%book%/cfgthumb.png" alt="[Thumbnail Section]" align="middle" style="margin-bottom: 6px;" /><br/>
+					<strong>Size:</strong> Set the size (width x height) of the thumbnails. 100x100 seems to be the standard, Although 150x150 is nice!<br />
+					<strong>Quality:</strong> Set the quality of the thumbnails. 75% or above is recommnded.<br />
+					A lower setting will save some disk space but this is minimal. And the thumbnails won't look too great.<br />
+					[Note: Changing size or quality requires all thumbnails to be regenerated. You can do so in the Troubleshooting section.]<br />
+				</div>
+			]]>
+		</content>
+	</book>
+	<book title="User Management" index="user">
+		<content>
+			<![CDATA[
+				<div id="text_hr">Introduction</div>
+				<div id="text_block">
+					User management you say? Yes!<br />
+					<br />
+					To open the <strong>User Manager</strong> go to <strong>General->User Manager</strong> inside the administration area.
+					<ul>
+						<li><a href="#LO">Logout</a></li>
+						<li><a href="#GRP">Account Types</a></li>
+						<li><a href="#MKUSER">Creating a User Account</a></li>
+						<li><a href="#UPDUSER">Updating a User Account</a></li>
+						<li><a href="#RMUSER">Removing a User Account</a></li>
+					</ul>
+				</div>
+				<div id="text_hr">Logout<a name="LO" id="LO"></a></div>
+				<div id="text_block">
+					Hold the shift key while pressing the close button will logout out in addition to closing the window.
+				
+				</div>
+				<div id="text_hr">Account Types<a name="GRP" id="GRP"></a></div>
+				<div id="text_block">
+					Imageview 6 supports 2 kinds of users.
+					<ol>
+						<li>Administrators</li>
+						<li>Users</li>
+					</ol>
+					Administrators have <em>full access</em> to all the functions in the administration area,<br>
+					users only have access to the Album Manager.<br />
+				</div>
+				<div id="text_hr">Creating a User Account<a name="MKUSER" id="MKUSER"></a></div>
+				<div id="text_block">
+					Inside the <strong>User Manager</strong> you will be presented with a list of all users on the left side and a form on the left.<br />
+					The default is <em>New User</em>.<br />
+					<br />
+					If this is not the case, press the <strong>+</strong> button underneath the <em>User List</em>.<br />
+					You will be presented with this form:<br />
+					<img src="images/%book%/newuser.png" alt="[New User Dialog]" align="middle" style="margin-bottom: 6px;" /><br/>
+					Fill in the username and a password. Change the account type if needed. Default is set to <em>User</em>.<br />
+					Press <strong>Create</strong> to create the user account.<br />
+					[Note: Username and password are <em>Case Sensitive</em>!]<br />
+					[Note: <em>No</em> special characters are allowed here! Space and Underscore should be fine.]
+				</div>
+				<div id="text_hr">Updating a User Account<a name="UPDUSER" id="UPDUSER"></a></div>
+				<div id="text_block">
+					Inside the <strong>User Manager</strong> you will be presented with a list of all users on the left side and a form on the left.<br />
+					The default is <em>New User</em>.<br />
+					<br />
+					To update a user account, select it in the <em>User List</em>. The form on the rigth should now look like this:<br />
+					<img src="images/%book%/updateuser.png" alt="[Update User Dialog]" align="middle" style="margin-bottom: 6px;" /><br />
+					You can update the password or change the account type. The username field will be disabled.<br />
+					[Note: When updating your own user account you cannot change the account type!]
+				</div>
+				<div id="text_hr">Removing a User Account<a name="RMUSER" id="RMUSER"></a></div>
+				<div id="text_block">
+					Inside the <strong>User Manager</strong> you will be presented with a list of all users on the left side and a form on the left.<br />
+					The default is <em>New User</em>.<br />
+					<br />
+					To remove a user account, select it in the <em>User List</em>, pressing the <strong>-</strong> button will remove the user.<br />
+					[Note: You cannot remove your own account! You will prompted with the below dialog if you try to do so.]<br />
+					<img src="images/%book%/rmuser_self.png" alt="[Remove Self]" align="middle" style="margin-bottom: 6px;" />
+				</div>
+			]]>
+		</content>
+	</book>
+	<book title="Managing Albums" index="albmanage">
+		<content>
+			<![CDATA[
+				<div id="text_hr">Introduction</div>
+				<div id="text_block">
+					To open the <strong>Manage Albums</strong> go to <strong>Album Manager->Manage Albums</strong> inside the administration area.
+					<ul>
+						<li><a href="#MKALBUM">Creating an Album</a></li>
+						<li><a href="#UPDALBUM">Updating an Album</a></li>
+						<li><a href="#RMALBUM">Removing an Album</a></li>
+					</ul>
+				</div>
+				<div id="text_hr">Creating an Album<a name="MKALBUM" id="MKALBUM"></a></div>
+				<div id="text_block">
+					The default form should be the create album form.<br />
+					If you don't see a create button on the lower right, click the <strong>+</strong> button at the top.<br />
+					<img src="images/%book%/albselect.png" alt="[Select Album]" align="middle" style="margin-bottom: 6px;" /><br/>
+					You will see the create album form:<br />
+					<img src="images/%book%/albcreate.png" alt="[Create Album]" align="middle" style="margin-bottom: 6px;" /><br/>
+					<strong>Name:</strong> The name of the album. You can use / to create a group.<br />
+					e.g. <em>Photography/Landscapes</em>, <em>Vacation 2007</em>, ...<br />
+					<strong>Description:</strong> This will be displayed above the thumbnails when viewing and album.<br />
+					<strong>Password:</strong> Enter a password or leave blank for none.<br />
+					<strong>Upload:</strong> Check this to allow the visitors to upload an image.<br />
+					[Note: You can use special characters in the name and description fields. HTML can be used in the description field.]<br />
+					[Note: You can <strong>not</strong> use a number as a album or group name!]<br />
+					e.g. <em>0/Vacation</em>, <em>Vacation/2005</em>,... are <strong>wrong</strong>!<br />
+				</div>
+				<div id="text_hr">Updating an Album<a name="UPDALBUM" id="UPDALBUM"></a></div>
+				<div id="text_block">
+					Select an Album. <br />
+					<img src="images/%book%/albselect.png" alt="[Select Album]" align="middle" style="margin-bottom: 6px;" /><br/>
+					You will see the update album form:<br />
+					<img src="images/%book%/albedit.png" alt="[Update Album]" align="middle" style="margin-bottom: 6px;" /><br/>
+					Here you can rename, update the description, set a password or change the upload preferences.
+				</div>
+				<div id="text_hr">Removing an Album<a name="RMALBUM" id="RMALBUM"></a></div>
+				<div id="text_block">
+					Select an Album. <br />
+					<img src="images/%book%/albselect.png" alt="[Select Album]" align="middle" style="margin-bottom: 6px;" /><br/>
+					Click the <strong>-</strong> button to remove the album.
+				</div>
+			]]>
+		</content>
+	</book>
+	<book title="Managing Images" index="imgmanage">
+		<content>
+			<![CDATA[
+				<div id="text_hr">Manage Images</div>
+				<div id="text_block">
+					To open the <strong>Manage Images</strong> go to <strong>Album Manager->Manage Images</strong> inside the administration area.<br />
+					Select an album.<br />
+					<img src="images/%book%/imgselect_alb.png" alt="[Select Album]" align="middle" style="margin-bottom: 6px;" /><br/>
+					[Note: Pressing the check button will rebuild the index from the files in the album. - Useful for uploading via FTP]<br /><br />
+					A list with all image in this album should appear:
+					<img src="images/%book%/imglist.png" alt="[Select Album]" align="middle" style="margin-bottom: 6px;" /><br/>
+					[Note: The files are sorted alphabetically on filename (Not the name field!). The order can't be changed!]<br />
+					<br />
+					Clicking on a row will give you a preview and the ability to delete the image or change its properties.<br />
+					<img src="images/%book%/imgedit.png" alt="[Edit Album]" align="middle" style="margin-bottom: 6px;" /><br/>
+					<strong>Name:</strong> This will be display underneath the thumbnails. Max 20 characters in length.<br />
+					<strong>Description:</strong> This will be display above the image when viewing the image. No length limit.<br />
+					<strong>Display Image</strong> When this is disabled the image won't be display. You can enable it again later.<br />
+					[Note: You can use special characters in the name and description fields. HTML can be used in the description field.]<br />
+				</div>
+			]]>
+		</content>
+	</book>
+	<book title="Uploading Images" index="imgupload">
+		<content>
+			<![CDATA[
+				<div id="text_hr">Upload Images</div>
+				<div id="text_block">
+					To open the <strong>Upload Images</strong> go to <strong>Album Manager->Upload Images</strong> inside the administration area.<br />
+					Select an album and press the <strong>+</strong> button to add a new upload field.<br />
+					<img src="images/%book%/uplselect.png" alt="[Select Album]" align="middle" style="margin-bottom: 6px;" /><br/>
+					[Note: You can click the <strong>+</strong> button multiple times.]<br />
+					<br />
+					Click the <strong>Browse...</strong> and select and image. Uploading of this image should now start.<br />
+					<img src="images/%book%/uplfile.png" alt="[Upload File]" align="middle" style="margin-bottom: 6px;" /><br/>
+					You can cancel the upload by clicking the <strong>[x]</strong> link near the right side.<br />
+					Once the the upload of the image is completed the status will be updated.<br />
+					[Note: The supported filetypes depend on the library used. See <a href="javascript:OpenBook('admin', 'conf');">Configuration</a>.]<br />
+					<br />
+					<img src="images/%book%/uplfile_complete.png" alt="[Status File]" align="middle" style="margin-bottom: 6px;" /><br/>
+					The default name will be the filename without the extention.<br />
+					You can change the name and add a description in the <a href="javascript:OpenBook('admin', 'imgmanage');">Manage Images section</a>.<br />
+					[Note: You can upload multiple images at the same time, although I don't recommend uploading more than 4 at a time.]
+				</div>
+			]]>
+		</content>
+	</book>
+</imageview>

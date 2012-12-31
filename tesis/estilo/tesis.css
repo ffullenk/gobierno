@@ -1,0 +1,107 @@
+/* CSS Document */
+INPUT, SELECT {
+	BORDER-RIGHT: #999999 1px solid;
+	BORDER-TOP: #999999 1px solid;
+	FONT-SIZE: 10px;
+	BORDER-LEFT: #999999 1px solid;
+	BORDER-BOTTOM: #999999 1px solid;
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.texto-peq {
+	FONT-FAMILY: sans-serif, Verdana, Arial, Helvetica, ;
+	FONT-SIZE: 10px; COLOR: #666
+}
+.texto-peq A:Hover { color: #f60;    text-decoration: none}
+.texto-peq A:Link {  color: #fff;    text-decoration: none}
+.texto-peq A:Visited { color: #fff;  text-decoration: none}
+.texto-peq A:Active {  color: #fff;  text-decoration: none}
+
+.texto-tsis {
+	FONT-FAMILY: sans-serif, Verdana, Arial, Helvetica;
+	FONT-SIZE: 11px; COLOR: #333;
+	padding-left:3px;
+	padding-top:5px;
+	padding-right: 3px;
+	padding-bottom: 5px;
+	text-align: justify
+}
+.texto-tsisr {
+	FONT-FAMILY: sans-serif, Verdana, Arial, Helvetica;
+	FONT-SIZE: 11px; COLOR: #333;
+	padding-left:3px;
+	padding-top:3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+}
+
+.info {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 10px; COLOR: #333
+}
+.tableform {
+     font-family: Verdana, Arial, Tahoma, Helvetica;
+	 color:#666;
+	 font-size: 10px;
+}
+.secc-ppal {
+     font-family: Verdana, Arial, Helvetica;
+	 color:#666;
+	 font-size: 10px;
+	 padding-left:3px;
+}
+.secc-ppalr {
+     font-family: sans-serif, Verdana, Arial, Helvetica;
+	 color:#000;
+	 font-size: 12px;
+	 text-align: justify;
+	 line-height: 16px;
+	 padding-left:3px;
+}
+.texto-tit {
+	FONT-SIZE: 12px; COLOR: #666;
+	font-family: Verdana, Arial, Tahoma, Helvetica;
+	font-weight: bold
+}
+.texto-titr {
+	FONT-SIZE: 12px; COLOR: #333;
+	font-family: sans-serif, Verdana, Arial, Tahoma, Helvetica;
+	font-weight: bold;
+	border-bottom: #999 1px dotted;
+}
+.texto-cab {
+	FONT-SIZE: 11px; COLOR: #666;
+	font-family: Verdana, Arial, Helvetica;
+	font-weight: normal;
+	BORDER-BOTTOM: #999999 1px dotted;
+}
+.texto-tsiscab {
+	FONT-SIZE: 11px; COLOR: #333;
+	font-family: sans-serif, Verdana, Arial, Helvetica;
+	font-weight: normal;
+	BORDER-BOTTOM: #999999 1px dotted;
+}
+
+.table-menu {
+     font-family:  sans-serif, Verdana, Arial, Tahoma, Helvetica;
+	 color:#000;
+	 font-size: 11px;
+}
+TABLE.table-menu A:Hover { color: #f60;    text-decoration: none}
+TABLE.table-menu A:Link {  color: #666;    text-decoration: none}
+TABLE.table-menu A:Visited { color: #333;  text-decoration: none}
+TABLE.table-menu A:Active {  color: #666;  text-decoration: none}
+
+DIV#lin-base { BORDER-BOTTOM: #333 1px solid; }
+DIV#lin-sup  { BORDER-TOP: #333 1px solid;}
+DIV#lin-div  { BORDER-TOP: #999 1px dotted;}
+DIV#lin-all  { BORDER-BOTTOM: #999 1px dotted;}
+DIV#lin-footer {
+   BORDER-TOP: #999 1px dotted;
+   BORDER-BOTTOM: #999 1px dotted;
+   BORDER-LEFT: #999 1px dotted;
+   BORDER-RIGHT: #999 1px dotted;
+   color: #333;
+   font-family:  Verdana, sans-serif, Arial, Tahoma, Helvetica;
+   font-size: 9px;
+   padding-left: 2px;
+   padding-right: 2px;
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<imageview>
+  <skin>
+  	<information>
+  		<author>Jorge Schrauwen</author>
+		<url>http://www.blackdot.be</url>
+		<version>4.0</version>
+		<description>
+			<![CDATA[
+			Very lightweight template.
+			It is an updated version of the Imageview 3 skin,
+			It was included in Imageview 4 and 5... and it just won't die!
+			]]>
+		</description>
+	</information>
+	<style file="classic.css" />
+	<layout>
+	<![CDATA[
+	<div id="iList">%album_tree%</div>
+	<div id="iMenu">
+		<a href="javascript:oImageview.LoadAdmin();"><img src="%base%/images/configure.png" alt="[Administration]" /></a>&nbsp;<a href="javascript:oImageview.LoadHelp();"><img src="%base%/images/help.png" alt="[Help]" /></a>
+	</div>
+	<div id="iContent">&nbsp;</div>
+	<script type="text/javascript">
+		function fixLayout(){
+			var height = document.body.clientHeight;
+			if(height == 0){
+				height = document.documentElement.clientHeight;
+			}
+			height = height-20;
+			
+			var width = document.body.clientWidth;
+			if(width == 0){
+				width = document.documentElement.clientWidth;
+			}
+			width = width-160;
+			
+			document.getElementById('iList').style.height = (height-25) + 'px';
+			document.getElementById('iContent').style.height = height + 'px';
+			document.getElementById('iContent').style.width = width + 'px'; 
+			if(document.getElementById('iThumbnailContainer')){
+				document.getElementById('iThumbnailContainer').style.width = (width-6) + 'px'; 
+				document.getElementById('iThumbnailContainer').style.height = (height-26) + 'px';
+			}
+			if(document.getElementById('iImage')){
+				document.getElementById('iImage').style.width = (width-6) + 'px'; 
+				document.getElementById('iImage').style.height = (height-26) + 'px';
+			}
+		}
+
+		function init_skin(oImageview){
+			//Fix the layout in Internet Explorer 5.5 and 6
+			if(oImageview.browser.userAgent == "Internet Explorer"){
+				if(oImageview.browser.version < 7){
+					if(fixLayout){
+						window.attachEvent("onresize", fixLayout);
+						document.getElementById('iContent').attachEvent("onpropertychange", fixLayout);
+					}
+				}
+			}
+	
+			//Use special icons
+			oImageview.skin.rssIcon = '%base%/images/rss.png';
+		}
+	</script>
+	]]>
+	</layout>
+  </skin>
+</imageview>

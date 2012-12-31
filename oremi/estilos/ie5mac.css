@@ -1,0 +1,24 @@
+/* In order to avoid specifying widths for the 
+   floated li's, IE5/Mac needs any element
+   inside set to display:block to be floated too */
+#nav-site a, #nav-sub a {
+  float: left;
+}
+
+#header {
+  height: 72px;
+}
+#footer ul {
+  width: 75%; /* define a width so that firstgov logo floats in correct place */
+}
+
+
+/* Tab sections
+----------------------------------------------------------------- */
+  
+#summary, #maps, #details, #news, #scitech {
+	clear:right;
+/*  border-top: 1px solid #BAD5E8;
+  margin: 1.9em 10px 0px -300px;
+  padding: 1em .5em;*/
+}

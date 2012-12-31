@@ -1,0 +1,51 @@
+/* =====================================================*/
+/* ================CUSTOMIZEABLE AREA=================*/
+/* =====================================================*/
+/* Instructions:
+The classes below are also existent within the universal CSS files. By
+changing them here, and including a reference to both the universal and custom
+CSS files, these classes below will overwrite any that are in the universal CSS. 
+You must include this custom file beneath the universal file, or embed it after
+the universal CSS.
+	
+You can modify the custom classes below according to the instructions.
+By default, we are providing you with an image banner and a background color.
+
+TO DISPLAY A CUSTOM BANNER:
+If you want to display the default image banner nothing needs to be changed. If 
+you want to display a different banner change the URL to point to your specific 
+image banner location. 
+
+TO DISPLAY A CUSTOM COLOR:
+If you would like to display a solid color instead of the banner image, remove 
+the path to the image banner and enter the hexadecemial value for your color that
+you want to display.
+
+TO DISPLAY A CUSTOM SITE TITLE BAR:
+The .siteTitle class is specific to the colored Web site title bar that lies 
+beneath the USGS identifier. Only the "background-color" and "color" attributes
+of the .siteTitle class can be modified. All other attributes must remain unchanged.
+
+*/
+.banner {
+	background-image: url(/images/EHPbanner1600.jpg);
+	background-repeat: no-repeat;
+	background-color: #000000;
+}
+
+.siteTitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	padding: 5px;
+	background-color: #304C6A;
+	color: #ffffff;
+}
+
+.usgs_table, .usgs_table table {
+	margin:0;
+}
+
+/* =====================================================*/
+/* =============END CUSTOMIZEABLE AREA===============*/
+/* =====================================================*/

@@ -1,0 +1,14 @@
+Modules:
+- General
+  - cross load registry
+  - ProtoType string functions
+  	- implode / explode
+  - check if exention loaded function
+- XMLParser
+  + Load sXML (text)
+  + Parameters optional
+  + Cross-browser XPath
+- widget
+  - General Gui Kit
+  - searchbox with icon
+  - code view textarea

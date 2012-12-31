@@ -1,0 +1,23 @@
+####################################
+# jXCore :: Javascript Library     #
+# By Jorge Schrauwen 2005          #
+# -- http://blackdot.be            #
+####################################
+
+How do I use this module?
+------------------------------
+jXCore.include('Events', './PathTojXCore');
+
+What Does it do?
+------------------------------
+Cross browser way for adding events to objects.
+e.g.
+
+function bodyClick(){ alert('hello world'); }
+
+//javascript events must be givin without the on prefix so onclick would be click, onunload would be unload...
+
+//add the event listener for click to the body
+jXCore.Events.add(document, 'click', bodyClick);
+//remove the event listener for click to the body
+jXCore.Events.remove(document, 'click', bodyClick);

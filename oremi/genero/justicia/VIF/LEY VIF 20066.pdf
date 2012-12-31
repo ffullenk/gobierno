@@ -1,0 +1,847 @@
+%PDF-1.2
+%âãÏÓ
+1 0 obj
+  <<
+  /CreationDate (D:20070920100745-04'00')
+  /Title (txtplano)
+  >>
+endobj
+2 0 obj
+  <<
+  /Type /Encoding
+  /Differences [ 0 /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /space /exclam
+  /quotedbl /numbersign /dollar /percent /ampersand
+  /quoteright /parenleft /parenright /asterisk /plus /comma
+  /hyphen /period /slash /zero /one /two /three /four /five
+  /six /seven /eight /nine /colon /semicolon /less /equal
+  /greater /question /at /A /B /C /D /E /F /G /H /I /J /K /L
+  /M /N /O /P /Q /R /S /T /U /V /W /X /Y /Z /bracketleft
+  /backslash /bracketright /asciicircum /underscore
+  /quoteleft /a /b /c /d /e /f /g /h /i /j /k /l /m /n /o /p
+  /q /r /s /t /u /v /w /x /y /z /braceleft /bar /braceright
+  /asciitilde /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+  /dotlessi /grave /acute /circumflex /tilde /macron /breve
+  /dotaccent /dieresis /.notdef /ring /cedilla /.notdef
+  /hungarumlaut /ogonek /caron /space /exclamdown /cent
+  /sterling /currency /yen /brokenbar /section /dieresis
+  /copyright /ordfeminine /guillemotleft /logicalnot /hyphen
+  /registered /macron /degree /plusminus /twosuperior
+  /threesuperior /acute /mu /paragraph /periodcentered
+  /cedilla /onesuperior /ordmasculine /guillemotright
+  /onequarter /onehalf /threequarters /questiondown /Agrave
+  /Aacute /Acircumflex /Atilde /Adieresis /Aring /AE
+  /Ccedilla /Egrave /Eacute /Ecircumflex /Edieresis /Igrave
+  /Iacute /Icircumflex /Idieresis /Eth /Ntilde /Ograve
+  /Oacute /Ocircumflex /Otilde /Odieresis /multiply /Oslash
+  /Ugrave /Uacute /Ucircumflex /Udieresis /Yacute /Thorn
+  /germandbls /agrave /aacute /acircumflex /atilde /adieresis
+  /aring /ae /ccedilla /egrave /eacute /ecircumflex
+  /edieresis /igrave /iacute /icircumflex /idieresis /eth
+  /ntilde /ograve /oacute /ocircumflex /otilde /odieresis
+  /divide /oslash /ugrave /uacute /ucircumflex /udieresis
+  /yacute /thorn /ydieresis ]
+  >>
+endobj
+3 0 obj
+  <<
+  /Type /Font
+  /Subtype /Type1
+  /Name /F1
+  /Encoding 2 0 R
+  /BaseFont /Courier
+  >>
+endobj
+4 0 obj
+  <<
+  /Type /Font
+  /Subtype /Type1
+  /Name /F2
+  /Encoding 2 0 R
+  /BaseFont /Courier-Oblique
+  >>
+endobj
+5 0 obj
+  <<
+  /Type /Font
+  /Subtype /Type1
+  /Name /F3
+  /Encoding 2 0 R
+  /BaseFont /Courier-Bold
+  >>
+endobj
+6 0 obj
+  <<
+  /Type /Font
+  /Subtype /Type1
+  /Name /F4
+  /Encoding 2 0 R
+  /BaseFont /Courier-BoldOblique
+  >>
+endobj
+7 0 obj
+  <<
+  /Type /Font
+  /Subtype /Type1
+  /Name /F5
+  /Encoding 2 0 R
+  /BaseFont /Helvetica
+  >>
+endobj
+8 0 obj
+  <<
+  /Type /Font
+  /Subtype /Type1
+  /Name /F6
+  /Encoding 2 0 R
+  /BaseFont /Helvetica-Oblique
+  >>
+endobj
+9 0 obj
+  <<
+  /Type /Font
+  /Subtype /Type1
+  /Name /F7
+  /Encoding 2 0 R
+  /BaseFont /Helvetica-Bold
+  >>
+endobj
+10 0 obj
+  <<
+  /Type /Font
+  /Subtype /Type1
+  /Name /F8
+  /Encoding 2 0 R
+  /BaseFont /Helvetica-BoldOblique
+  >>
+endobj
+11 0 obj
+  <<
+  /Type /Font
+  /Subtype /Type1
+  /Name /F9
+  /Encoding 2 0 R
+  /BaseFont /Times-Roman
+  >>
+endobj
+12 0 obj
+  <<
+  /Type /Font
+  /Subtype /Type1
+  /Name /F10
+  /Encoding 2 0 R
+  /BaseFont /Times-Italic
+  >>
+endobj
+13 0 obj
+  <<
+  /Type /Font
+  /Subtype /Type1
+  /Name /F11
+  /Encoding 2 0 R
+  /BaseFont /Times-Bold
+  >>
+endobj
+14 0 obj
+  <<
+  /Type /Font
+  /Subtype /Type1
+  /Name /F12
+  /Encoding 2 0 R
+  /BaseFont /Times-BoldItalic
+  >>
+endobj
+15 0 obj
+  <<
+  /Type /Font
+  /Subtype /Type1
+  /Name /F13
+  /BaseFont /Symbol
+  >>
+endobj
+16 0 obj
+  <<
+  /Type /Font
+  /Subtype /Type1
+  /Name /F14
+  /BaseFont /ZapfDingbats
+  >>
+endobj
+19 0 obj
+  <<
+  /Font
+    <<
+    /F1 3 0 R
+    /F2 4 0 R
+    /F3 5 0 R
+    /F4 6 0 R
+    /F5 7 0 R
+    /F6 8 0 R
+    /F7 9 0 R
+    /F8 10 0 R
+    /F9 11 0 R
+    /F10 12 0 R
+    /F11 13 0 R
+    /F12 14 0 R
+    /F13 15 0 R
+    /F14 16 0 R
+    >>
+  /ProcSet [ /PDF /Text ]
+  /XObject
+    <<
+
+    >>
+  >>
+endobj
+20 0 obj
+  <<
+  /Type /Page
+  /Parent 18 0 R
+  /Resources 19 0 R
+  /Contents 21 0 R
+  /Rotate 0
+  >>
+endobj
+21 0 obj
+  <<
+  /Length 22 0 R
+  >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 50 752 Tm
+12 TL
+T* (Biblioteca del Congreso Nacional) Tj
+T* (------------------------------------------------------------------------------) Tj
+T* (Identificación de la Norma  : LEY-20066) Tj
+T* (Fecha de Publicación        : 07.10.2005) Tj
+T* (Fecha de Promulgación       : 22.09.2005) Tj
+T* (Organismo                   : MINISTERIO DE JUSTICIA) Tj
+T* ( ) Tj
+T* ( LEY NUM. 20.066) Tj
+T* (  ) Tj
+T* (ESTABLECE LEY DE VIOLENCIA INTRAFAMILIAR) Tj
+T* (  ) Tj
+T* (     Teniendo presente que el H. Congreso Nacional) Tj
+T* (ha dado su aprobación al siguiente) Tj
+T* (  ) Tj
+T* (              Proyecto de ley:) Tj
+T* (  ) Tj
+T* (       "LEY DE VIOLENCIA INTRAFAMILIAR) Tj
+T* () Tj
+T* () Tj
+T* (        Párrafo 1°. De la violencia intrafamiliar) Tj
+T* (  ) Tj
+T* (     Artículo 1°.- Objeto de la ley. Esta ley tiene por ) Tj
+T* (objeto prevenir, sancionar y erradicar la violencia ) Tj
+T* (intrafamiliar y otorgar protección a las víctimas de la ) Tj
+T* (misma.) Tj
+T* () Tj
+T* (     Artículo 2º.- Obligación de protección. Es deber ) Tj
+T* (del Estado adoptar las medidas conducentes para ) Tj
+T* (garantizar la vida, integridad personal y seguridad de ) Tj
+T* (los miembros de la familia.) Tj
+T* () Tj
+T* (     Artículo 3º.- Prevención y Asistencia. El Estado ) Tj
+T* (adoptará políticas orientadas a prevenir la violencia ) Tj
+T* (intrafamiliar, en especial contra la mujer y los niños, ) Tj
+T* (y a prestar asistencia a las víctimas.) Tj
+T* (     Entre otras medidas, implementará las siguientes:) Tj
+T* (     a\) Incorporar en los planes y programas de estudio ) Tj
+T* (contenidos dirigidos a modificar las conductas que ) Tj
+T* (favorecen, estimulan o perpetúan la violencia ) Tj
+T* (intrafamiliar;) Tj
+T* (     b\) Desarrollar planes de capacitación para los ) Tj
+T* (funcionarios públicos que intervengan en la aplicación ) Tj
+T* (de esta ley;) Tj
+T* (     c\) Desarrollar políticas y programas de seguridad ) Tj
+T* (pública para prevenir y erradicar la violencia ) Tj
+T* (intrafamiliar;) Tj
+T* (     d\) Favorecer iniciativas de la sociedad civil para ) Tj
+T* (el logro de los objetivos de esta ley;) Tj
+T* (e\) Adoptar las medidas necesarias para dar cumplimiento ) Tj
+T* (a la Convención Interamericana para Prevenir, Sancionar ) Tj
+T* (y Erradicar la Violencia contra la Mujer, la Convención ) Tj
+T* (sobre los Derechos del Niño y demás instrumentos ) Tj
+T* (internacionales suscritos por el Estado de Chile, y) Tj
+T* (     f\) Crear y mantener sistemas de información y ) Tj
+T* (registros estadísticos en relación con la violencia ) Tj
+T* (intrafamiliar.) Tj
+T* () Tj
+T* (     Artículo 4º.- Corresponderá al Servicio Nacional de ) Tj
+T* (la Mujer proponer al Presidente de la República las ) Tj
+T* (políticas públicas para el cumplimiento de los objetivos ) Tj
+ET
+endstream
+endobj
+22 0 obj
+2792
+endobj
+23 0 obj
+  <<
+  /Type /Page
+  /Parent 18 0 R
+  /Resources 19 0 R
+  /Contents 24 0 R
+  /Rotate 0
+  >>
+endobj
+24 0 obj
+  <<
+  /Length 25 0 R
+  >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 50 752 Tm
+12 TL
+T* (de esta ley.) Tj
+T* (     En coordinación y colaboración con los organismos ) Tj
+T* (públicos y privados pertinentes formulará anualmente un ) Tj
+T* (plan nacional de acción.) Tj
+T* (     Para los efectos de los incisos anteriores, el ) Tj
+T* (Servicio Nacional de la Mujer tendrá las siguientes ) Tj
+T* (funciones:) Tj
+T* (     a\) Impulsar, coordinar y evaluar las políticas ) Tj
+T* (gubernamentales en contra de la violencia intrafamiliar;) Tj
+T* (     b\) Recomendar la adopción de medidas legales, ) Tj
+T* (reglamentarias o de otra naturaleza para prevenir, ) Tj
+T* (sancionar y erradicar la violencia intrafamiliar;) Tj
+T* (     c\) Prestar asistencia técnica a los organismos que ) Tj
+T* (intervengan en la aplicación de esta ley que así lo ) Tj
+T* (requieran, y) Tj
+T* (     d\) Promover la contribución de los medios de ) Tj
+T* (comunicación para erradicar la violencia contra la mujer ) Tj
+T* (y realzar el respeto a su dignidad.) Tj
+T* () Tj
+T* (     Artículo 5º.- Violencia intrafamiliar. Será ) Tj
+T* (constitutivo de violencia intrafamiliar todo maltrato ) Tj
+T* (que afecte la vida o la integridad física o psíquica de ) Tj
+T* (quien tenga o haya tenido la calidad de cónyuge del ) Tj
+T* (ofensor o una relación de convivencia con él; o sea ) Tj
+T* (pariente por consanguinidad o por afinidad en toda la ) Tj
+T* (línea recta o en la colateral hasta el tercer grado ) Tj
+T* (inclusive, del ofensor o de su cónyuge o de su actual ) Tj
+T* (conviviente.) Tj
+T* (     También habrá violencia intrafamiliar cuando la ) Tj
+T* (conducta referida en el inciso precedente ocurra entre ) Tj
+T* (los padres de un hijo común, o recaiga sobre persona ) Tj
+T* (menor de edad o discapacitada que se encuentre bajo el ) Tj
+T* (cuidado o dependencia de cualquiera de los integrantes ) Tj
+T* (del grupo familiar.) Tj
+T* () Tj
+T* (  ) Tj
+T* (Párrafo 2º. De la Violencia Intrafamiliar de ) Tj
+T* (conocimiento de los Juzgados de Familia) Tj
+T* (  ) Tj
+T* (     Artículo 6º.- Los actos de violencia intrafamiliar ) Tj
+T* (que no constituyan delito serán de conocimiento de los ) Tj
+T* (juzgados de familia y se sujetarán al procedimiento ) Tj
+T* (establecido en la ley Nº19.968.) Tj
+T* (  ) Tj
+T* () Tj
+T* (     Artículo 7°.- Situación de riesgo. Cuando exista ) Tj
+T* (una situación de riesgo inminente para una o más ) Tj
+T* (personas de sufrir un maltrato constitutivo de violencia ) Tj
+T* (intrafamiliar, aun cuando éste no se haya llevado a ) Tj
+T* (cabo, el tribunal, con el solo mérito de la denuncia, ) Tj
+T* (deberá adoptar las medidas de protección o cautelares ) Tj
+T* (que correspondan.) Tj
+T* (     Se presumirá que existe una situación de riesgo ) Tj
+T* (inminente como la descrita en el inciso anterior cuando ) Tj
+T* (haya precedido intimidación de causar daño por parte del ) Tj
+T* (ofensor o cuando concurran además, respecto de éste, ) Tj
+T* (circunstancias o antecedentes tales como: drogadicción, ) Tj
+T* (alcoholismo, una o más denuncias por violencia ) Tj
+T* (intrafamiliar, condena previa por violencia ) Tj
+T* (intrafamiliar, procesos pendientes o condenas previas ) Tj
+ET
+endstream
+endobj
+25 0 obj
+3132
+endobj
+26 0 obj
+  <<
+  /Type /Page
+  /Parent 18 0 R
+  /Resources 19 0 R
+  /Contents 27 0 R
+  /Rotate 0
+  >>
+endobj
+27 0 obj
+  <<
+  /Length 28 0 R
+  >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 50 752 Tm
+12 TL
+T* (por crimen o simple delito contra las personas o por ) Tj
+T* (alguno de los delitos establecidos en los párrafos 5 y 6 ) Tj
+T* (del Título VII, del Libro Segundo del Código Penal o por ) Tj
+T* (infracción a la ley N°17.798, o antecedentes ) Tj
+T* (psiquiátricos o psicológicos que denoten características ) Tj
+T* (de personalidad violenta.) Tj
+T* (     Además, el tribunal cautelará especialmente los ) Tj
+T* (casos en que la víctima esté embarazada, se trate de una ) Tj
+T* (persona con discapacidad o tenga una condición que la ) Tj
+T* (haga vulnerable.) Tj
+T* () Tj
+T* (     Artículo 8°.- Sanciones. Se castigará el maltrato ) Tj
+T* (constitutivo de violencia intrafamiliar, atendida su ) Tj
+T* (gravedad, con una multa de media a quince unidades ) Tj
+T* (tributarias mensuales a beneficio del gobierno regional ) Tj
+T* (del domicilio del denunciante o demandante, para ser ) Tj
+T* (destinada a los centros de atención de víctimas de ) Tj
+T* (violencia intrafamiliar existentes en la región ) Tj
+T* (respectiva y que sean de financiamiento público o ) Tj
+T* (privado.) Tj
+T* (     El condenado deberá acreditar el pago de la multa ) Tj
+T* (dentro de los cinco días siguientes a la fecha de la ) Tj
+T* (notificación de la sentencia, a menos que el juez, por ) Tj
+T* (motivos fundados, prorrogue dicho término hasta por ) Tj
+T* (quince días.) Tj
+T* (      En caso de incumplimiento el tribunal remitirá los ) Tj
+T* (antecedentes al Ministerio Público, conforme a lo ) Tj
+T* (dispuesto en el artículo 240 del Código de Procedimiento ) Tj
+T* (Civil.) Tj
+T* () Tj
+T* (     Artículo 9º.- Medidas accesorias. Además de lo ) Tj
+T* (dispuesto en el artículo precedente, el juez deberá ) Tj
+T* (aplicar en la sentencia una o más de las siguientes ) Tj
+T* (medidas accesorias:) Tj
+T* (     a\) Obligación de abandonar el ofensor el hogar que ) Tj
+T* (comparte con la víctima.) Tj
+T* (     b\) Prohibición de acercarse a la víctima o a su ) Tj
+T* (domicilio, lugar de trabajo o de estudio. Si ambos ) Tj
+T* (trabajan o estudian en el mismo lugar se oficiará al ) Tj
+T* (empleador o director del establecimiento para que adopte ) Tj
+T* (las medidas de resguardo necesarias.) Tj
+T* (     c\) Prohibición de porte y tenencia y, en su caso, ) Tj
+T* (el comiso, de armas de fuego. De ello se informará, ) Tj
+T* (según corresponda, a la Dirección General de ) Tj
+T* (Movilización, a la Comandancia de Guarnición o al ) Tj
+T* (Director de Servicio respectivo, para los fines legales ) Tj
+T* (y reglamentarios que correspondan.) Tj
+T* (     d\) La asistencia obligatoria a programas ) Tj
+T* (terapéuticos o de orientación familiar. Las ) Tj
+T* (instituciones que desarrollen dichos programas darán ) Tj
+T* (cuenta al respectivo tribunal del tratamiento que deba ) Tj
+T* (seguir el agresor, de su inicio y término.) Tj
+T* (  ) Tj
+T* (     El juez fijará prudencialmente el plazo de estas ) Tj
+T* (medidas, que no podrá ser inferior a seis meses ni ) Tj
+T* (superior a un año, atendidas las circunstancias que las ) Tj
+T* (justifiquen. Ellas podrán ser prorrogadas, a petición de ) Tj
+T* (la víctima, si se mantienen los hechos que las ) Tj
+T* (justificaron. En el caso de la letra d\), la duración de ) Tj
+T* (la medida será fijada, y podrá prorrogarse, tomando en ) Tj
+ET
+endstream
+endobj
+28 0 obj
+3296
+endobj
+29 0 obj
+  <<
+  /Type /Page
+  /Parent 18 0 R
+  /Resources 19 0 R
+  /Contents 30 0 R
+  /Rotate 0
+  >>
+endobj
+30 0 obj
+  <<
+  /Length 31 0 R
+  >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 50 752 Tm
+12 TL
+T* (consideración los antecedentes proporcionados por la ) Tj
+T* (institución respectiva.) Tj
+T* (     Sin perjuicio de lo anterior, el juez, en la ) Tj
+T* (sentencia definitiva, fijará los alimentos definitivos, ) Tj
+T* (el régimen de cuidado personal y de relación directa y ) Tj
+T* (regular de los hijos si los hubiere y cualquier otra ) Tj
+T* (cuestión de familia sometida a su conocimiento por las ) Tj
+T* (partes.) Tj
+T* () Tj
+T* (     Artículo 10.- Sanciones. En caso de incumplimiento ) Tj
+T* (de las medidas cautelares o accesorias decretadas, con ) Tj
+T* (excepción de aquella prevista en la letra d\) del ) Tj
+T* (artículo 9°, el juez pondrá en conocimiento del ) Tj
+T* (Ministerio Público los antecedentes para los efectos de ) Tj
+T* (lo previsto en el inciso segundo del artículo 240 del ) Tj
+T* (Código de Procedimiento Civil, sin perjuicio de imponer ) Tj
+T* (al infractor, como medida de apremio, arresto hasta por ) Tj
+T* (quince días.) Tj
+T* (      La policía deberá detener a quien sea sorprendido ) Tj
+T* (en quebrantamiento flagrante de las medidas mencionadas ) Tj
+T* (en el inciso precedente.) Tj
+T* () Tj
+T* (      Artículo 11.- Desembolsos y perjuicios ) Tj
+T* (patrimoniales. La sentencia establecerá la obligación ) Tj
+T* (del condenado de pagar a la víctima los desembolsos y ) Tj
+T* (perjuicios de carácter patrimonial que se hubieren ) Tj
+T* (ocasionado con la ejecución del o los actos ) Tj
+T* (constitutivos de violencia intrafamiliar objeto del ) Tj
+T* (juicio, incluida la reposición en dinero o en especie de ) Tj
+T* (bienes dañados, destruidos o perdidos. Estos perjuicios ) Tj
+T* (serán determinados prudencialmente por el juez.) Tj
+T* () Tj
+T* (     Artículo 12.- Registro de sanciones y medidas ) Tj
+T* (accesorias. El Servicio de Registro Civil e ) Tj
+T* (Identificación deberá llevar un Registro Especial de las ) Tj
+T* (personas que hayan sido condenadas, por sentencia ) Tj
+T* (ejecutoriada, como autoras de violencia intrafamiliar, ) Tj
+T* (así como de las demás resoluciones que la ley ordene ) Tj
+T* (inscribir.) Tj
+T* (     El tribunal, ejecutoriada que sea la sentencia, ) Tj
+T* (deberá oficiar al Registro Civil, individualizando al ) Tj
+T* (condenado y la sanción principal y las accesorias ) Tj
+T* (aplicadas por el hecho de violencia intrafamiliar, con ) Tj
+T* (excepción de la prevista en la letra d\) del artículo 9°, ) Tj
+T* (circunstancias que el mencionado Servicio hará constar, ) Tj
+T* (además, en el respectivo certificado de antecedentes. ) Tj
+T* (Este Registro Especial será puesto en conocimiento del ) Tj
+T* (tribunal a solicitud de éste, en los casos regulados en ) Tj
+T* (la ley.) Tj
+T* () Tj
+T* (Párrafo 3° De la violencia intrafamiliar constitutiva de ) Tj
+T* (delito) Tj
+T* (  ) Tj
+T* (     Artículo 13.- Normas Especiales. En las ) Tj
+T* (investigaciones y procedimientos penales sobre violencia ) Tj
+T* (intrafamiliar se aplicarán, además, las disposiciones ) Tj
+T* (del presente Párrafo.) Tj
+T* () Tj
+T* (     Artículo 14.- Delito de maltrato habitual. El ) Tj
+T* (ejercicio habitual de violencia física o psíquica ) Tj
+ET
+endstream
+endobj
+31 0 obj
+3132
+endobj
+32 0 obj
+  <<
+  /Type /Page
+  /Parent 18 0 R
+  /Resources 19 0 R
+  /Contents 33 0 R
+  /Rotate 0
+  >>
+endobj
+33 0 obj
+  <<
+  /Length 34 0 R
+  >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 50 752 Tm
+12 TL
+T* (respecto de alguna de las personas referidas en el ) Tj
+T* (artículo 5º de esta ley se sancionará con la pena de ) Tj
+T* (presidio menor en su grado mínimo, salvo que el hecho ) Tj
+T* (sea constitutivo de un delito de mayor gravedad, caso en ) Tj
+T* (el cual se aplicará sólo la pena asignada por la ley a ) Tj
+T* (éste.) Tj
+T* (     Para apreciar la habitualidad, se atenderá al ) Tj
+T* (número de actos ejecutados, así como a la proximidad ) Tj
+T* (temporal de los mismos, con independencia de que dicha ) Tj
+T* (violencia se haya ejercido sobre la misma o diferente ) Tj
+T* (víctima. Para estos efectos, no se considerarán los ) Tj
+T* (hechos anteriores respecto de los cuales haya recaído ) Tj
+T* (sentencia penal absolutoria o condenatoria.) Tj
+T* (     El Ministerio Público sólo podrá dar inicio a la ) Tj
+T* (investigación por el delito tipificado en el inciso ) Tj
+T* (primero, si el respectivo Juzgado de Familia le ha ) Tj
+T* (remitido los antecedentes, en conformidad con lo ) Tj
+T* (dispuesto en el artículo 90 de la ley N° 19.968.) Tj
+T* () Tj
+T* (     Artículo 15.- Medidas cautelares. En cualquier ) Tj
+T* (etapa de la investigación o del procedimiento sobre ) Tj
+T* (delitos constitutivos de violencia intrafamiliar, y aun ) Tj
+T* (antes de la formalización, el tribunal con competencia ) Tj
+T* (en lo penal podrá decretar las medidas cautelares que ) Tj
+T* (sean necesarias para proteger a la víctima de manera ) Tj
+T* (eficaz y oportuna, tales como las que establece el ) Tj
+T* (artículo 92 de la ley Nº 19.968 y las aludidas en el ) Tj
+T* (artículo 7° de esta ley.) Tj
+T* () Tj
+T* (     Artículo 16.- Medidas accesorias. Las medidas ) Tj
+T* (accesorias que establece el artículo 9º serán aplicadas ) Tj
+T* (por los tribunales con competencia en lo penal, cuando ) Tj
+T* (el delito constituya un acto de violencia intrafamiliar, ) Tj
+T* (sin perjuicio de las sanciones principales y accesorias ) Tj
+T* (que correspondan al delito de que se trate.) Tj
+T* (     El tribunal fijará prudencialmente el plazo de esas ) Tj
+T* (medidas, que no podrá ser inferior a seis meses ni ) Tj
+T* (superior a un año, atendidas las circunstancias que las ) Tj
+T* (justifiquen. Dichas medidas podrán ser prorrogadas, a ) Tj
+T* (petición de la víctima, si se mantienen los hechos que ) Tj
+T* (las justificaron. En el caso de la letra d\) del artículo ) Tj
+T* (9º, la duración de la medida será fijada, y podrá ) Tj
+T* (prorrogarse, tomando en consideración los antecedentes ) Tj
+T* (proporcionados por la institución respectiva.) Tj
+T* () Tj
+T* (     Artículo 17.- Condiciones para la suspensión del ) Tj
+T* (procedimiento. Para decretar la suspensión del ) Tj
+T* (procedimiento, el juez de garantía impondrá como ) Tj
+T* (condición una o más de las medidas accesorias ) Tj
+T* (establecidas en el artículo 9°, sin perjuicio de las ) Tj
+T* (demás que autoriza el artículo 238 del Código Procesal ) Tj
+T* (Penal.) Tj
+T* () Tj
+T* (     Artículo 18.- Sanciones. En caso de incumplimiento ) Tj
+T* (de las medidas a que se refieren los artículos 15, 16 y ) Tj
+T* (17, se aplicará lo dispuesto en el artículo 10.) Tj
+T* () Tj
+T* (     Artículo 19.- Improcedencia de acuerdos ) Tj
+T* (reparatorios. En los procesos por delitos constitutivos ) Tj
+T* (de violencia intrafamiliar no tendrá aplicación el ) Tj
+ET
+endstream
+endobj
+34 0 obj
+3341
+endobj
+35 0 obj
+  <<
+  /Type /Page
+  /Parent 18 0 R
+  /Resources 19 0 R
+  /Contents 36 0 R
+  /Rotate 0
+  >>
+endobj
+36 0 obj
+  <<
+  /Length 37 0 R
+  >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 50 752 Tm
+12 TL
+T* (artículo 241 del Código Procesal Penal.) Tj
+T* () Tj
+T* (     Artículo 20.- Representación judicial de la ) Tj
+T* (víctima. En casos calificados por el Servicio Nacional ) Tj
+T* (de la Mujer, éste podrá asumir el patrocinio y ) Tj
+T* (representación de la mujer víctima de delitos ) Tj
+T* (constitutivos de violencia intrafamiliar que sea mayor ) Tj
+T* (de edad, si ella así lo requiere, para los efectos de lo ) Tj
+T* (dispuesto en el artículo 109 del Código Procesal Penal.) Tj
+T* (     Para el cumplimiento de lo dispuesto en el inciso ) Tj
+T* (anterior, el Servicio podrá celebrar convenios con ) Tj
+T* (entidades públicas o privadas.) Tj
+T* () Tj
+T* (              Párrafo 4°. Otras disposiciones) Tj
+T* (  ) Tj
+T* (     Artículo 21.- Introdúcense las siguientes ) Tj
+T* (modificaciones en el Código Penal:) Tj
+T* (  ) Tj
+T* (     a\) Intercálanse, en la circunstancia 4ª del ) Tj
+T* (artículo 11, a continuación de la expresión "a su ) Tj
+T* (cónyuge,", las palabras "o su conviviente", seguidas de ) Tj
+T* (una coma \(,\).) Tj
+T* (     b\) En el artículo 390, suprímense la frase "sean ) Tj
+T* (legítimos o ilegítimos", así como la coma \(,\) que le ) Tj
+T* (sigue, y la palabra "legítimos" que sigue al término ) Tj
+T* ("descendientes", e intercálase, a continuación del ) Tj
+T* (vocablo "cónyuge", la expresión "o conviviente".) Tj
+T* (     c\) Sustitúyese el artículo 400, por el siguiente:) Tj
+T* ("Artículo 400. Si los hechos a que se refieren los ) Tj
+T* (artículos anteriores de este párrafo se ejecutan en ) Tj
+T* (contra de alguna de las personas que menciona el ) Tj
+T* (artículo 5º de la Ley sobre Violencia Intrafamiliar, o ) Tj
+T* (con cualquiera de las circunstancias Segunda, Tercera o ) Tj
+T* (Cuarta del número 1º del artículo 391 de este Código, ) Tj
+T* (las penas se aumentarán en un grado.".) Tj
+T* (     d\) Agrégase la siguiente oración al final del N° 5 ) Tj
+T* (del artículo 494: "En ningún caso el tribunal podrá ) Tj
+T* (calificar como leves las lesiones cometidas en contra de ) Tj
+T* (las personas mencionadas en el artículo 5° de la Ley ) Tj
+T* (sobre Violencia Intrafamiliar.".) Tj
+T* () Tj
+T* (     Artículo 22.- Introdúcense las siguientes ) Tj
+T* (modificaciones en la ley N° 19.968:) Tj
+T* (  ) Tj
+T* (     a\) Sustitúyese el inciso segundo del artículo 90, ) Tj
+T* (por el siguiente:) Tj
+T* (     "Si de los antecedentes examinados en la audiencia ) Tj
+T* (preparatoria o en la del juicio aparece que el ) Tj
+T* (denunciado o demandado ha ejercido violencia en los ) Tj
+T* (términos establecidos en el artículo 14 de la Ley sobre ) Tj
+T* (Violencia Intrafamiliar, el tribunal los remitirá al ) Tj
+T* (Ministerio Público.) Tj
+T* (     b\) Reemplázase la primera oración del número 1 del ) Tj
+T* (artículo 92, por la siguiente: "Prohibir al ofensor ) Tj
+T* (acercarse a la víctima y prohibir o restringir la ) Tj
+T* (presencia de aquél en el hogar común y en el domicilio, ) Tj
+T* (lugar de estudios o de trabajo de ésta.".) Tj
+T* (     c\) Sustitúyese el artículo 94, por el siguiente:) Tj
+T* ("Artículo 94.- Incumplimiento de medidas cautelares. En ) Tj
+T* (caso de incumplimiento de las medidas cautelares, el ) Tj
+ET
+endstream
+endobj
+37 0 obj
+3202
+endobj
+38 0 obj
+  <<
+  /Type /Page
+  /Parent 18 0 R
+  /Resources 19 0 R
+  /Contents 39 0 R
+  /Rotate 0
+  >>
+endobj
+39 0 obj
+  <<
+  /Length 40 0 R
+  >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 50 752 Tm
+12 TL
+T* (juez pondrá en conocimiento del Ministerio Público los ) Tj
+T* (antecedentes para los efectos de lo previsto en el ) Tj
+T* (inciso segundo del artículo 240 del Código de ) Tj
+T* (Procedimiento Civil. Sin perjuicio de ello, impondrá al ) Tj
+T* (infractor, como medida de apremio, arresto hasta por ) Tj
+T* (quince días.".) Tj
+T* () Tj
+T* (     Artículo 23.- Intercálase en el inciso primero del ) Tj
+T* (artículo 30 de la ley N° 18.216, a continuación de la ) Tj
+T* (expresión "Código Penal", la siguiente oración, ) Tj
+T* (precedida de una coma \(,\): "o de los delitos contra las ) Tj
+T* (personas que sean constitutivos de violencia ) Tj
+T* (intrafamiliar".) Tj
+T* () Tj
+T* (     Artículo 24.- Para los efectos de lo dispuesto en ) Tj
+T* (la presente ley, quienes detenten la calidad de ) Tj
+T* (adoptantes o adoptados conforme a lo dispuesto en las ) Tj
+T* (leyes N° 7.613 y N° 18.703, se considerarán ascendientes ) Tj
+T* (o descendientes, según corresponda.) Tj
+T* () Tj
+T* (     Artículo 25.- Vigencia. La presente ley comenzará a ) Tj
+T* (regir el 1 de Octubre de 2005.) Tj
+T* () Tj
+T* (     Artículo 26.- Derogación. Derógase la ley Nº ) Tj
+T* (19.325, sin perjuicio de lo dispuesto en el artículo ) Tj
+T* (segundo transitorio de la ley Nº 19.968. Toda referencia ) Tj
+T* (legal o reglamentaria a la ley Nº 19.325, debe ) Tj
+T* (entenderse hecha a la presente ley.".) Tj
+T* () Tj
+T* (     Habiéndose cumplido con lo establecido en el Nº 1º ) Tj
+T* (del Artículo 82 de la Constitución Política de la ) Tj
+T* (República y por cuanto he tenido a bien aprobarlo y ) Tj
+T* (sancionarlo; por tanto promúlguese y llévese a efecto ) Tj
+T* (como Ley de la República.) Tj
+T* (     Santiago, 22 de septiembre de 2005.- RICARDO LAGOS ) Tj
+T* (ESCOBAR, Presidente de la República.- Luis Bates ) Tj
+T* (Hidalgo, Ministro de Justicia.- Cecilia Pérez Díaz, ) Tj
+T* (Ministra Directora, Servicio Nacional de la Mujer.- ) Tj
+T* (Francisco Vidal Salinas, Ministro del Interior.) Tj
+T* (     Lo que transcribo a Ud. para su conocimiento.- ) Tj
+T* (Saluda atentamente a Ud., Jaime Arellano Quintana, ) Tj
+T* (Subsecretario de Justicia.) Tj
+T* () Tj
+T* (              Tribunal Constitucional) Tj
+T* (Proyecto de ley sobre violencia intrafamiliar y que ) Tj
+T* (deroga la ley Nº 19.325) Tj
+T* (  ) Tj
+T* (     El Secretario del Tribunal Constitucional, quien ) Tj
+T* (suscribe certifica que la Honorable Cámara de Diputados ) Tj
+T* (envió el proyecto de ley enunciado en el rubro, aprobado ) Tj
+T* (por el Congreso Nacional, a fin de que este Tribunal ) Tj
+T* (ejerciera el control de constitucionalidad respecto de ) Tj
+T* (los artículos 6º; 9º; 10; 15; 17; 18; 22, letras b\) y ) Tj
+T* (c\); 23 y 26, del mismo, y por sentencia de 20 de ) Tj
+T* (septiembre de 2005, dictada en los autos rol Nº 456, ) Tj
+T* (declaró:) Tj
+T* (  ) Tj
+T* (1.   Que los artículos 6º y 26 del proyecto remitido ) Tj
+T* (     son constitucionales, y) Tj
+T* (2.   Que no corresponde al Tribunal pronunciarse sobre ) Tj
+ET
+endstream
+endobj
+40 0 obj
+3026
+endobj
+41 0 obj
+  <<
+  /Type /Page
+  /Parent 18 0 R
+  /Resources 19 0 R
+  /Contents 42 0 R
+  /Rotate 0
+  >>
+endobj
+42 0 obj
+  <<
+  /Length 43 0 R
+  >>
+stream
+BT
+/F1 10 Tf
+1 0 0 1 50 752 Tm
+12 TL
+T* (     los artículos 9º, 10, 15, 17, 18, 22 -letras b\) y ) Tj
+T* (     c\)- y 23 del proyecto remitido, por versar sobre ) Tj
+T* (     materias que no son propias de ley orgánica ) Tj
+T* (     constitucional.) Tj
+T* (  ) Tj
+T* (     Santiago, 21 de septiembre de 2005.- Rafael Larraín ) Tj
+T* (Cruz, Secretario.) Tj
+T* () Tj
+T* () Tj
+ET
+endstream
+endobj
+43 0 obj
+377
+endobj
+17 0 obj
+  <<
+  /Type /Catalog
+  /Pages 18 0 R
+  >>
+endobj
+18 0 obj
+  <<
+  /Type /Pages
+  /Count 8
+  /MediaBox [ 0 0 612 792 ]
+  /Kids [ 20 0 R 23 0 R 26 0 R 29 0 R 32 0 R 35 0 R 38 0 R 41 0 R ]
+  >>
+endobj
+xref
+0 44
+0000000000 65535 f 0000000015 00000 n 0000000102 00000 n 0000002285 00000 n 0000002393 00000 n 0000002509 00000 n 0000002622 00000 n 0000002742 00000 n 0000002852 00000 n 0000002970 00000 n 0000003085 00000 n 0000003208 00000 n 0000003321 00000 n 0000003436 00000 n 0000003549 00000 n 0000003668 00000 n 0000003759 00000 n 0000027973 00000 n 0000028032 00000 n 0000003856 00000 n 0000004164 00000 n 0000004272 00000 n 0000007124 00000 n 0000007145 00000 n 0000007253 00000 n 0000010445 00000 n 0000010466 00000 n 0000010574 00000 n 0000013930 00000 n 0000013951 00000 n 0000014059 00000 n 0000017251 00000 n 0000017272 00000 n 0000017380 00000 n 0000020781 00000 n 0000020802 00000 n 0000020910 00000 n 0000024172 00000 n 0000024193 00000 n 0000024301 00000 n 0000027387 00000 n 0000027408 00000 n 0000027516 00000 n 0000027953 00000 n trailer
+<<
+  /Size 44
+  /Root 17 0 R
+  /Info 1 0 R
+>>
+startxref
+28180
+%%EOF
