@@ -1,4 +1,4 @@
-<div id="noticias">
+<div class="contenido-izquierda">
 
   <script>
   $(function() {

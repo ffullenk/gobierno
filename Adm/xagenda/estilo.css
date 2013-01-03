@@ -1,0 +1,67 @@
+BODY
+    {
+     font-family : verdana,arial,helvetica;
+     font-size : 9pt;
+     background-color : #eeeeee;
+    }
+
+TD
+    {
+     font-family : verdana,arial,helvetica;
+     font-size : 8pt;
+    }
+
+INPUT
+    {
+     font-family : verdana,arial,helvetica;
+     font-size : 8pt;
+    }
+
+TEXTAREA
+    {
+     font-family : verdana,arial,helvetica;
+     font-size : 8pt;
+     color: #000000;
+     background-color: #666666;
+    }
+
+SELECT
+    {
+     font-family : verdana,arial,helvetica;
+     font-size : 8pt;
+     }
+
+.altn
+     {
+      font-family : verdana,arial,helvetica;
+      font-size : 8pt;
+      color: #ffffff;
+      background-color: #666666;
+     }
+
+.tit
+     {
+      font-family : verdana,arial,helvetica;
+      font-size : 9pt;
+      color: #ffffff;
+      background-color: #C0C0C0;
+      font-weight: bold;
+     }
+
+.fs
+    {
+     font-family : verdana,arial,helvetica;
+     background-color:	#cdcdcd;
+     color:#FFFFFF;
+     font-weight: bold;
+     text-align:center;
+    }
+
+.da
+    {
+     font-family : verdana,arial,helvetica;
+     background-color: #dcdcdc;
+     color:	#FFFFFF;
+     font-weight: bold;
+     text-align: center;
+    }

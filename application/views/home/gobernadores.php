@@ -1,12 +1,10 @@
-<div id="noticias">
+<div class="contenido-izquierda">
 
 <?php if($id == 1):?>
-   <div class="categoria"><a href="<?php echo BASE_URI?>">P&aacute;gina Principal</a> &gt; 
-    Gobernadores(as)</div>
+   <div class="categoria"><a href="<?php echo BASE_URI?>">P&aacute;gina Principal</a> &gt; Gobernadores(as)</div>
 <h1>Gobernadores</h1>
           <hr />
    <br/>
-<div id="contenido-biblioteca">
 
           <h2 align="justify">FUNCIONES Y ATRIBUCIONES</h2>
           <p align="justify">El Gobernador(a) ejerce las funciones destinadas a mantener el orden p&uacute;blico en la provincia, preservar la seguridad de sus habitantes y bienes, la prevenci&oacute;n y enfrentamiento de situaciones de emergencia y cat&aacute;strofe y la aplicaci&oacute;n de las disposiciones legales sobre extranjer&iacute;a.</p>
@@ -33,8 +31,6 @@
             </ul>
           </div>
 
-</div>
-
 <?php else :?>
 
    <div class="categoria"><a href="<?php echo BASE_URI?>">P&aacute;gina Principal</a> &gt; 
@@ -42,8 +38,6 @@
 <h1>Gobernadores</h1>
           <hr />
           <br/>
-
-<div id="contenido-biblioteca">
  
           <div id="gobernador"> 
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -56,27 +50,27 @@
                 <td>
         <h4><?php echo $g['jefe']?> </h4>
         <div id="tipo-acuerdo">Direcci&oacute;n : <strong><?php echo $g['ub_dir']?> </strong></div>
-              <div id="fecha-acuerdo"> Ciudad :<strong><?php echo $g['ub_ciu']?></strong></div>
-              <div id="descripcion-acuerdo"> Tel&eacute;fono :<strong><?php echo $g['ub_fono']?></strong></div>
+        <div id="fecha-acuerdo"> Ciudad :<strong><?php echo $g['ub_ciu']?></strong></div>
+        <div id="descripcion-acuerdo"> Tel&eacute;fono :<strong><?php echo $g['ub_fono']?></strong></div>
         <div id="descripcion-acuerdo"> Fax :<strong><?php echo $g['ub_fax']?></strong></div>
         <div id="descripcion-acuerdo"> Enail :<strong><?php echo $g['ub_ema']?></strong></div>
         <div id="descripcion-acuerdo"> Sitio web <a href="<?php echo $g['ub_link']?>#">:<strong><?php echo $g['ub_link']?></strong></a></div>
          <div id="descripcion-acuerdo">
           <?php
              if(!empty($g['biografia'])) {
-              echo "<br><strong>Biograf&iacute;a</strong><br>";
+              echo "<br><h3>Biograf&iacute;a</h3>";
             $biografia = str_replace("\n","<br>",$g['biografia']); 
             echo "<p>".$biografia."</p>";
           }
 
                   if(!empty($g['objetivos'])) { 
-              echo "<br><strong>Objetivos</strong><br>";
+              echo "<br><h3>Objetivos</h3>";
                       $objetivos = str_replace("\n","<br>",$g['objetivos']); 
             echo "<p>".$objetivos."</p>";
                   }
           
                   if(!empty($g['hitos'])) {
-                      echo "<br><strong>Hitos</strong><br>";
+                      echo "<br><h3>Hitos</h3>";
                       $hitos = str_replace("\n","<br>",$g['hitos']); 
             echo "<p>".$hitos."</p>";
                   }
@@ -90,8 +84,6 @@
 
             </table>
   </div>
-  
-</div>
 
 <?php endif; ?>
 
@@ -103,22 +95,14 @@
 <div id="contenido-derecha">
 
 
-<div id="menu-pmg">
-  <h3>Gobernadores(as) </h3>
-   <ul>
-  
-     <li><a href="<?php echo BASE_URI?>gobernadores/1">Funciones y Atribuciones</a></li>
-  
-   <li><a href="<?php echo BASE_URI?>gobernadores/2">Gobernador(a) Provincial de Elqui</a></li>
-  
-   <li><a href="<?php echo BASE_URI?>gobernadores/3">Gobernador (a) Provincial de Limarí</a></li>
-  
-  <li><a href="<?php echo BASE_URI?>gobernadores/4"> Gobernador(a) Provincial de Choapa</a></li>
-</ul> 
-
-  
-
-
+<div id="menu-sidebar">
+  <li><a id="titulo">GOBERNADORES</a></li>
+   	<ul>
+  		<li><a href="<?php echo BASE_URI?>gobernadores/1">Funciones y Atribuciones</a></li>
+   		<li><a href="<?php echo BASE_URI?>gobernadores/2">Gobernador(a) Provincial de Elqui</a></li>
+  		<li><a href="<?php echo BASE_URI?>gobernadores/3">Gobernador (a) Provincial de Limarí</a></li>
+  		<li><a href="<?php echo BASE_URI?>gobernadores/4"> Gobernador(a) Provincial de Choapa</a></li>
+	</ul> 
 </div>   
 
 

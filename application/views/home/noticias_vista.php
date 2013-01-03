@@ -108,12 +108,12 @@ function DoDiv(id)
 }
 </script>
 
-<div id="noticias">
+<div class="contenido-izquierda">
 
-  <div id="categoria"> <a href="<?php echo BASE_URI?>">P&aacute;gina Principal</a>&nbsp;&gt;&nbsp;<a href="<?php echo BASE_URI?>noticias">Noticias</a>&nbsp;&gt;&nbsp;Noticias Vista </div>
+  <div class="categoria"> <a href="<?php echo BASE_URI?>">P&aacute;gina Principal</a>&nbsp;&gt;&nbsp;<a href="<?php echo BASE_URI?>noticias">Noticias</a>&nbsp;&gt;&nbsp;Noticias Vista </div>
 
 <br>
-<div id="iconos-noticia">
+<div class="iconos-noticia">
 
 <div class="iconos"><a href="javascript:imprSelec('seleccion')"><img src="<?php echo base_url(); ?>imagenes/icono_imprimir.jpg" title="Imprimir Noticia" alt="Imprimir Noticia" width="18" height="15" border="0" /></a>
 </div>
@@ -168,10 +168,10 @@ function DoDiv(id)
 
 <?php foreach($noticia as $n):?>
 
-<div id="categoria">FUENTE</div>
+<div class="categoria">FUENTE</div>
           <h2><?php echo $n['titulo']?></h2>
         <hr />
-          <div id="fecha-noticia"><?php echo $n['fecha'];?> | Santiago</div>
+          <div class="fecha-noticia"><?php echo $n['fecha'];?> | Santiago</div>
         <p>
           
           <?php $ruta="imagenes/breves/brv_"; ?>

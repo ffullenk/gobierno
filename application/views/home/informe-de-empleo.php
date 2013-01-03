@@ -1,4 +1,4 @@
-<div id="noticias">
+<div class="contenido-izquierda">
   <div class="categoria"> <a href="<?php echo BASE_URI?>">P&Aacute;gina Principal &gt;</a> Informes de Empleo</div>
           <h1> INFORMES DE EMPLEO </h1>
           <hr />

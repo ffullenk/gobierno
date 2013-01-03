@@ -1,11 +1,9 @@
-
-<div id="noticias">
- 
+<div class="contenido-izquierda">
   <div class="categoria"> <a href="<?php echo BASE_URI?>">P&Aacute;gina Principal &gt;</a>  cohecho </div>
           <h1> RESPONSABILIDAD PENAL DE LAS PERSONAS JUR&Iacute;DICAS POR EL DELITO DE COHECHO NACIONAL O INTERNACIONAL</h1>
           <hr />
 
-
+<br />
 <h2 >Mesa Regional de Coordinaci&oacute;n del SNIT</h2>                            
 <p>
 Desde Diciembre de 2009 se encuentra vigente en Chile la Ley 20.393, que establece un concepto absolutamente nuevo en nuestro ordenamiento jur&iacute;dico: la responsabilidad penal en que pueden incurrir las personas jur&iacute;dicas por la comisi&oacute;n de alguno de estos delitos:
@@ -20,7 +18,7 @@ Desde Diciembre de 2009 se encuentra vigente en Chile la Ley 20.393, que estable
 <p>Divulgar estos temas en el sector privado, incluyendo los concernientes a los mecanismos de prevenci&oacute;n contenidos en la Ley 20.393, resulta imprescindible y urgente, tanto para reforzar el &aacute;mbito preventivo, como para que el empresariado est&eacute; debidamente informado acerca del alcance de la ya mencionada ley, que, como se dijo al inicio, est&aacute; plenamente vigente desde el 2 de Diciembre de 2009. Para ello es que el Ministerio de Relaciones Exteriores tiene la intenci&oacute;n de efectuar, en regiones y con el apoyo de autoridades locales, reuniones con representantes del sector privado local.</p>
 
 
-<h2><br>Mayor informaci&oacute;n:</h2>
+<h4>Mayor informaci&oacute;n:</h4>
 
 
 	<div id="descarga-pdf">
@@ -37,4 +35,4 @@ Desde Diciembre de 2009 se encuentra vigente en Chile la Ley 20.393, que estable
 
 </div>
 
-
+		  

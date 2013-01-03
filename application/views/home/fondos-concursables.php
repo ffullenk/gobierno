@@ -1,4 +1,4 @@
-<div id="noticias">
+<div class="contenido-izquierda">
 
   <div class="categoria"> <a href="<?php echo BASE_URI?>">P&Aacute;gina Principal &gt;</a> Fondos Concursables </div>
           <h1> FONDOS CONCURSABLES </h1>

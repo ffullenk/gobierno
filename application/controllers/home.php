@@ -16,6 +16,7 @@ class Home extends CI_Controller {
 		$data['fuentes']=$this->gore_model->getFuentesPrincipal();
 		$data['breves']=$this->gore_model->getBrevesPrincipal();
 		$data['galeria']=$this->gore_model->galeriaCarrusel();
+		$data['home']=true;
 
 		foreach ($data['noticias'] as $n) {
 			
@@ -40,7 +41,7 @@ class Home extends CI_Controller {
 
 	public function noticiasVista(){
 
-
+		$this->layout->setLayout('layout_page');
 		$id=intval($this->uri->segment(2));
 		
 		$tabla=intval($this->uri->segment(3));
@@ -209,6 +210,8 @@ class Home extends CI_Controller {
 	      $this->layout->view('home/ajax_noticias',$data);
 
 	    } else {
+
+	     $this->layout->setLayout('layout_page');	
 	      $this->layout->view('home/noticias',$data);
 
 	    }
@@ -280,11 +283,13 @@ class Home extends CI_Controller {
 
 	public function core(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/core');
 	}
 
 	public function contacto(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/contacto');
 
 	}
@@ -308,13 +313,14 @@ class Home extends CI_Controller {
 						break;
 		}
 
-
+		$this->layout->setLayout('layout_menu');
 		$this->layout->view('home/consejo-regional',$data);
 
 	}
 
 	public function enlacesDeInteres(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/enlaces-de-interes');
 	}
 
@@ -322,12 +328,13 @@ class Home extends CI_Controller {
 
 		$id=intval($this->uri->segment(2));
 		$data['id']=$id;
+		$this->layout->setLayout('layout_menu');
 		$this->layout->view('home/gabinete-regional',$data);
 	}
 
 	public function gobernadores(){
 
-
+		$this->layout->setLayout('layout_menu');
 		$id=intval($this->uri->segment(2));
 		$acronimo="";
 
@@ -405,11 +412,13 @@ class Home extends CI_Controller {
 				$data['id']=1;
 				break;
 		}
+		$this->layout->setLayout('layout_menu');
 		$this->layout->view('home/gobierno-regional',$data);
 	}
 
 	public function serviciosPublicos(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/servicios-publicos');
 	}
 
@@ -428,13 +437,14 @@ class Home extends CI_Controller {
 				$data['id']=1;
 				break;
 		}
+		$this->layout->setLayout('layout_menu');
 		$this->layout->view('home/parlamentarios',$data);
 	}
 
 	public function municipalidades(){
 
 		$id=4;
-
+		$this->layout->setLayout('layout_menu');
 		$data['id']=intval($this->uri->segment(2));
 
 		switch ($data['id']) {
@@ -520,6 +530,7 @@ class Home extends CI_Controller {
 	public function seremis(){
 
 		$data['seremis']=$this->gore_model->getSeremis();
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/seremis',$data);
 	}
 
@@ -541,6 +552,7 @@ class Home extends CI_Controller {
 		$data['seremis']=$this->gore_model->getSeremisById($id);
 		$data['enlaces']=$this->gore_model->getSeremisEnlaces($ida);
 		$data['id']=$ida;
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/seremis-vista',$data);
 
 
@@ -548,22 +560,26 @@ class Home extends CI_Controller {
 
 	public function descargas(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/descargas');
 	}
 
 	public function concursos(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/concursos');
 	}
 
 	public function fondosConcursables(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/fondos-concursables');
 
 	}
 
 	public function descargaPlugins(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/descarga-plugins');
 
 	}
@@ -571,17 +587,20 @@ class Home extends CI_Controller {
 
 	public function informeEmpleo(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/informe-de-empleo');
 
 	}
 
 	public function  mesaRural(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/mesa-rural-campesino');
 	}
 
 	public function  mesaSnit(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/mesa-snit');
 	}
 
@@ -590,11 +609,13 @@ class Home extends CI_Controller {
 
 	public function fondoInnovacion(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/concurso-ficr');
 	}
 
 	public function identidadRegional(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/identidad-regional');
 	}
 
@@ -637,6 +658,7 @@ class Home extends CI_Controller {
 			
 		}
 		
+		$this->layout->setLayout('layout_menu');
 		$this->layout->view('home/banco-de-proyectos',$data);
 	}
 
@@ -691,6 +713,7 @@ class Home extends CI_Controller {
 			}
 			
 
+			$this->layout->setLayout('layout_page');
 			$this->layout->view('home/banco-vista',$data);
 	}
 		
@@ -756,11 +779,13 @@ class Home extends CI_Controller {
 		$data['actividades']=$this->agendas_model->getActividadesAgenda($fecha_sql);
 
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/agenda',$data);
 	}
 
 	public function senalOnline(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/senal-online');
 	}
 
@@ -785,11 +810,13 @@ class Home extends CI_Controller {
 				break;
 		}
 
+		$this->layout->setLayout('layout_menu');
 		$this->layout->view('home/intendente',$data);
 	}
 
 	public function informePresupuesto(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/informe-presupuesto');
 	}
 
@@ -797,6 +824,7 @@ class Home extends CI_Controller {
 
 	public function desentralizacion(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/desentralizacion');
 	}
 
@@ -868,78 +896,91 @@ class Home extends CI_Controller {
 
 	public function normas(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/normas-graficas');
 	}
 
 	public function mapa(){
-
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/mapa-sitio');
 	}
 
 	public function cohecho(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/cohecho');
 	}
 
 
 	public function  fondosCultura(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/fondos-cultura');
 	}
 
 
 	public function fondosDeportes(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/fondos-deportes');
 	}
 
 
 	public function fondosOrquesta(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/fondos-orquesta');
 	}
 
 
 	public function fondoSeguridad(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/fondos-seguridad');
 	}
 
 
 	public function fondoTesis(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/fondos-tesis');
 	}
 
 
 	public function feriaLibros(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/feria-libros');
 	}
 
 	public function fondosEditoriales(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/fondos-editoriales');
 	}
 
 	public function renueva(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/renueva');
 	}
 
 
 	public function fic(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/fic-r');
 	}
 
 	public function feria(){
 
+		$this->layout->setLayout('layout_page');
 		$this->layout->view('home/feria');
 	}
 
     public function politica(){
 
+    	$this->layout->setLayout('layout_page');
 		$this->layout->view('home/politica-privacidad');
 	}
 }

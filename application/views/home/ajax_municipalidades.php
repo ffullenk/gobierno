@@ -1,3 +1,12 @@
+  <div class="categoria"> 
+    <a href="<?php echo BASE_URI?>">P&Aacute;gina Principal</a>&nbsp;&gt;&nbsp;
+    Municipalidades
+  </div>
+          <h1>MUNICIPALIDADES</h1>
+          <hr />
+      <br/>
+      
+
   <?php foreach($comunas as $com):?>
           <h2><strong>ILUSTRE MUNICIPALIDAD DE <?php echo $com['comuna']?></strong></h2>
        <?php endforeach;?>  

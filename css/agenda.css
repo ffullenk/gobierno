@@ -1,0 +1,21 @@
+#agenda {
+	font-size: 13px;
+}
+#agenda td {
+	border: thin solid #f8f8f8;
+	padding: 5px;
+}
+
+#agenda td:hover {
+}
+
+#agenda a {
+	color: #006699;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#agenda a:hover {
+	color: #FF9900;
+	font-weight: bold;
+}

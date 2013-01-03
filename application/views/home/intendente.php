@@ -1,15 +1,11 @@
 <?php if($id == 3):?>
 
-
-<div id="noticias">
+<div class="contenido-izquierda">
   <div class="categoria"> <a href="<?php echo BASE_URI?>">P&Aacute;gina Principal</a>&nbsp;&gt;&nbsp;Intendencia</div>
           <h1>INTENDENTE</h1>
           <hr />
           <br/>
          
-<div id="contenido-biblioteca">
-
-
           <p align="justify"><img  id="foto-intendente" src="<?php echo base_url(); ?>imagenes/intendente_gahona.jpg" width="295" height="400" /></p>
 		  <h2>SERGIO ALFREDO GAHONA SALAZAR</h2>
 		  <p> Sergio Gahona egres&oacute; del Liceo de Hombres de Antofagasta, luego obtuvo la Licenciatura en Educaci&oacute;n en la Universidad Cat&oacute;lica del Norte, Mag&iacute;ster en Planificaci&oacute;n y Gesti&oacute;n Educacional, en la Universidad Diego Portales y Mag&iacute;ster en Direcci&oacute;n de Empresas, en la Universidad Cat&oacute;lica del Norte.&nbsp;<br />
@@ -19,22 +15,18 @@
 	      Es militante del Partido Uni&oacute;n Dem&oacute;crata Independiente. Fue candidato a Diputado por el 7&deg; Distrito en 2009. Sergio Gahona Salazar naci&oacute; en Antofagasta, tiene 44 a&ntilde;os, es casado y tiene tres hijos. </p>
 		
 
-		    
-	
-	</div>
-
 </div>
 
 </div>
 
 <div id="contenido-derecha">
 
-	<div id="menu-pmg">
+	<div id="menu-sidebar">
 
 	  <ul>
 
 
-	    <h3>Intendencia</h3>
+	    <li><a id="titulo">INTENDENCIA</a></li>
 		
 	  	 <li><a href="<?php echo BASE_URI?>intendente/3">Intendente</a></li>
 		
@@ -49,15 +41,14 @@
 
 <?php elseif($id == 1):?>
 
-<div id="noticias">
+<div class="contenido-izquierda">
   <div class="categoria"> <a href="<?php echo BASE_URI?>">P&Aacute;gina Principal</a>&nbsp;&gt;&nbsp;<a href="<?php echo BASE_URI?>intendente/1">Ubicacion</a></div>
           <h1>UBICACION</h1>
           <hr />
           <br/>
-<div id="contenido-biblioteca">
 
 
-	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr> 
    <td >
    <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -88,9 +79,6 @@
 </tr>
 </table>
 
-
-</div>
-
 </div>
 
 
@@ -99,12 +87,12 @@
 
 <div id="contenido-derecha">
 
-	<div id="menu-pmg">
+	<div id="menu-sidebar">
 
 	  <ul>
 
 
-	    <h3>Intendencia</h3>
+	    <li><a id="titulo">INTENDENCIA</a></li>
 		
 	  	  	 <li><a href="<?php echo BASE_URI?>intendente/3">Intendente</a></li>
 		
@@ -123,43 +111,24 @@
 elseif($id == 2): 
 ?>
 
-<div id="noticias">
+<div class="contenido-izquierda">
   <div class="categoria"> <a href="<?php echo BASE_URI?>">P&Aacute;gina Principal</a>&nbsp;&gt;&nbsp;<a href="<?php echo BASE_URI?>intendente/2">Reseña</a></div>
           <h1>Reseña</h1>
           <hr />
           <br/>
-<div id="contenido-biblioteca">
 
-
-<table  border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#E9ECF1">
-<tr> 
-   <td >
-   <table  border="0" cellspacing="10" cellpadding="0">
-   <tr><td class="textocuerpo"><div id="sectab">
-       <table width="100%" border="0" cellspacing="0" cellpadding="0">
-       <tr><td>
-	       <span class="texto_formulario"><img src="imagenes/ft_inten.jpg" border="0" align="left">Direcci&oacute;n:Arturo Prat 350, Segundo Piso, La Serena, Chile.<br>
-	       <br>
-		   Fono: (56-51) 332100<br>
-		   <br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+       <tr>
+         <td><span class="texto_formulario"><img src="imagenes/ft_inten.jpg" border="0" align="left" /></span></td>
+         <td>
+	       <span class="texto_formulario">Direcci&oacute;n:Arturo Prat 350, Segundo Piso, La Serena, Chile.<br>
+	       Fono: (56-51) 332100<br>
 		   Fax : (56-51) 212190<br>
-		   <br>
 		   Correo Electr&oacute;nico : <a class="textonav" href="mailto:oirs@gorecoquimbo.cl">oirs@gorecoquimbo.cl</a><br>
-		   <br>
-		   Horario de Atenci&oacute;n: Lunes a Viernes desde las 08:30 a 17:18 hrs.</span>
-	       </td>
+		   Horario de Atenci&oacute;n: Lunes a Viernes desde las 08:30 a 17:18 hrs.</span>	       </td>
 	   </tr>
-	   </table></div>
-       </td>
-   </tr>
-   </table>
-   </td>
-</tr>
-</table>
-
-
-</div>   
-	
+	   </table>
+ 
 
 	</div>
 
@@ -167,12 +136,12 @@ elseif($id == 2):
 
 <div id="contenido-derecha">
 	  
-	<div id="menu-pmg">
+	<div id="menu-sidebar">
 
 	  <ul>
 
 
-	    <h3>Intendencia</h3>
+	   <li><a id="titulo">INTENDENCIA</a></li>
 		
 	  	  	 <li><a href="<?php echo BASE_URI?>intendente/3">Intendente</a></li>
 		

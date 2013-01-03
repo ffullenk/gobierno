@@ -45,52 +45,47 @@ function fotos(id,name){
 
 }
 
-$(document).ready(function(){
+$(document).ready(function() {
+            
+            $("#btnBuscar").click(function() {
 
+    
+    var base='<?php echo BASE_PATH ?>';
 
+      var url = base+"/buscadorBanco"; // the script where you handle the form input.
+    //alert($("#mes").val());
+    var palabra=$("#cadena").val();
+    var fecha=$("#fecha").val();
+    var codigo=$("#codigo").val();
+    var comuna=$("#comuna").val();
+  
+      $.ajax({
+             type: "POST",
+             url: url,
+             data: "palabra="+palabra+"&fecha="+fecha+"&codigo="+codigo+"&comuna="+comuna, // serializes the form's elements.
+             success: function(data)
+             {
+                 //alert(data); 
+                 $("#resultado-proyectos").html(data);
+             }
+           });
+      
+      return false; // avoid to execute the actual submit of the form.
+  });
+
+  });
 	
-	$("#btnBuscar").click(function() {
 
-		var base='<?php echo BASE_PATH ?>';
-
-	    var url = base+"/buscadorBanco"; // the script where you handle the form input.
-		//alert($("#mes").val());
-		var palabra=$("#cadena").val();
-		var fecha=$("#fecha").val();
-		var codigo=$("#codigo").val();
-		var comuna=$("#comuna").val();
-	
-	    $.ajax({
-	           type: "POST",
-	           url: url,
-	           data: "palabra="+palabra+"&fecha="+fecha+"&codigo="+codigo+"&comuna="+comuna, // serializes the form's elements.
-	           success: function(data)
-	           {
-	               //alert(data); 
-	               $("#resultado-proyectos").html(data);
-	           }
-	         });
-	    
-	    return false; // avoid to execute the actual submit of the form.
-	});
-
-})
-
-  	
 
  </script>
 
-
-<div id="noticias">
-
-
+<div class="contenido-izquierda">
   <div class="categoria"> 
-    <a href="<?php echo BASE_URI?>">P&Aacute;gina Principal &gt;</a> Banco Proyectos Regionales&nbsp;</div>
+    <a href="<?php echo BASE_URI?>">P&Aacute;gina Principal </a> &gt; Banco Proyectos Regionales&nbsp;</div>
           <h1> MUESTRA DE PROYECTOS POR COMUNA</h1>
           <hr />
 		  <br />
-          <div id="contenido-biblioteca">
-		    <h2 id="titulocomuna">LA SERENA  </h2>
+		    <h2 id="titulocomuna" >LA SERENA</h2>
 	
 		    <div id="icono-galeria">
 		      <h4>GALER&Iacute;A DE IM&Aacute;GENES</h4>
@@ -99,9 +94,9 @@ $(document).ready(function(){
        
         <?php for($i=0;$i<sizeof($fotos);$i++){?>
 
-          <a class="fancybox" href="<?php echo base_url(); ?><?php echo $fotos[$i];?>"  title="">
+          <a class="fancybox" href="<?php echo base_url(); ?><?php echo $fotos[$i];?>" style="text-decoration:none" title="Galeria de imagenes">
 
-            <img src="<?php echo base_url(); ?><?php echo $fotos[$i];?>" alt="" width="100" height="100" class="fancybox" />
+            <img src="<?php echo base_url(); ?><?php echo $fotos[$i];?>" alt="" style="text-decoration:none" class="fancybox" />
           </a> 
         <?php }?>
     
@@ -155,10 +150,7 @@ $(document).ready(function(){
 
 
 
-<div id="mapa-google"><iframe width="465" height="390" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.cl/maps?source=embed&amp;ie=UTF8&amp;hl=es&amp;msa=0&amp;msid=110840075223060265076.00047a612cf5455ae1078&amp;ll=-29.900782,-71.255865&amp;spn=0.044569,0.077162&amp;t=h&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://maps.google.cl/maps?source=embed&amp;ie=UTF8&amp;hl=es&amp;msa=0&amp;msid=110840075223060265076.00047a612cf5455ae1078&amp;ll=-29.900782,-71.255865&amp;spn=0.044569,0.077162&amp;t=h&amp;z=14" style="color:#0000FF;text-align:left">Ver mapa más grande</a></small></div>
- 
- </div>
-
+<div id="mapa-google"><iframe width="740" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.cl/maps?source=embed&amp;ie=UTF8&amp;hl=es&amp;msa=0&amp;msid=110840075223060265076.00047a612cf5455ae1078&amp;ll=-29.900782,-71.255865&amp;spn=0.044569,0.077162&amp;t=h&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://maps.google.cl/maps?source=embed&amp;ie=UTF8&amp;hl=es&amp;msa=0&amp;msid=110840075223060265076.00047a612cf5455ae1078&amp;ll=-29.900782,-71.255865&amp;spn=0.044569,0.077162&amp;t=h&amp;z=14" style="color:#0000FF;text-align:left">Ver mapa más grande</a></small></div>
 		  
 <div id="fix" style="clear:both"></div>
 
@@ -178,26 +170,15 @@ $(document).ready(function(){
  <!--fin de div izquierda-->
 
 <div id="contenido-derecha">
-
-
-
-    <div id="menu-pmg">
+    <div id="menu-sidebar">
       <ul>
       <li><a id="titulo">PROYECTOS REGIONALES </a></li>
-
-
-
-      <?php foreach($provincias as $p):?>
-
+   		<?php foreach($provincias as $p):?>
         <?php foreach($comunas[$p['id_provincia']] as $c):?>
-
-          <li><a onclick="fotos(<? echo $c['id_comuna'];?>,'<? echo $c['nom_comuna'];?>')" href="javascript:void(0)"><? echo $c['nom_comuna'];?></a></li>
-
+        <li><a onclick="fotos(<? echo $c['id_comuna'];?>,'<? echo $c['nom_comuna'];?>')" href="javascript:void(0)"><? echo $c['nom_comuna'];?></a></li>
         <?php endforeach;?>
-
       <?php endforeach;?>
       </ul>
-
     </div>
 
 

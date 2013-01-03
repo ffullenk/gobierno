@@ -1,12 +1,11 @@
+<div id="contenido-izquierda">
+
 <?php if($id == 2):?>
 
-<div id="noticias">
-  <div class="categoria"> <a href="<?php echo BASE_URI?>">P&Aacute;gina Principal</a>&nbsp;&gt;&nbsp;<a href="<?php echo BASE_URI?>gabinete-regional/1">Gabinete Regional</a> &nbsp;&gt;&nbsp;Comités Regionales</div>
-
+<div class="categoria"> <a href="<?php echo BASE_URI?>">P&Aacute;gina Principal</a>&nbsp;&gt;&nbsp;<a href="<?php echo BASE_URI?>gabinete-regional/1">Gabinete Regional</a> &nbsp;&gt;&nbsp;Comités Regionales</div>
 <h1>Gabinete Regional - Comités Regionales</h1>
-          <hr />
+<hr />
 <br/>
-<div id="contenido-biblioteca">
 
   <table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr> 
@@ -102,33 +101,14 @@
 </tr>
 </table>
 
-</div>
-<div id="menu-pmg">
 
-  <ul>
-
-
-    <h3>Gabinete Regional</h3>
-
-    <li><a href="<?php echo BASE_URI?>gabinete-regional/1">Integrantes Gabinete Regional</a></li>
-    <li><a href="<?php echo BASE_URI?>gabinete-regional/2">Comités Gabinete Regional</a></li>
-  </ul>
-
-</div>
-
-
-</div>
 <?php else: ?>
 
-<div id="noticias">
+
   <div class="categoria"> <a href="<?php echo BASE_URI?>">P&Aacute;gina Principal</a>&nbsp;&gt;&nbsp;<a href="<?php echo BASE_URI?>gabinete-regional/1">Gabinete Regional&nbsp;</a>&gt; Integrantes Gabinete Regional </div>
           <h1>GABINETE REGIONAL</h1>
           <hr />
           <br/>
-
-  <div id="contenido-biblioteca">
-
-
           <h2 align="justify">INTEGRANTES GABINETE REGIONAL </h2>
           <p>El Gabinete Regional es un &oacute;rgano auxiliar del Intendente, integrado por:</p>
           <ul>
@@ -146,26 +126,21 @@
             <a href="<?php echo BASE_URI?>servicios-publicos" title=" Secretar&iacute;as Regionales Ministeriales ">&raquo;&nbsp;Servicios P&uacute;blicos Regionales</a><br />
           </p>
           <p align="justify">El Intendente puede llamar a integrar este gabinete o en calidad de invitados a los jefes(as) regionales de organismos de la Administraci&oacute;n del Estado. Conforma adem&aacute;s este &oacute;rgano, por derecho propio, el director(a) regional del Servicio Nacional de la Mujer. El Gabinete Regional est&aacute; integrado adem&aacute;s por los(as) directores(as) regionales de Deportes, CONACE, INJUV, CONAMA, CORFO, SERNATUR, Servicio de Salud Coquimbo, el Jefe(a) de An&aacute;lisis y Control de Gesti&oacute;n del Gobierno Regional, el Co director nacional del Programa M&aacute;s Regi&oacute;n y la Directora Regional de la Fundaci&oacute;n INTEGRA.</p>
-</div>
-
-
-<div id="menu-pmg">
-
-  <ul>
-
-
-    <h3>Gabinete Regional</h3>
-
-    <li><a href="<?php echo BASE_URI?>gabinete-regional/1">Integrantes Gabinete Regional</a></li>
-    <li><a href="<?php echo BASE_URI?>gabinete-regional/2">Comités Gabinete Regional</a></li>
-  </ul>
-
-</div>
-
-
-</div>
-
-        
+      
 <?php endif;?> 
+
+
+</div>
+</div>
+
+<div id="contenido-derecha">
+  
+<div id="menu-sidebar">
+      <ul>
+        <h3>Gabinete Regional</h3>
+        <li><a href="<?php echo BASE_URI?>gabinete-regional/1">Integrantes Gabinete Regional</a></li>
+        <li><a href="<?php echo BASE_URI?>gabinete-regional/2">Comités Gabinete Regional</a></li>
+      </ul>
+</div>
 
 

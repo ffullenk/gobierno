@@ -40,52 +40,7 @@ document.write('<style type="text/css">.tabber{display:none;}<\/style>');
 <script src="<?php echo base_url(); ?>carrusel/jsCarousel-2.0.0.js" type="text/javascript" ></script>
 <link href="<?php echo base_url(); ?>carrusel/jsCarousel-2.0.0.css" rel="stylesheet" type="text/css" />
 
-<style type="text/css">
 
-.dropdown ul {
-    float: left;
-    left: 770px;
-    padding: 10px;
-    position: absolute;
-    top: 120px;
-    width: 190px;
-    z-index: 1;
-    visibility: hidden;
- 
-}
-
-
-.dropdown ul li {
-    background-color: #EEEEEE;
-    border-bottom: 1px solid #FFFFFF;
-    color: #FFFFFF;
-    float: none;
-    font-weight: normal;
-    padding: 10px;
-}
-.dropdown ul li a {
-    border-right: medium none;
-    color: #006699;
-    display: inline-block;
-    width: 100%;
-}
-.dropdown ul li a:hover {
-    border-right: medium none;
-    color: #FFFFFF;
-    display: inline-block;
-    width: 100%;
-}
-.dropdown ul ul {
-    left: 100%;
-    top: 0;
-}
-.dropdown li:hover > ul {
-    visibility: visible;
-}
-
-
-
-</style>
 <script type="text/javascript">
         $(document).ready(function() {
             $('#carouselhAuto').jsCarousel({ onthumbnailclick: function(src) {  }, autoscroll: true, masked: false, itemstodisplay: 4, orientation: 'h' });
@@ -209,8 +164,6 @@ $(document).ready(function() {
   
 });
 </script>
-
-
 </head>
 <body>
 <div id="wrap">
@@ -233,13 +186,14 @@ $(document).ready(function() {
   </div></td>
   </tr>
   <tr>
-    <td width="85%" valign="bottom"><div id="nav">
-    <ul class="dropdown">
-      <li><a href="<?php echo BASE_URI?>" class="span" >Portada</a>
-
-          <ul>
-            <li><div class="titulo-menu">MENU SECCIONES</div></li>
-            <li><a href="<?php echo BASE_URI?>intendente/3">Intendente</a></li>
+    <td width="85%" valign="bottom">
+	<div id="nav">
+    <div id="menu">
+<ul>
+  <li class="nivel1"><a href="<?php echo BASE_URI?>" class="span" >Portada</a></li>
+  <li class="nivel1"><a href="#" class="nivel1">Link a ordenar</a>
+	<ul>
+		 <li><a href="<?php echo BASE_URI?>intendente/3">Intendente</a></li>
             <li><a href="<?php echo BASE_URI?>parlamentarios/1">Parlamentarios (as)</a></li>
             <li><a href="<?php echo BASE_URI?>gobernadores/1">Gobernadores (as) </a></li>
             <li><a href="<?php echo BASE_URI?>gobierno-regional/1">Gobierno Regional </a></li>
@@ -252,41 +206,37 @@ $(document).ready(function() {
             <li><a href="<?php echo BASE_URI?>enlaces-de-interes">Enlaces</a></li>
             <li><a href="<?php echo BASE_URI?>descarga">Descargas</a></li>
             <li><a href="<?php echo BASE_URI?>descarga-plugins">Descargas Plugins</a></li>
-
-            <li><div class="titulo-menu-2">IMPORTANTES</div></li>
-            <li><a  href="<?php echo BASE_URI?>buzon/contacto/indexP.php">Buzón Cuidadano</a></li>
+            <li><a href="<?php echo BASE_URI?>buzon/contacto/indexP.php">Buzón Cuidadano</a></li>
             <li><a href="<?php echo BASE_URI?>concursos">Concursos</a></li>
             <li><a href="<?php echo BASE_URI?>fondos-concursables">Fondos </a></li>
-            <li><a  href="<?php echo BASE_URI?>tesis/">Tesis Regionales </a></li>
-            <li><a  href="http://www.gorecoquimbo.gob.cl/pgobierno/erd/" >Estratégia Regional de desarrollo</a></li>
-            <li><a href="<?php echo base_url(); ?>descargas">Plan Gobierno Regional 2011-2014</a></li>
-            <li><a  href="http://www.gorecoquimbo.gob.cl/pgobierno/sgp/">Coordinación Regional de Gasto Público</a></li>
+            <li><a href="<?php echo BASE_URI?>tesis/">Tesis Regionales </a></li>
+            <li><a href="http://www.gorecoquimbo.gob.cl/pgobierno/erd/" >Estratégia Regional de desarrollo</a></li>
+            <li><a href="<?php echo base_url(); ?>descargas">Plan Gob. Regional 2011-2014</a></li>
+            <li><a href="http://www.gorecoquimbo.gob.cl/pgobierno/sgp/">Coord. Regional de Gasto Público</a></li>
             <li><a href="<?php echo BASE_URI?>informe-empleo">Informe de empleos</a></li>
             <li><a href="<?php echo BASE_URI?>informe-presupuesto">Infor. según Presupuesto</a></li>
-            <li><a  href="http://www.gorecoquimbo.gob.cl/pgobierno/prot/">Ordenamiento Territorial</a></li>
-            <li><a  href="http://www.gorecoquimbo.gob.cl/pgobierno/crubc/">Borde Costero</a></li>
+            <li><a href="http://www.gorecoquimbo.gob.cl/pgobierno/prot/">Ordenamiento Territorial</a></li>
+            <li><a href="http://www.gorecoquimbo.gob.cl/pgobierno/crubc/">Borde Costero</a></li>
             <li><a href="<?php echo BASE_URI?>mesa-rural-campesino">Mesa Rural Campesina</a></li>
-            <li><a href="<?php echo BASE_URI?>fondo-innovacion">Fondo de Innovación para la Competitividad </a></li>
+            <li><a href="<?php echo BASE_URI?>fondo-innovacion">FIC-R  </a></li>
             <li><a href="<?php echo BASE_URI?>identidad-regional">Identidad Regional </a></li>
             <li><a href="<?php echo BASE_URI?>mesa-snit">Mesa SNIT </a></li>
             <li><a href="<?php echo BASE_URI?>desentralizacion">Descentralización</a></li>
             <li><a  href="http://www.gorecoquimbo.gob.cl/oremi/genero/index.php">Biblioteca PMG Equidad</a></li>
             <li><a href="<?php echo BASE_URI?>cohecho">Cohecho Func. Público</a></li>
             <li><a href="<?php echo BASE_URI?>normas-graficas">Normas Gráficas</a></li>
-          
-          </ul>
-
-      </li>
-      <li><a href="<?php echo BASE_URI?>noticias">Noticias</a></li>
-      <li><a href="<?php echo BASE_URI?>agenda/<?php echo time()?>">Agenda</a></li>
-      <li><a href="<?php echo BASE_URI?>senal-online">Señal Online</a></li>
-      
-      <li><a href="<?php echo BASE_URI?>banco-de-proyectos">Centro de Documentación</a></li>
-      <li><a href="<?php echo BASE_URI?>contacto">Contacto</a></li>
-
-
-    </ul>
-  </div></td>
+	</ul>
+</li>
+  <li class="nivel1"><a href="<?php echo BASE_URI?>noticias">Noticias</a></li>
+  <li class="nivel1"><a href="<?php echo BASE_URI?>agenda/<?php echo time()?>">Agenda</a></li>
+  <li class="nivel1"><a href="<?php echo BASE_URI?>senal-online">Señal Online</a></li>
+  <li class="nivel1"><a href="<?php echo BASE_URI?>banco-de-proyectos">Centro de Documentación</a></li>
+  <li class="nivel1"><a href="<?php echo BASE_URI?>contacto">Contacto</a></li>
+</ul>
+</div>
+  </div>
+  
+  </td>
   </tr>
   <tr>
     <td colspan="2"></td>

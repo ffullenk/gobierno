@@ -1,5 +1,4 @@
-
-<div id="noticias">
+<div class="contenido-izquierda">
   <div class="categoria"> <a href="<?php echo BASE_URI?>">P&Aacute;gina Principal</a>&nbsp;&gt;&nbsp;normas gr&Aacute;FICAS</div>
           <h1> normas gr&Aacute;FICAS </h1>
           <hr />

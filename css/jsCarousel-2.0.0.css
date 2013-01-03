@@ -1,0 +1,120 @@
+﻿
+.jscarousal-horizontal {
+   height: 58px;
+    margin: 0 auto;
+    position: relative;
+    width: 800px;
+}
+.jscarousal-horizontal-back, .jscarousal-horizontal-forward {
+     color: White;
+    cursor: pointer;
+    float: left;
+    height: 58px;
+    position: relative;
+    top: px;
+    width: 23px;
+}
+.jscarousal-horizontal-back {
+    background-image: url("left_arrow.jpg");
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.jscarousal-horizontal-forward {
+    background-image: url("right_arrow.jpg");
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+.jscarousal-contents-horizontal {
+    float: left;
+    height: 58px;
+    overflow: hidden;
+    position: relative;
+    width: 650px;
+}
+.jscarousal-contents-horizontal > div {
+    height: 58px;
+    position: absolute;
+    width: 100%;
+}
+.jscarousal-contents-horizontal > div > div {
+    float: left;
+}
+.jscarousal-contents-horizontal img {
+}
+.jscarousal-vertical {
+    background-color: #121212;
+    border: 1px solid #7A7677;
+    height: 460px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 140px;
+}
+.jscarousal-vertical-back, .jscarousal-vertical-forward {
+    background-color: #121212;
+    color: White;
+    cursor: pointer;
+    height: 30px;
+    position: relative;
+    width: 100%;
+    z-index: 100;
+}
+.jscarousal-vertical-back {
+    background-image: url("top_arrow.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+.jscarousal-vertical-forward {
+    background-image: url("bottom_arrow.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.jscarousal-contents-vertical {
+    height: 410px;
+    overflow: hidden;
+    width: 140px;
+}
+.jscarousal-contents-vertical > div {
+    height: 820px;
+    overflow: hidden;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+}
+.jscarousal-contents-vertical > div > div {
+    height: 125px;
+    margin: 8px 8px 8px 14px;
+    width: 140px;
+}
+.jscarousal-contents-vertical > div > div span {
+    display: block;
+    text-align: center;
+    width: 70%;
+}
+.jscarousal-contents-vertical img {
+    border: 1px solid #7A7677;
+    height: 80px;
+    width: 110px;
+}
+.hidden {
+    display: none;
+}
+.visible {
+    display: block;
+}
+.thumbnail-active {
+    cursor: pointer;
+    opacity: 1;
+}
+.thumbnail-inactive {
+    cursor: pointer;
+    opacity: 0.2;
+}
+.thumbnail-text {
+    color: #7A7677;
+    display: block;
+    font-weight: bold;
+    padding: 10px 2px 2px 0;
+    text-align: left;
+}

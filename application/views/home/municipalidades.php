@@ -15,7 +15,7 @@
                success: function(data)
                {
                    //alert(data); 
-                   $("#contenido-biblioteca").html(data);
+                   $("#contenido-izquierda").html(data);
                }
              });
         
@@ -25,15 +25,14 @@
 
 </script>
 
-<div id="noticias">
+<div class="contenido-izquierda"> 
   <div class="categoria"> 
     <a href="<?php echo BASE_URI?>">P&Aacute;gina Principal</a>&nbsp;&gt;&nbsp;
     Municipalidades
-     </div>
+  </div>
           <h1>MUNICIPALIDADES</h1>
           <hr />
 		  <br/>
-<div id="contenido-biblioteca">
 
       <?php if($id == 1):?>
 
@@ -79,7 +78,7 @@
         <?php elseif($id == 2):?>
       </p>
       <h2>UBICACIÓN</h2>
-      <p><img src="<?php echo base_url(); ?>imagenes/mapas/region.jpg" alt=" Mapa Regional " border="0" align="left" vspace="2" hspace="2" />La Regi&oacute;n de Coquimbo se extiende entre los paralelos 29&deg; 02&#8217; y 32&deg; 16&#8217; de latitud Sur y desde los 69&deg; 49&#8217; longitud Oeste hasta el oc&eacute;ano Pac&iacute;fico. Cubre un &aacute;área de 40.579,9 km², una superficie pr&aacute;cticamente id&eacute;ntica a la de Holanda. Su capital es la ciudad de La Serena, ubicada a 470 km. al Norte de Santiago (capital de Chile)</p>
+      <p><img src="<?php echo base_url(); ?>imagenes/mapas/region.jpg" alt=" Mapa Regional " hspace="2" vspace="2" border="0" align="left" class="contenido-img" />La Regi&oacute;n de Coquimbo se extiende entre los paralelos 29&deg; 02&#8217; y 32&deg; 16&#8217; de latitud Sur y desde los 69&deg; 49&#8217; longitud Oeste hasta el oc&eacute;ano Pac&iacute;fico. Cubre un &aacute;área de 40.579,9 km², una superficie pr&aacute;cticamente id&eacute;ntica a la de Holanda. Su capital es la ciudad de La Serena, ubicada a 470 km. al Norte de Santiago (capital de Chile)</p>
                   
        <h4>Tema Relacionado</h4>
             
@@ -92,35 +91,32 @@
           <h2>CLIMA</h2>
           <p>Esta zona es de transici&oacute;n entre el desierto y la zona central, m&aacute;s h&uacute;meda. El &aacute;rea costera se caracteriza por un alto porcentaje de sus d&iacute;as nublados, con un tipo de nube baja conocido como <strong>Camanchaca</strong>.
           </p>
-          <p><img src="<?php echo base_url(); ?>imagenes/reg-02.jpg" border="0" vspace="2" hspace="2" alt="" align="left">
-            El interior, libre de la influencia mar&iacute;tima y con mayor presi&oacute;n atmosf&eacute;rica, presenta mayormente d&iacute;as despejados, con temperaturas muy estables a trav&eacute;s del a&ntilde;o. La m&iacute;nima en invierno en la costa es de unos 10&deg;C , en tanto la m&aacute;xima en verano es de unos 26&deg;C.
-    </p>
+          <p><img src="<?php echo base_url(); ?>imagenes/reg-02.jpg" alt="" hspace="2" vspace="2" border="0" align="left" class="contenido-img">
+            El interior, libre de la influencia mar&iacute;tima y con mayor presi&oacute;n atmosf&eacute;rica, presenta mayormente d&iacute;as despejados, con temperaturas muy estables a trav&eacute;s del a&ntilde;o. La m&iacute;nima en invierno en la costa es de unos 10&deg;C , en tanto la m&aacute;xima en verano es de unos 26&deg;C.    </p>
 		   <div id="fix" style="clear:both"></div>
-           <p><img src="<?php echo base_url(); ?>imagenes/reg-03.jpg" border="0" vspace="2" hspace="2" alt="" align="left">
-              Hacia el interior, estas temperaturas se elevan, mostrando una apreciable diferencia entre día y noche e invierno y verano, pero sin excesos ya que el promedio es de 17&deg;C.
-           </p>
+           <p><img src="<?php echo base_url(); ?>imagenes/reg-03.jpg" alt="" hspace="2" vspace="2" border="0" align="left" class="contenido-img">
+              Hacia el interior, estas temperaturas se elevan, mostrando una apreciable diferencia entre día y noche e invierno y verano, pero sin excesos ya que el promedio es de 17&deg;C.           </p>
   
 
            <p>
              <?php elseif($id == 4):?>
            </p>
            <h2>GEOGRAFÍA</h2>
-           <p><img src="<?php echo base_url(); ?>imagenes/reg-05.jpg" hspace="2" vspace="2" border="0" align="left" alt="">
-         La Región se divide en las provincias de Elqui, Limarí y Choapa y el relieve se caracteriza por presentar una Cordillera de Los Andes alta y continua, sin manifestaciones volcánicas visibles y cuyas alturas van disminuyendo de norte a sur.
-    </p>
+           <p><img src="<?php echo base_url(); ?>imagenes/reg-05.jpg" alt="" hspace="2" vspace="2" border="0" align="left" class="contenido-img">
+         La Región se divide en las provincias de Elqui, Limarí y Choapa y el relieve se caracteriza por presentar una Cordillera de Los Andes alta y continua, sin manifestaciones volcánicas visibles y cuyas alturas van disminuyendo de norte a sur.    </p>
       <p>
              Las mayores expresiones son el cerro de Las Tórtolas con 6.320 m. y el Olivares con 6.250 m. Desde Los Andes, cordillera formada hace 70 millones de años, se desprenden cordones montañosos en dirección Oeste dando origen a depresiones rellenadas por la acción de los ríos, paisaje conocido como Valles Transversales.
     </p>
-        <p><img src="<?php echo base_url(); ?>imagenes/reg-06.jpg" hspace="2" vspace="2" border="0" align="left" alt="">
+        <p><img src="<?php echo base_url(); ?>imagenes/reg-06.jpg" alt="" hspace="2" vspace="2" border="0" align="left" class="contenido-img">
          La Depresión Intermedia, por lo mismo, aparece como una meseta discontinua e interrumpida por montes y valles. Esta es claramente visible al interior del Valle del Elqui y también en el Limarí, donde se confunde con las amplias terrazas marinas.</p>
           <p>Las Planicies Litorales aparecen como superficie de gigantescos escalones de varios kilómetros de extensión, formadas por las distintas etapas de avances y retrocesos que tuvo el nivel marino en períodos pasados, producto de la actividad tectónica.</p>
-         <p><img src="<?php echo base_url(); ?>imagenes/reg-07.jpg" hspace="2" vspace="2" border="0" align="left" alt="">
+         <p><img src="<?php echo base_url(); ?>imagenes/reg-07.jpg" alt="" hspace="2" vspace="2" border="0" align="left" class="contenido-img">
         Los grandes depósitos de conchas marinas, acumulados en períodos geológicos comprenden evidencias muy antiguas, convirtiéndose en valiosos yacimientos que se explotan como caliza, coquina o conchuela.</p>
          <p>Estos rellenos sedimentarios han conectado islas, islotes y promontorios rocosos al continente, diseñando amplias bahías de suaves y sencillos lineamientos que dan origen a playas con arenas finas y aguas más temperadas por la poca profundidad del fondo.</p>
-         <p><img src="<?php echo base_url(); ?>imagenes/reg-08.jpg" hspace="2" vspace="2" border="0" align="left" alt="">
+         <p><img src="<?php echo base_url(); ?>imagenes/reg-08.jpg" alt="" hspace="2" vspace="2" border="0" align="left" class="contenido-img">
         La plataforma continental, extensa y de poca pendiente, tiene sus &uacute;ltimas manifestaciones en una serie de islas como son Gaviota, Damas, Choros y P&aacute;jaros, que se encuentran a no m&aacute;s de 15 km. de la costa; accidentes que no vuelven a presentarse hasta el &aacute;rea del Golfo de Arauco.</p>
           <p>La Cordillera de la Costa se presenta como pequeñas manifestaciones aisladas perdiendo su continuidad, pero por su altura, que alcanza 1.653 m. en el Cerro Blanco, juega un importante papel para interferir la influencia del mar al interior, ya que en algunos lugares cae en forma abrupta al litoral; la sección más interesante en este sentido, es el área comprendida entre Quebrada Los Choros y Quebrada Honda y en la cercanías de la desembocadura del Río Limarí.</p>
-          <p><img src="<?php echo base_url(); ?>imagenes/reg-09.jpg" hspace="2" vspace="2" border="0" align="left" alt="">
+          <p><img src="<?php echo base_url(); ?>imagenes/reg-09.jpg" alt="" hspace="2" vspace="2" border="0" align="left" class="contenido-img">
          La disponibilidad de agua y las pendientes de los valles, han contribuido a la formación de suelos en Terrazas Fluviales que se han incorporado a la agricultura por su alto rendimiento.</p>
        <p>Los suaves lomajes costeros se cubren de hierbas y pastos durante la efímera época de lluvias, dando posibilidad de alimentar rebaños de bovinos, caprinos y ovinos.</p>
        <p>Por último, en esta región se encuentra el área más angosta del territorio nacional en el sector de Illapel.</p>
@@ -128,22 +124,19 @@
        <p>
          <?php elseif($id == 5):?>
        </p>
-       <h2>FLORA Y FAUNA  </h2>
+       <h2>FLORA Y FAUNA </h2>
        <div>      
 
-         <p><img src="<?php echo base_url(); ?>imagenes/reg-010.jpg" hspace="2" vspace="2" border="0" align="left" alt="">
+         <p><img src="<?php echo base_url(); ?>imagenes/reg-010.jpg" alt="" hspace="2" vspace="2" border="0" align="left" class="contenido-img">
         Los suelos de nuestro territorio van perdiendo su salinidad de norte a sur, lo que unido al incremento de la humedad, los hace cada vez más aptos para el desarrollo de la flora y fauna naturales y, por consiguiente, también para la agricultura.
            Sin embargo, junto a estas condiciones favorables, hay otras como la irregularidad de las precipitaciones y el desarrollo de grandes extensiones de dunas.
-           A pesar de estas circunstancias, la flora regional es variada y abundante, especialmente en la zona litoral. Algunas especies características son el espino, el mañil, el trevo y el guayacán, que tienen el aspecto de grandes arbustos y de árboles pequeños. Entre las plantas herbáceas están la chilca, la centella y el vinagrillo.
-     </p>
-     <p><img src="<?php echo base_url(); ?>imagenes/reg-011.jpg" hspace="2" vspace="2" border="0" align="left" alt="">
+           A pesar de estas circunstancias, la flora regional es variada y abundante, especialmente en la zona litoral. Algunas especies características son el espino, el mañil, el trevo y el guayacán, que tienen el aspecto de grandes arbustos y de árboles pequeños. Entre las plantas herbáceas están la chilca, la centella y el vinagrillo.</p><br/>
+         <p><img src="<?php echo base_url(); ?>imagenes/reg-011.jpg" alt="" hspace="2" vspace="2" border="0" align="left" class="contenido-img">
        En la primavera, se desarrolla un fenómeno vegetal muy característico, cuando las planicies y montes se cubren de una variada y colorida vegetación herbácea, de poca duración, tales como el palo gordo, pasionaria, violeta cordillerana, manzanilla y tupas.
-           La abundante nubosidad costera que se mantiene permanentemente al sur de Coquimbo, ha permitido la existencia de agrupaciones forestales como el bosque de Fray Jorge, antiguamente más abundante y que como curiosidad botánica, está formado entre otros, por árboles abundantes en latitudes más australes como el olivillo y el canelo.
-     </p>
-     <p><img src="<?php echo base_url(); ?>imagenes/reg-012.jpg" hspace="2" vspace="2" border="0" align="left" alt="">
+           La abundante nubosidad costera que se mantiene permanentemente al sur de Coquimbo, ha permitido la existencia de agrupaciones forestales como el bosque de Fray Jorge, antiguamente más abundante y que como curiosidad botánica, está formado entre otros, por árboles abundantes en latitudes más australes como el olivillo y el canelo.     </p>
+     <p><img src="<?php echo base_url(); ?>imagenes/reg-012.jpg" alt="" hspace="2" vspace="2" border="0" align="left" class="contenido-img">
        La fauna litoral, está representada entre otros por el culpeo, el chungungo y el lobo de pelo; garumas, liles, petreles y muchas otras especies de aves, además de lagartos de diversos tamaños e insectos variados.
-           Al interior del territorio, dominio de los espinales, viven el culpeo, el gato montés, el quique, la chilla y roedores como el degú y la chinchilla, la lucha de los espinos y la yaca. Hay reptiles como culebras no venenosas, lagartos y gran variedad de insectos entre los que sobresalen mariposas y coleópteros.
-         </p>
+           Al interior del territorio, dominio de los espinales, viven el culpeo, el gato montés, el quique, la chilla y roedores como el degú y la chinchilla, la lucha de los espinos y la yaca. Hay reptiles como culebras no venenosas, lagartos y gran variedad de insectos entre los que sobresalen mariposas y coleópteros.         </p>
      <p>Entre las aves, chercanes, tordos, cernícalos y chunchos. Hay asnos que viven en estado salvaje en la precordillera andina. Gran parte de los espinales fueron intensamente explotados desde la llegada de los españoles, especialmente como combustible hogareño y de faenas mineras, lo que casi extinguió la vegetación natural de los alrededores de La Serena y Coquimbo.</p>
          <p>Hasta hoy es muy apetecida la algarrobilla cuyos frutos contienen ácido tánico, muy utilizado en curtiembres.</p>
          <p>Aledaños a los embalses de Cogotí y Recoleta se encuentran bosques de sauce chileno, especie difícil de encontrar en igual número y densidad en la zona central.</p>
@@ -545,13 +538,13 @@
  <h2>MAPA REGIONAL </h2>
  <div id="muestraTexto">      
        
-       <p><img src="<?php echo base_url(); ?>imagenes/mapas/region.jpg" />
+       <p><img src="<?php echo base_url(); ?>imagenes/mapas/region.jpg" class="contenido-img" />
               Correspondiente a una composición de mapa regional exportada a JPG y que incluye una gran cantidad de información característica de nuestra región, también incluye el modelo de elevación utilizado como fondo.</p>
          <h4>Documento Disponible a descargar</h4>
        
           <a id="descarga-comprimido" href="<?php echo base_url(); ?>descargas/mapas/region.zip" title=" Descargar Mapa Regional, comprimido con WINZIP, tama&ntilde;o 2.25MB ">Mapa Regional [.zip 2.25MB] </a>
       
-    </div>
+  </div>
 
  <p>
    <?php elseif($id == 8):?>
@@ -652,149 +645,90 @@
  </table>
  <?php endif;?>
 <div id="fix" style="clear:both"></div>
-</div>
 
 </div>
 
 </div>
 
 <div id="contenido-derecha">
-
-
-
-<div id="menu-pmg">
-
+<div id="menu-sidebar">
+  
   <ul>
-
-    <h3>Municipalidades Provincia de Elqui</h3>
-
+	 <li><a id="titulo">Municipalidades Provincia de Elqui</a></li>
 
     <?php foreach($serena as $se):?>
-    <li style="cursor:pointer" >
-
-      <a onclick="comuna('<?php echo $se['id_com']?>')" href="#"><?php echo $se['comuna']?></a>
-
-      </li>
+    <li style="cursor:pointer" ><a onclick="comuna('<?php echo $se['id_com']?>')" href="#"><?php echo $se['comuna']?></a></li>
     <?php endforeach;?>
 
   <?php foreach($coquimbo as $se):?>
-    <li style="cursor:pointer" >
-
-       <a onclick="comuna('<?php echo $se['id_com']?>')" href="#">  <?php echo $se['comuna']?></a>
-       </li>
+    <li style="cursor:pointer" ><a onclick="comuna('<?php echo $se['id_com']?>')" href="#">  <?php echo $se['comuna']?></a></li>
     <?php endforeach;?>
 
-
     <?php foreach($higuera as $se):?>
-    <li style="cursor:pointer">
-
-       <a  onclick="comuna('<?php echo $se['id_com']?>')" href="#">  <?php echo $se['comuna']?></a>
-       </li>
+    <li style="cursor:pointer"><a  onclick="comuna('<?php echo $se['id_com']?>')" href="#">  <?php echo $se['comuna']?></a></li>
     <?php endforeach; ?>
 
     <?php foreach($vicuña as $se):?>
-    <li style="cursor:pointer" >
-
-       <a onclick="comuna('<?php echo $se['id_com']?>')" href="#">  <?php echo $se['comuna']?></a>
-       </li>
+    <li style="cursor:pointer" ><a onclick="comuna('<?php echo $se['id_com']?>')" href="#">  <?php echo $se['comuna']?></a></li>
     <?php endforeach;?>
 
    <?php foreach($paihuano as $se):?>
-    <li style="cursor:pointer" >
+   <li style="cursor:pointer" ><a onclick="comuna('<?php echo $se['id_com']?>')" href="#">  <?php echo $se['comuna']?></a></li>
+   <?php endforeach;?>
 
-       <a onclick="comuna('<?php echo $se['id_com']?>')" href="#">  <?php echo $se['comuna']?></a>
-       </li>
-    <?php endforeach;?>
-
-     <?php foreach($anacollo as $se):?>
-    <li style="cursor:pointer" >
-
-       <a onclick="comuna('<?php echo $se['id_com']?>')" href="#">  <?php echo $se['comuna']?></a>
-       </li>
+   <?php foreach($anacollo as $se):?>
+    <li style="cursor:pointer" ><a onclick="comuna('<?php echo $se['id_com']?>')" href="#">  <?php echo $se['comuna']?></a></li>
     <?php endforeach;?>
 
 </ul>
 
-
- <h3>Municipalidades Provincia de Limari</h3>
+<li><a id="titulo">Municipalidades Provincia de Limari</a></li>
 <ul>
-
-     <?php foreach($ovalle as $se):?>
-    <li style="cursor:pointer" >
-
-       <a onclick="comuna('<?php echo $se['id_com']?>')" href="#">  <?php echo $se['comuna']?></a>
-       </li>
+	<?php foreach($ovalle as $se):?>
+    <li style="cursor:pointer" ><a onclick="comuna('<?php echo $se['id_com']?>')" href="#">  <?php echo $se['comuna']?></a></li>
     <?php endforeach;?>
 
-
-     <?php foreach($monre as $se):?>
-    <li style="cursor:pointer" >
-
-       <a onclick="comuna('<?php echo $se['id_com']?>')" href="#">  <?php echo $se['comuna']?></a>
-       </li>
+    <?php foreach($monre as $se):?>
+    <li style="cursor:pointer" ><a onclick="comuna('<?php echo $se['id_com']?>')" href="#">  <?php echo $se['comuna']?></a></li>
     <?php endforeach;?>
 
      <?php foreach($hurtado as $se):?>
-    <li style="cursor:pointer" >
-
-      <a onclick="comuna('<?php echo $se['id_com']?>')" href="#">  <?php echo $se['comuna']?></a>
-      </li>
+    <li style="cursor:pointer" ><a onclick="comuna('<?php echo $se['id_com']?>')" href="#">  <?php echo $se['comuna']?></a></li>
     <?php endforeach;?>
 
-
-     <?php foreach($punitaqui as $se):?>
-    <li style="cursor:pointer" >
-
-      <a onclick="comuna('<?php echo $se['id_com']?>')" href="#">  <?php echo $se['comuna']?></a>
-      </li>
+    <?php foreach($punitaqui as $se):?>
+    <li style="cursor:pointer" ><a onclick="comuna('<?php echo $se['id_com']?>')" href="#">  <?php echo $se['comuna']?></a></li>
     <?php endforeach;?>
 
-     <?php foreach($combarbala as $se):?>
-    <li style="cursor:pointer" >
-
-       <a onclick="comuna('<?php echo $se['id_com']?>')" href="#">  <?php echo $se['comuna']?></a>
-       </li>
+    <?php foreach($combarbala as $se):?>
+    <li style="cursor:pointer" ><a onclick="comuna('<?php echo $se['id_com']?>')" href="#">  <?php echo $se['comuna']?></a></li>
     <?php endforeach;?>
-
-
   </ul>
 
-    <h3>Municipalidades Provincia de Choapa</h3>
+    <li><a id="titulo">Municipalidades Provincia de Choapa</a></li>
 
 <ul>
 
-     <?php foreach($illapel as $se):?>
-    <li style="cursor:pointer" >
-
-       <a onclick="comuna('<?php echo $se['id_com']?>')" href="#">  <?php echo $se['comuna']?></a>
-       </li>
+    <?php foreach($illapel as $se):?>
+    <li style="cursor:pointer" ><a onclick="comuna('<?php echo $se['id_com']?>')" href="#">  <?php echo $se['comuna']?></a></li>
     <?php endforeach;?>
 
-     <?php foreach($vilos as $se):?>
-    <li style="cursor:pointer" >
-
-       <a onclick="comuna('<?php echo $se['id_com']?>')" href="#">  <?php echo $se['comuna']?></a>
-       </li>
+    <?php foreach($vilos as $se):?>
+    <li style="cursor:pointer" ><a onclick="comuna('<?php echo $se['id_com']?>')" href="#">  <?php echo $se['comuna']?></a></li>
     <?php endforeach;?>
 
-     <?php foreach($salamanca as $se):?>
-    <li style="cursor:pointer">
-        <a onclick="comuna('<?php echo $se['id_com']?>')" href="#">   <?php echo $se['comuna']?></a>
-        </li>
+    <?php foreach($salamanca as $se):?>
+    <li style="cursor:pointer"><a onclick="comuna('<?php echo $se['id_com']?>')" href="#">   <?php echo $se['comuna']?></a></li>
     <?php endforeach;?>
 
-     <?php foreach($canela as $se):?>
-    <li style="cursor:pointer">
-
-       <a onclick="comuna('<?php echo $se['id_com']?>')" href="#">  <?php echo $se['comuna']?> </a>
-
-       </li>
+    <?php foreach($canela as $se):?>
+    <li style="cursor:pointer"><a onclick="comuna('<?php echo $se['id_com']?>')" href="#">  <?php echo $se['comuna']?> </a></li>
     <?php endforeach;?>
-
 
   </ul>
 
-<h3>Caracteristicas de la Region</h3>
+<li><a id="titulo">Caracteristicas de la Region</a></li>
+
 <ul>
 
   <li ><a href="<?php echo BASE_URI?>municipalidades/2">Ubicaci&oacute;n</a></li>
@@ -804,7 +738,7 @@
   <li ><a href="<?php echo BASE_URI?>municipalidades/6">Demograf&iacute;a</a></li>
 </ul>
 
-<h3>Mapas Regionales</h3>
+<li><a id="titulo">Mapas Regionales</a></li>
 <ul>
   <li ><a href="<?php echo BASE_URI?>municipalidades/7">Mapa Regional</a></li>
   <li ><a href="<?php echo BASE_URI?>municipalidades/8">Mapas Comunales</a></li>

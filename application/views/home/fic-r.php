@@ -1,4 +1,4 @@
-<div id="noticias">
+<div class="contenido-izquierda">
 
   <div class="categoria"> <a href="<?php echo BASE_URI?>">P&Aacute;gina Principal &gt;</a> Concurso FIC-R 2012 </div>
           <h1>Especiales - FIC-R 2012</h1>
@@ -60,11 +60,11 @@ Para la presentación de proyectos al concurso FIC-R 2012 se debe cumplir con lo
 <h3>1. Calendario del Concurso</h3>
 
 <ul>
-<li>- Publicación de Bases: 16 de Mayo de 2012</li>
-<li>- Periodo de Consultas: Hasta el 28 de mayo de 2012 en consultasfic2012@gorecoquimbo.cl</li>
-<li>- Respuestas a consultas: 25 y 31 de mayo de 2012 (publicadas en www.gorecoquimbo.gob.cl)</li>
-<li>- Cierre de postulaciones: 14 de junio de 2012</li>
-<li>- Resultados del concurso: serán publicados en www.gorecoquimbo.gob.cl durante el mes de julio de 2012
+<li>Publicación de Bases: 16 de Mayo de 2012</li>
+<li>Periodo de Consultas: Hasta el 28 de mayo de 2012 en consultasfic2012@gorecoquimbo.cl</li>
+<li>Respuestas a consultas: 25 y 31 de mayo de 2012 (publicadas en www.gorecoquimbo.gob.cl)</li>
+<li>Cierre de postulaciones: 14 de junio de 2012</li>
+<li>Resultados del concurso: serán publicados en www.gorecoquimbo.gob.cl durante el mes de julio de 2012
 </li>
 </ul>
 
@@ -108,13 +108,13 @@ Esperamos que el FIC, se transforme en un instrumento detonador de cambios y tra
 
 <ul>
 
-<li>- Investigación aplicada.</li>
-<li>- Innovación en las empresas.</li>
-<li>- Difusión y transferencia tecnológica.</li>
-<li>- Aceleración del emprendimiento innovador.</li>
-<li>- Formación y atracción de recursos humanos especializados.</li>
-<li>- Fortalecimiento de redes para la innovación y equipamiento de apoyo a la competitividad.</li>
-<li>- Fomento de la cultura de innovación el emprendimiento innovador.</li>
+<li>Investigación aplicada.</li>
+<li>Innovación en las empresas.</li>
+<li>Difusión y transferencia tecnológica.</li>
+<li>Aceleración del emprendimiento innovador.</li>
+<li>Formación y atracción de recursos humanos especializados.</li>
+<li>Fortalecimiento de redes para la innovación y equipamiento de apoyo a la competitividad.</li>
+<li>Fomento de la cultura de innovación el emprendimiento innovador.</li>
 
 </ul>
 
@@ -142,16 +142,10 @@ La Región de Coquimbo es una de las 7 regiones del país que fueron seleccionad
 <h3>Con el proyecto RED también se busca:</h3>
 
 
-<ul>
-
-	<li>1. Profesionalizar la gestión de las decisiones e inversiones en políticas de innovación regional, con el apoyo de expertos europeos.</li>
-	<li>2. Establecer y diseñar las Estrategias Regionales de Innovación para las siete regiones participantes.
-	</li>
-	<li>3. Construir una red entre regiones europeo-chilenas que dinamice la información, las decisiones y las oportunidades de innovación regional.</li>
-
-</ul>
-
-
-
+<ol>
+  <li>Profesionalizar la gestión de las decisiones e inversiones en políticas de innovación regional, con el apoyo de expertos europeos.</li>
+  <li>Establecer y diseñar las Estrategias Regionales de Innovación para las siete regiones participantes. </li>
+  <li>Construir una red entre regiones europeo-chilenas que dinamice la información, las decisiones y las oportunidades de innovación regional.</li>
+</ol>
 </div>
 

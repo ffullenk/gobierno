@@ -51,7 +51,7 @@ $(document).ready(function(){
 
 </script>
 
-<div id="noticias">
+<div class="contenido-izquierda">
 
       
   <div class="categoria"> 

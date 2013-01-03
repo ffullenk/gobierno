@@ -1,0 +1,132 @@
+BODY
+    {
+     font-family : verdana,arial,helvetica;
+     font-size : 9pt;
+     background-color : #eeeeee;
+     margin: -10px 0px 0px -10px;
+     color: #333333
+
+    }
+
+TD
+    {
+     font-family : verdana,arial,helvetica;
+     font-size : 8pt
+    }
+
+INPUT
+    {
+     font-family : verdana,arial,helvetica;
+     font-size : 8pt
+    }
+
+TEXTAREA
+    {
+     font-family : verdana,arial,helvetica;
+     font-size : 8pt;
+     color: #000000;
+     background-color: #666666
+    }
+
+SELECT
+    {
+     font-family : verdana,arial,helvetica;
+     font-size : 8pt
+     }
+
+.altn
+     {
+      font-family : verdana,arial,helvetica;
+      font-size : 8pt;
+      color: #ffffff;
+      background-color: #666666
+     }
+
+.tit
+     {
+      font-family : verdana,arial,helvetica;
+      font-size : 9pt;
+      color: #ffffff;
+      background-color: #C0C0C0;
+      font-weight: bold
+     }
+
+.fs
+    {
+     font-family : verdana,arial,helvetica;
+     background-color:	#cdcdcd;
+     color:#FFFFFF;
+     font-weight: bold;
+     text-align:center
+    }
+
+.da
+    {
+     font-family : verdana,arial,helvetica;
+     background-color: #dcdcdc;
+     color:	#FFFFFF;
+     font-weight: bold;
+     text-align: center
+    }
+
+.pie
+    {
+     font-family : verdana,arial,helvetica;
+     font-size: 8 pt;
+     background-color: #ffffff;
+     color:     #666666;
+     font-weight: normal;
+     text-align: center
+    }
+
+
+.menuppal {
+        font-family: "verdana,tahoma,arial,helvetica";
+        font-size: 8pt;
+        font-weight: normal;
+        background-color: #ffffff;
+        color: #666666;
+        cursor: hand;
+        line-height: 10pt
+}
+
+.menuppal A:link {
+        color: #eeeeee
+}
+.menuppal A:visited {
+        color: #cccccc
+}
+
+.menuppal A:hover {
+        color: #cccccc;
+        background-color: #ffffff
+}
+
+
+#topnav TD {
+	PADDING-RIGHT: 8px;
+	PADDING-LEFT: 8px;
+	font-size: 12px;
+	PADDING-BOTTOM: 2px;
+	border-top-style: none;
+	padding-top: 2 px;
+	border-right-style: none;
+	white-space: nowrap;
+	border-left-style: none;
+	background-color: #e2e9eb;
+	text-align: center;
+	border-bottom-style: none
+}
+
+
+#topnav TD.a {
+	background-color: #1d93b6
+}
+
+#topnav TD.sep {
+	padding-right: 0px; 
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px
+}
+

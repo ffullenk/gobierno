@@ -1,4 +1,4 @@
-<div id="noticias">
+<div class="contenido-izquierda">
   <div class="categoria"> <a href="<?php echo BASE_URI?>">P&Aacute;gina Principal &gt;</a> Renueva Tu Micro 2012 </div>
           <h1> Renueva Tu Micro 2012</h1>
        <hr />

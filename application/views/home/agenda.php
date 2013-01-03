@@ -1,5 +1,4 @@
-<div id="noticias">
-
+<div class="contenido-izquierda">
 <div class="categoria"><a href="http://www.gorecoquimbo.gob.cl/principal.php">P&aacute;gina Principal</a>&nbsp;&gt; Agendas</div>
 <h1> agenda </h1>
 <hr />

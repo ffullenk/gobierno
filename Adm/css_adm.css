@@ -1,0 +1,89 @@
+.boton {
+        font-family: Verdana, Tahoma, Arial, Helvetica;
+        font-size: 8pt;
+        font-weight: bold;
+        background-color: #c6d2c7;
+        color: #000000;
+}
+.normal {
+        font-family: Verdana, Tahoma, Arial, Helvetica;
+        font-size: 9pt;
+        font-weight: normal;
+        background-color: #FFFFFF;
+        color: #999999;
+}
+.tit_login {
+        font-family: Verdana, Tahoma, Arial, Helvetica;
+        font-size: 10pt;
+        font-weight: bold;
+        background-color: #00CCFF;
+        color: #000000;
+}
+
+BODY
+    {
+     font-family : verdana,arial,helvetica;
+     font-size : 9pt;
+     background-color : #eeeeee;
+    }
+
+TD
+    {
+     font-family : verdana,arial,helvetica;
+     font-size : 8pt;
+    }
+
+INPUT
+    {
+     font-family : verdana,arial,helvetica;
+     font-size : 8pt;
+    }
+
+TEXTAREA
+    {
+     font-family : verdana,arial,helvetica;
+     font-size : 8pt;
+     color: #000000;
+    }
+
+SELECT
+    {
+     font-family : verdana,arial,helvetica;
+     font-size : 8pt;
+     }
+
+.altn
+     {
+      font-family : verdana,arial,helvetica;
+      font-size : 8pt;
+      color: #ffffff;
+      background-color: #666666;
+     }
+
+.tit
+     {
+      font-family : verdana,arial,helvetica;
+      font-size : 9pt;
+      color: #ffffff;
+      background-color: #C0C0C0;
+      font-weight: bold;
+     }
+
+.fs
+    {
+     font-family : verdana,arial,helvetica;
+     background-color:  #cdcdcd;
+     color:#FFFFFF;
+     font-weight: bold;
+     text-align:center;
+    }
+
+.da
+    {
+     font-family : verdana,arial,helvetica;
+     background-color: #dcdcdc;
+     color:     #FFFFFF;
+     font-weight: bold;
+     text-align: center;
+    }
+

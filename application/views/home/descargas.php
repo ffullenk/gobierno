@@ -1,4 +1,4 @@
-<div id="noticias">
+<div class="contenido-izquierda">
 
   <div class="categoria"> <a href="<?php echo BASE_URI?>">P&Aacute;gina Principal</a>&nbsp;&gt; Descargas de Archivos </div>
           <h1> DESCARGAS DE ARCHIVOS</h1>

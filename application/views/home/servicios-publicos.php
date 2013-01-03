@@ -1,4 +1,4 @@
-<div id="noticias">
+
   <div class="categoria"> <a href="<?php echo BASE_URI?>">P&Aacute;gina Principal</a>&nbsp;&gt;&nbsp;<a href="<?php echo BASE_URI?>servicios-publicos">Servicios P&Uacute;blicos Regionales</a>&nbsp;&gt; Directorio Servicios P&Uacute;blicos Regionales </div>
           <h1>SERVICIOS P&Uacute;BLICOS </h1>
           <hr />
@@ -93,5 +93,4 @@
               </tr>
             </tbody>
           </table></p>
-</div>
 

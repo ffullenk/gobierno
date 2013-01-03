@@ -14,35 +14,27 @@ div.jMyCarousel .next{
 	border:0px;
 }
 
-div.jMyCarousel .up{
-	background: url('../images/up.png') center center no-repeat;
-	width:61px;
-	height:40px;
-	border:0px;
-}
-
-div.jMyCarousel .down{
-	background: url('../images/down.png') center center no-repeat;
-	width:47px;
-	height:61px;
-	border:0px;
-}
 
 
 /** Carousel 2 **/
 div.jMyCarousel{
-	margin:auto;
+	width: 650px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
 }
 
 div.jMyCarousel ul{
-	background-color:#000;	
+	width: 650px;
 }
 
 div.jMyCarousel ul li{
-	margin:5px;
-	border:1px solid #444;
 	line-height:0px;
 	padding:3px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
 }
 
 div.jMyCarousel ul li a{ /* in case of link */
@@ -53,7 +45,13 @@ div.jMyCarousel ul li a{ /* in case of link */
 
 div.jMyCarousel ul li a img{
 	display:block;
-	border:0px;
+	border:thin solid #CCCCCC;
 	margin-bottom:0px;
-	padding-bottom:0px;
+	padding-bottom:5px;
+	background-color: #FFFFFF;
+	height: 75px;
+	width: 122px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
 }
