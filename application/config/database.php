@@ -53,9 +53,9 @@ $active_group = 'banco';
 $active_record = TRUE;
 
 $db['banco']['hostname'] = 'localhost';
-$db['banco']['username'] = 'guinsqla_ricardo';
-$db['banco']['password'] = 'lionheart12345';
-$db['banco']['database'] = 'guinsqla_gore_banco';
+$db['banco']['username'] = '';
+$db['banco']['password'] = '';
+$db['banco']['database'] = '';
 $db['banco']['dbdriver'] = 'mysql';
 $db['banco']['dbprefix'] = '';
 $db['banco']['pconnect'] = TRUE;
