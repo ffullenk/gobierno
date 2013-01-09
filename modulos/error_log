@@ -1,0 +1,7 @@
+[13-Dec-2012 14:35:01 America/New_York] PHP Fatal error:  Call to undefined function conecta_banco() in /home/guinsqla/public_html/asisbo/gob/modulos/control.php on line 10
+[13-Dec-2012 14:35:05 America/New_York] PHP Fatal error:  Call to undefined function conecta_banco() in /home/guinsqla/public_html/asisbo/gob/modulos/control.php on line 10
+[13-Dec-2012 14:51:57 America/New_York] PHP Parse error:  syntax error, unexpected T_STRING in /home/guinsqla/public_html/asisbo/gob/funciones/conexion_bd.php on line 11
+[13-Dec-2012 14:52:02 America/New_York] PHP Parse error:  syntax error, unexpected T_STRING in /home/guinsqla/public_html/asisbo/gob/funciones/conexion_bd.php on line 11
+[13-Dec-2012 14:52:04 America/New_York] PHP Parse error:  syntax error, unexpected T_STRING in /home/guinsqla/public_html/asisbo/gob/funciones/conexion_bd.php on line 11
+[13-Dec-2012 14:54:19 America/New_York] PHP Parse error:  syntax error, unexpected T_STRING in /home/guinsqla/public_html/asisbo/gob/funciones/conexion_bd.php on line 11
+[13-Dec-2012 14:55:06 America/New_York] PHP Parse error:  syntax error, unexpected T_STRING in /home/guinsqla/public_html/asisbo/gob/funciones/conexion_bd.php on line 11

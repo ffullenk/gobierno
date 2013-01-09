@@ -6,8 +6,6 @@
      	<hr />
 		<br/>
 
-<div class="contenido-izquierda">
-
 <p>El Consejo Regional de Coquimbo es un &oacute;rgano colegiado, cuya institucionalidad nace en la Constituci&oacute;n Pol&iacute;tica de 1.980, y se especifica en la Ley N&ordm; 1.975, Ley Org&aacute;nica Constitucional sobre Gobierno y Administraci&oacute;n Regional. Su finalidad es hacer efectiva la participaci&oacute;n de la comunidad regional, otorg&aacute;ndole la ley, para la toma de sus decisiones, facultades normativas, resolutivas y fiscalizadoras.</p>
 <p>El Consejo Regional de Coquimbo est&aacute; integrado adem&aacute;s del Intendente, qui&eacute;n lo preside; por consejeros, que son elegidos por los concejales municipales de la regi&oacute;n, constituidos para estos efectos en colegio electoral por cada una de las provincias respectivas, de acuerdo con la siguiente distribuci&oacute;n:</p>
 
@@ -20,13 +18,16 @@
 <p>Para ser elegido Consejero Regional, se requiere ser ciudadano con derecho a sufragio, mayor de edad, tener rendida la ense&ntilde;anza media, y tener residencia en la regi&oacute;n durante un plazo no inferior a dos a&ntilde;os. Los Consejeros Regionales duran es sus cargos un per&iacute;odo de cuatro a&ntilde;os, y pueden ser reelegidos indefinidamente.</p>
 </div> 
 
+
+<div class="contenido-izquierda">
+
 <?php elseif($id == 2):?>
 <div class="categoria"> <a href="<?php echo BASE_URI?>">P&Aacute;gina Principal</a>&nbsp;&gt;&nbsp;<a href="<?php echo BASE_URI?>consejo-regional/2">Ubicacion</a></div>
     <h1>Ubicacion</h1>
     <hr />
 	<br/>
 
-<div class="contenido-izquierda">
+
 
 	<table width="100%" border="0" align="center" cellpadding="10" cellspacing="10">
       <tr>
@@ -52,12 +53,3 @@ Fax : 56-51-225796</td>
       <li><a href="http://www.corecoquimbo.cl/"> Página Web Consejo Regional</a></li>
     </ul>
 </div>
-
-
-
-
-
-
-
-  
-

@@ -1,4 +1,4 @@
-<div id="noticias">
+<div class="contenido-izquierda">
 
   <div class="categoria"> <a href="<?php echo BASE_URI?>">P&Aacute;gina Principal &gt;</a>  CONCURSO FIC-R 2012</div>
           <h1> ESPECIALES - FIC-R 2012</h1>
@@ -14,8 +14,7 @@
 
 
 
-<h4>Descarga de Bases FIC-R 2012</h4>
-
+<h3>DESCARGR DE BASES FIC-R 2012</h3>
 <div id="descarga-pdf">
 	<a href="<?php echo base_url(); ?>descargas/fic/bases_fic_2012.pdf" target="_blank" title="Descargar documento PDF [594 KB]">Bases de Postulaci&oacute;n</a>
 </div>
@@ -39,13 +38,13 @@
 
 <p>Teniendo en consideraci&oacute;n la Ley Nº 19.175, Org&aacute;nica Constitucional sobre Gobierno y Administraci&oacute;n  Regional y sus modificaciones y la Ley 20.557 de Presupuesto del Sector P&uacute;blico a&ntilde;o 2012, se inicia la convocatoria para la presentaci&oacute;n de proyectos al Fondo de Innovaci&oacute;n para la Competitividad FIC-R 2012. </p>
 <h3>POSTULACI&Oacute;N  ON-LINE &nbsp;&nbsp;FIC-R 2012</h3>
-<p>Con la finalidad de  digitalizar el proceso de postulaci&oacute;n para el concurso de Universidades y  Centros de I+D a la Provisi&oacute;n del Fondo de Innovaci&oacute;n para la Competitividad, y  en el constante af&aacute;n del Gobierno Regional de Coquimbo de mejorar sus procesos,  este a&ntilde;o 2012 se inicia una <strong><em><u>MARCHA BLANCA</u></em></strong> del sistema  on-line de postulaci&oacute;n.<br>
-  Para ingresar al sistema, por  favor haga clic en el siguiente link donde encontrar&aacute; todo lo necesario para  realizar su postulaci&oacute;n: <b>
-  <a href="http://www.gorecoquimbo.gob.cl/fic_post/">Sistema de Postulaci&oacute;n On-Line</a></b></p>
+<p>Con la finalidad de  digitalizar el proceso de postulaci&oacute;n para el concurso de Universidades y  Centros de I+D a la Provisi&oacute;n del Fondo de Innovaci&oacute;n para la Competitividad, y  en el constante af&aacute;n del Gobierno Regional de Coquimbo de mejorar sus procesos,  este a&ntilde;o 2012 se inicia una <strong>MARCHA BLANCA</strong> del sistema  on-line de postulaci&oacute;n.<br>
+  Para ingresar al sistema, por  favor haga clic en el siguiente link donde encontrar&aacute; todo lo necesario para  realizar su postulaci&oacute;n: 
+  <a href="http://www.gorecoquimbo.gob.cl/fic_post/">Sistema de Postulaci&oacute;n On-Line</a></p>
 <p>En caso de consultas escriba a:
  <a href="mailto:curquieta@gorecoquimbo.cl">curquieta@gorecoquimbo.cl</a> </p>
 <p>!!! IMPORTANTE !!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
-<p>Para la presentaci&oacute;n de  proyectos al concurso FIC-R 2012 <strong>se debe  cumplir con lo establecido en el punto <u>8. Plazos y presentaci&oacute;n de los  proyectos</u></strong> de las bases del concurso, siendo el sistema de Postulaci&oacute;n  On-Line una&nbsp; <strong><em><u>MARCHA BLANCA</u></em></strong> para  ser implementada de forma definitiva&nbsp; el  a&ntilde;o 2013.</p>
+<p>Para la presentaci&oacute;n de  proyectos al concurso FIC-R 2012 <strong>se debe  cumplir con lo establecido en el punto <u>8. Plazos y presentaci&oacute;n de los  proyectos</u></strong> de las bases del concurso, siendo el sistema de Postulaci&oacute;n  On-Line una&nbsp; <strong>MARCHA BLANCA</strong> para  ser implementada de forma definitiva&nbsp; el  a&ntilde;o 2013.</p>
 <p>&nbsp;</p>
 <h4>1. Calendario del Concurso</h4>
 <p> - Publicaci&oacute;n de Bases: 16 de Mayo de 2012</p>
@@ -83,9 +82,10 @@
 <p> El objetivo central de este proyecto es que se llegue a profundizar la descentralizaci&oacute;n del actual sistema de innovaci&oacute;n, optimizando las decisiones de inversi&oacute;n p&uacute;blica e incorporando a las regiones chilenas a un desarrollo m&aacute;s equitativo y a redes europeas de innovaci&oacute;n por medio de la asesor&iacute;a de expertos en la metodolog&iacute;a europea RIS o Estrategias Regionales de Innovaci&oacute;n.</p>
 <p> La Regi&oacute;n de Coquimbo es  una de las 7 regiones del pa&iacute;s que fueron seleccionadas para participar de esta iniciativa, la cual se encuentra en pleno desarrollo: con los  equipos que comandan este proyecto (Directorio Regional de Innovaci&oacute;n y Equipo de Gesti&oacute;n) conformados y con una metodolog&iacute;a de trabajo definida, a trav&eacute;s de la cual se espera obtener como resultado la Estrategia Regional de Innovaci&oacute;n.</p>
 <p> Con el proyecto RED también se busca:</p>
-<p> 1. Profesionalizar la gesti&oacute;n de las decisiones e inversiones en pol&iacute;ticas de innovaci&oacute;n regional, con el apoyo de expertos europeos.</p>
-<p> 2. Establecer y dise&ntilde;ar las Estrategias Regionales de Innovaci&oacute;n para las siete regiones participantes.</p>
-<p> 3. Construir una red entre regiones europeo-chilenas que dinamice la informaci&oacute;n, las decisiones y las oportunidades de innovaci&oacute;n regional.</p>
-
+<ol>
+  <li> Profesionalizar la gesti&oacute;n de las decisiones e inversiones en pol&iacute;ticas de innovaci&oacute;n regional, con el apoyo de expertos europeos.</li>
+  <li>Establecer y dise&ntilde;ar las Estrategias Regionales de Innovaci&oacute;n para las siete regiones participantes.</li>
+  <li>Construir una red entre regiones europeo-chilenas que dinamice la informaci&oacute;n, las decisiones y las oportunidades de innovaci&oacute;n regional.</li>
+</ol>
 </div>
 

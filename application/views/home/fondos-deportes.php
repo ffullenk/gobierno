@@ -1,11 +1,8 @@
-
-<div id="noticias">
+<div class="contenido-izquierda">
   <div class="categoria"> <a href="<?php echo BASE_URI?>">P&Aacute;gina Principal &gt;</a> <a href="<?php echo BASE_URI?>fondos-concursables">Fondos Concursables</a>&nbsp;- Fondo de Deportes </div>
           <h1> CONCURSO FONDO REGIONAL DE INICIATIVAS DEPORTIVAS</h1>
           <hr />
 <br />
- <p><a href="<?php echo BASE_URI?>fondos-concursables">&lt;&lt; Volver</a></p>
-
 <p>
 El Fondo Regional de Iniciativas Deportivas tiene como objetivo masificar las actividades f&iacute;sicas y deportivas, posicionar los valores y beneficios de la pr&aacute;ctica de la actividad f&iacute;sica, fortalecer el nivel formativo de nuestros ni&ntilde;os y j&oacute;venes, mejorar el nivel competitivo de quienes practican actividad f&iacute;sica, satisfacer la creciente demanda de los adultos mayores por la actividad f&iacute;sica e incorporar a la mujer en la pr&aacute;ctica permanente y efectiva de la actividad f&iacute;sica.
 </p>
@@ -13,20 +10,20 @@ El Fondo Regional de Iniciativas Deportivas tiene como objetivo masificar las ac
 <p>Los resultados a continuaci&oacute;n publicados corresponden a aquellas iniciativas declaradas inadmisibles o t&eacute;cnicamente no elegibles durante el proceso 2012. Los proyectos que no se encuentren en la lista, significa que est&aacute;n declarados t&eacute;cnicamente elegibles, por tanto se encuentran para el análisis y selecci&oacute;n del Consejo Regional de Coquimbo (CORE)
 </p>
 
-<h3>Descargue aqu&iacute; calendario de capacitaciones: </h3>
+<h3>Calendario de capacitaciones </h3>
 
 <div id="descarga-pdf">
 	<a href="<?php echo base_url(); ?>descargas/cultura/talleres_dep_cult2012.pdf" target="_blank" title="Descargar documento PDF [102 KB]">&nbsp;Calendario de Capacitaciones Julio - Agosto 2012</a>
 </div>
 
 
-<h3>Descargue aqu&iacute; el listado de proyectos</h3> 
+<h3>Listado de proyectos</h3> 
 
 <div id="descarga-pdf">
 	<a href="<?php echo base_url(); ?>descargas/deportes/listado_de_proyectos_seleccionados_fondo_de_deporte_2012.pdf" target="_blank" title="Descargar documento PDF [3128 KB]">&nbsp;Resultado de Proyectos Fondo de Deporte 2012</a>
 </div>
 
-<h3>Descargue aqu&iacute; documentos de presentaci&oacute</h3>
+<h3>Documentos de presentación</h3>
 
 
 <div id="descarga-doc">
@@ -37,7 +34,7 @@ El Fondo Regional de Iniciativas Deportivas tiene como objetivo masificar las ac
 	<a href="<?php echo base_url(); ?>descargas/deportes/deportes_anexo2.doc" target="_blank" title="Descargar documento DOC [53 KB]"> &nbsp;Responsable Iniciativa</a>
 </div>
 
-<h3>Descargue aqu&iacute; proyectos inadmisibles y no elegibles:</h3>
+<h3>Proyectos inadmisibles y no elegibles</h3>
 
 
 <div id="descarga-pdf">
@@ -48,7 +45,7 @@ El Fondo Regional de Iniciativas Deportivas tiene como objetivo masificar las ac
 	<a href="<?php echo base_url(); ?>descargas/deportes/Proyectos_no_Elegibles_de_Deporte_2012.pdf" target="_blank" title="Descargar documento PDF [69 KB]">&nbsp;Proyectos no Elegibles 2012</a>
 </div>
 
-<h3>Descargue aqu&iacute; documentos de postulaci&oacute;</h3>
+<h3>Documentos de postulaci&oacute;n</h3>
 
 
 <div id="descarga-pdf">
@@ -63,7 +60,7 @@ El Fondo Regional de Iniciativas Deportivas tiene como objetivo masificar las ac
 	<a href="<?php echo base_url(); ?>descargas/cultura/crono_talleres_2012.pdf" target="_blank" title="Descargar documento PDF [96 KB]">&nbsp;Cronograma de Talleres de Capacitaci&oacute;n</a>
 </div>
 
-<h3>Descargue aqu&iacute; reglamentos del proceso:</h3>
+<h3>Reglamentos del proceso</h3>
 
 <div id="descarga-pdf">
 	<a href="<?php echo base_url(); ?>transparencia/marconormativo/res.008.12.pdf" target="_blank" title="Descargar documento PDF [539 KB]">&nbsp;Reglamento Fondo de Deportes - Proceso 2012</a>
@@ -81,7 +78,7 @@ El Fondo Regional de Iniciativas Deportivas tiene como objetivo masificar las ac
 <div id="descarga-excel">
 	<a href="<?php echo base_url(); ?>descargas/cultura/anexo_rendicion.xls" target="_blank" title="Descargar documento XLS [56 KB]"> &nbsp;Anexo Detalle de Rendici&oacute;n de Cuentas</a>
 </div>
-
-
+ <br />
+ <p><a href="<?php echo BASE_URI?>fondos-concursables">&lt;&lt; Volver</a></p>
 		  
 		  </div>

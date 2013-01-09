@@ -6,12 +6,12 @@
           <hr />
    <br/>
 
-          <h2 align="justify">FUNCIONES Y ATRIBUCIONES</h2>
-          <p align="justify">El Gobernador(a) ejerce las funciones destinadas a mantener el orden p&uacute;blico en la provincia, preservar la seguridad de sus habitantes y bienes, la prevenci&oacute;n y enfrentamiento de situaciones de emergencia y cat&aacute;strofe y la aplicaci&oacute;n de las disposiciones legales sobre extranjer&iacute;a.</p>
-          <p align="justify">El Gobernador(a), ejerce adem&aacute;s todas aquellas funciones que le delegue expresamente el Intendente. En materia de administraci&oacute;n de la provincia, propone al Intendente proyectos espec&iacute;ficos de desarrollo, supervisa los programas y proyectos de desarrollo que efect&uacute;en los servicios creados por ley, dispone las medidas de coordinaci&oacute;n necesarias para el desarrollo provincial, que promueve la participaci&oacute;n del sector privado en las actividades de desarrollo.</p>
-          <p align="justify">El Gobernador(a) deber&aacute; ejercer sus funciones con arreglo a la Constituci&oacute;n Pol&iacute;tica de la Rep&uacute;blica, a las leyes, a los reglamentos supremos y a los reglamentos regionales.</p>
-          <p align="justify">Entre sus funciones podemos mencionar las siguientes:</p>
-          <div align="justify">
+          <h2 >FUNCIONES Y ATRIBUCIONES</h2>
+          <p >El Gobernador(a) ejerce las funciones destinadas a mantener el orden p&uacute;blico en la provincia, preservar la seguridad de sus habitantes y bienes, la prevenci&oacute;n y enfrentamiento de situaciones de emergencia y cat&aacute;strofe y la aplicaci&oacute;n de las disposiciones legales sobre extranjer&iacute;a.</p>
+          <p >El Gobernador(a), ejerce adem&aacute;s todas aquellas funciones que le delegue expresamente el Intendente. En materia de administraci&oacute;n de la provincia, propone al Intendente proyectos espec&iacute;ficos de desarrollo, supervisa los programas y proyectos de desarrollo que efect&uacute;en los servicios creados por ley, dispone las medidas de coordinaci&oacute;n necesarias para el desarrollo provincial, que promueve la participaci&oacute;n del sector privado en las actividades de desarrollo.</p>
+          <p >El Gobernador(a) deber&aacute; ejercer sus funciones con arreglo a la Constituci&oacute;n Pol&iacute;tica de la Rep&uacute;blica, a las leyes, a los reglamentos supremos y a los reglamentos regionales.</p>
+          <p >Entre sus funciones podemos mencionar las siguientes:</p>
+          <div >
             <ul>
               <li>Supervigilancia de los servicios p&uacute;blicos creados por ley para el cumplimientos de la funci&oacute;n administrativa, existentes en la Provincia.</li>
               <li>El Gobernador(a) tendr&aacute; a su cargo la administraci&oacute;n superior de la respectiva Provincia, en la esfera de atribuciones que corresponden al Intendente en su calidad de &oacute;rgano ejecutivo del Gobierno Regional y presidir&aacute; el consejo Econ&oacute;mico y Social Provincial.</li>
@@ -48,29 +48,29 @@
 
                   <img src="<?php echo base_url(); ?>goberna/fotos/<?php echo $g['foto'];?>" width="80" height="80"/></div>        </td>
                 <td>
-        <h4><?php echo $g['jefe']?> </h4>
+        <h2><?php echo $g['jefe']?> </h2>
         <div id="tipo-acuerdo">Direcci&oacute;n : <strong><?php echo $g['ub_dir']?> </strong></div>
         <div id="fecha-acuerdo"> Ciudad :<strong><?php echo $g['ub_ciu']?></strong></div>
         <div id="descripcion-acuerdo"> Tel&eacute;fono :<strong><?php echo $g['ub_fono']?></strong></div>
         <div id="descripcion-acuerdo"> Fax :<strong><?php echo $g['ub_fax']?></strong></div>
-        <div id="descripcion-acuerdo"> Enail :<strong><?php echo $g['ub_ema']?></strong></div>
+        <div id="descripcion-acuerdo"> Email :<strong><?php echo $g['ub_ema']?></strong></div>
         <div id="descripcion-acuerdo"> Sitio web <a href="<?php echo $g['ub_link']?>#">:<strong><?php echo $g['ub_link']?></strong></a></div>
          <div id="descripcion-acuerdo">
           <?php
              if(!empty($g['biografia'])) {
-              echo "<br><h3>Biograf&iacute;a</h3>";
+              echo "<h3>Biograf&iacute;a</h3>";
             $biografia = str_replace("\n","<br>",$g['biografia']); 
             echo "<p>".$biografia."</p>";
           }
 
                   if(!empty($g['objetivos'])) { 
-              echo "<br><h3>Objetivos</h3>";
+              echo "<h3>Objetivos</h3>";
                       $objetivos = str_replace("\n","<br>",$g['objetivos']); 
             echo "<p>".$objetivos."</p>";
                   }
           
                   if(!empty($g['hitos'])) {
-                      echo "<br><h3>Hitos</h3>";
+                      echo "<h3>Hitos</h3>";
                       $hitos = str_replace("\n","<br>",$g['hitos']); 
             echo "<p>".$hitos."</p>";
                   }

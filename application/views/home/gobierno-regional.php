@@ -4,10 +4,10 @@
 
 <?php if($id == 1):?>
 <div class="categoria"><a href="<?php echo BASE_URI?>">P&aacute;gina Principal</a> &gt; <a href="#<?php echo BASE_URI?>gobernadores/2">Gobierno Regional</a> &gt; Rese&ntilde;a</div>
-<h1>GOBIERNO REGIONAL </h1>
+<h1>GOBIERNO REGIONAL - Reseña </h1>
 <hr />
-<br/>
-El Gobierno Regional es un servicio aut&oacute;nomo que tiene a su cargo la administraci&oacute;n de la regi&oacute;n, mediante la formulaci&oacute;n de pol&iacute;ticas de desarrollo que tomen en cuenta tanto los lineamientos nacionales como aquellos formulados desde cada uno de los municipios, que en el caso de la regi&oacute;n de Coquimbo son quince.
+<p><br/>
+  El Gobierno Regional es un servicio aut&oacute;nomo que tiene a su cargo la administraci&oacute;n de la regi&oacute;n, mediante la formulaci&oacute;n de pol&iacute;ticas de desarrollo que tomen en cuenta tanto los lineamientos nacionales como aquellos formulados desde cada uno de los municipios, que en el caso de la regi&oacute;n de Coquimbo son quince. </p>
 <p>Est&aacute; compuesto por el Intendente Regional en su calidad de &Oacute;rgano Ejecutivo y por el Consejo Regional, que est&aacute; formado por representantes de las tres provincias de la regi&oacute;n y que son electos por los concejales de cada una de las comunas. El Consejo Regional o CORE, define y sanciona las estrategias regionales de desarrollo y sus modificaciones, las iniciativas de inversi&oacute;n en la regi&oacute;n, a trav&eacute;s de la asignaci&oacute;n de recursos provenientes del Fondo Nacional de Desarrollo Regional.</p>
 <h3>COMPOSICI&Oacute;N DEL GOBIERNO REGIONAL</h3>
 <p> El Gobierno Regional est&aacute; constituido por: </p>

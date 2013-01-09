@@ -2,12 +2,11 @@
   <div class="categoria"> <a href="<?php echo BASE_URI?>">P&Aacute;gina Principal &gt;</a> Informe Presupuesto</div>
           <h1> TRANSPARENCIA ACTIVA </h1>
           <hr />
-<br />
+			<br />
   
-     
         <div id="busqueda-noticias"><a href="http://www.corecoquimbo.cl/krsesiones/index.php" target="_blank">Ver Acuerdos del Consejo Regional de Coquimbo</a></div>
-
        	<div id="busqueda-noticias"><a href="<?php echo BASE_URI?>cuenta/c09.php" target="_blank">Ver Cuenta P&uacute;blica</a></div>
+		<br />
 
    		<div id="descarga-pdf"><a href="<?php echo base_url(); ?>descargas/activa/balanceprog0109.pdf" target="_blank">Balance Ejecuci&oacute;n Presupuestaria Programa 01 Funcionamiento, a&ntilde;o 2009</a></div>
 

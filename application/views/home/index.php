@@ -36,7 +36,8 @@
 <?php foreach($noticias as $n): ?>
 		<div id="video">
 			<?php foreach($imagenes_noticias[$n['id']] as $gn):?>
-				<img src="<?php echo base_url(); ?>imagenes/breves/brv_<?php echo $n['id'];?>/<?php echo $gn['nombre_archivo'];?>"  alt="<?php echo $gn['nombre_archivo'];?>" width="230" height="153" >
+				<img src="<?php echo base_url(); ?>imagenes/breves/brv_<?php echo $n['id'];?>/<?php echo $gn['nombre_archivo'];?>"  alt="<?php echo $gn['nombre_archivo'];?>" width="330" height="253" >
+				
 			<?php endforeach;?>
 
 		</div>
@@ -64,7 +65,8 @@
 		<div class="noticias-secundarias">
 			<div class="foto-noticia">
 				<?php foreach($imagenes_fuentes[$f['id']] as $gf):?>
-					<img src="<?php echo base_url(); ?>imagenes/breves/brv_<?php echo $f['id'];?>/<?php echo $gf['nombre_archivo'];?>"  alt="foto noticia" width="122" height="122" >
+					
+					<img src="<?php echo base_url(); ?>imagenes/noticias/not_2783/noticia_26-02-2010_img_4541.jpg" width="122" height="122"/>
 				<?php endforeach; ?>
 			</div>
 
@@ -95,7 +97,7 @@
 		 
 		<div class="foto-noticia-sidebar">
 			  <?php foreach($imagenes_breves[$breve['id_breves']] as $gb):?>
-            	<img  alt="foto noticias"src="<?php echo base_url(); ?>imagenes/breves/brv_<? echo $breve['id_breves'];?>/<?php echo $gb["nombre_archivo"]?>" width="73" height="73" >
+					<img src="<?php echo base_url(); ?>imagenes/noticias/not_2783/noticia_26-02-2010_img_4541.jpg" width="73" height="73"/>
              <?php endforeach; ?>   
 		</div>
 		<div class="info-noticias-sidebar">

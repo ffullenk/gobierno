@@ -1,14 +1,14 @@
-<div id="noticias">
+<div class="contenido-izquierda">
   <div class="categoria"> <a href="<?php echo BASE_URI?>">P&Aacute;gina Principal &gt;</a> Mesa Snit</div>
           <h1> Mesa Snit</h1>
           <hr />
           <br/>
-<h4>Mesa Regional de Coordinaci&oacute;n del SNIT</h4>
-                            <!--<p></p>
+          <h2>Mesa Regional de Coordinaci&oacute;n del SNIT</h2>
+          <!--<p></p>
 <a href="http://www.gorecoquimbo.cl/descargas/empleo/analisis9708.pdf" target="_blank" title="Descargar documento PDF [339 KB]"><img src="http://www.gorecoquimbo.cl/imagenes/icpdf.png" border="0" align="left"> &nbsp;An&aacute;lisis Empleo sectores productivos 1997 - 2008<font size="-2">    Documento PDF [339 KB]</font></a>
 -->
 <p >Es una instancia de coordinaci&oacute;n interinstitucional permanente para la gesti&oacute;n de la Informaci&oacute;n Territorial, en la cual participan servicios p&uacute;blicos, municipios y la academia.</p>
-<h4 >Objetivos</h4>
+<h3 >OBJETIVOS</h3>
 <ul>
   <li>1. Conformar la base de informaci&oacute;n territorial regional.</li>
   <li>2. Construir e implementar el sistema de informaci&oacute;n territorial (SIT).</li>

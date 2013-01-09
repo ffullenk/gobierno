@@ -102,8 +102,8 @@ hr {
 }
 
 h1 {
-	font-family: "Times New Roman", Times, serif;
-	color: #333333;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #666666;
 	margin-top: 10;
 	margin-bottom: 5;
 	font-size: 24px;
@@ -112,9 +112,9 @@ h1 {
 
 h2 {
 	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 26px;
+	font-size: 20px;
 	color: #666666;
-	text-transform: capitalize;
+	text-transform: uppercase;
 	font-weight: bold;
 	margin-top: 0;
 	margin-right: 0;
@@ -123,20 +123,17 @@ h2 {
 	}
 
 h3 {
-	font-family: Arial, Helvetica, sans-serif;
-	color: #3c6085;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #666666;
 	margin-right: 0;
 	margin-left: 0;
-	border-bottom-width: thin;
-	border-bottom-style: solid;
-	border-bottom-color: #3c6085;
-	font-size: 12px;
-	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
     }
 	
 h4 {
-	font-family: Arial, Helvetica, sans-serif;
-	color: #3c6085;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #666666;
 	font-size: 12px;
 	text-transform: uppercase;
     }
@@ -853,7 +850,7 @@ table {
 	padding: 3px;
 	height: 57px;
 	float: left;
-	width: 46%;
+	width: 47%;
 	margin-right: 10px;
 	margin-bottom: 10px;
 }
@@ -883,7 +880,8 @@ table {
 	font-size: 11px;
 	margin-top: 10px;
 	float: left;
-	width: 630px;
+	width: 98%;
+	color: #666666;
 }
 
 #seremi img{
@@ -897,6 +895,33 @@ table {
 	height: 80px;
 	width: 80px;
 }
+
+#servicios-relacionados{
+	float: left;
+	margin-bottom: 10px;
+	background-color: #FCFCFC;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #EBEBEB;
+}
+
+#icono-servicios-relacionados{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	background-image: url(../imagenes/icono-relacionados.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	text-indent: 20px;
+	padding: 2px;
+	margin-bottom: 5px;
+}
+
+
 #descargas {
 	background-color: #FCFCFC;
 	padding: 10px;
@@ -912,9 +937,11 @@ table {
 	background-image: url(../imagenes/icono-exe.png);
 	background-repeat: no-repeat;
 	background-position: left;
-	text-indent: 20px;
-	padding: 2px;
 	margin-bottom: 5px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 20px;
 }
 
 #descarga-exe a {
@@ -933,9 +960,11 @@ table {
 	background-image: url(../imagenes/icono-word.png);
 	background-repeat: no-repeat;
 	background-position: left;
-	text-indent: 20px;
-	padding: 2px;
 	margin-bottom: 5px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 20px;
 }
 
 #descarga-doc a {
@@ -954,9 +983,11 @@ table {
 	background-image: url(../imagenes/icono-excel.png);
 	background-repeat: no-repeat;
 	background-position: left;
-	text-indent: 20px;
-	padding: 2px;
 	margin-bottom: 5px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 20px;
 }
 
 #descarga-excel a {
@@ -987,9 +1018,11 @@ table {
 	background-image: url(../imagenes/icono-imagen.png);
 	background-repeat: no-repeat;
 	background-position: left;
-	text-indent: 20px;
-	padding: 2px;
 	margin-bottom: 5px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 20px;
 }
 
 #descarga-imagen a {
@@ -1080,10 +1113,9 @@ text-decoration: none;
 	background-color: #FCFCFC;
 }
 
-#menu-sidebar li a#titulo
-{
+#menu-sidebar li a#titulo {
 	color: #F2F2F2;
-	background-color: #999999;
+	background-color: #006699;
 	background-image: none;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -1342,6 +1374,9 @@ text-decoration: none;
 	background-color: #F8F8F8;
 	padding: 20px;
 	margin-bottom: 20px;
+	border-bottom-width: 8px;
+	border-bottom-style: solid;
+	border-bottom-color: #F2F2F2;
 }
 .contenido-izquierda li {
 	font-family: Arial, Helvetica, sans-serif;

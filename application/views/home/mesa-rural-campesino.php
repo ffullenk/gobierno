@@ -6,10 +6,9 @@
             Es un &oacute;rgano colectivo y permanente de representantes de diversas instancias de participaci&oacute;n y representaci&oacute;n ciudadana tanto p&uacute;blicas como privadas, cuyo objetivo es generar un espacio de an&aacute;lisis, discusi&oacute;n y desarrollo de propuestas y seguimiento en las diversas problem&aacute;ticas y acciones que afectan e interact&uacute;an con todo lo concerniente al mundo rural campesino - Regi&oacute;n de Coquimbo. Este &oacute;rgano se constituy&oacute; el 19 de mayo de 2008. <br>
             <br>
 Los representantes que la conforman, son los siguientes:</p>
-          <h4>Presidente</h4>
-          <p>Sr. Sergio Gahona Salazar, Intendente Regional de la Regi&oacute;n de Coquimbo.<br>
-            <br>
-    <strong>Organizaciones Campesinas</strong></p>
+          <h3>Presidente</h3>
+          <p>Sr. Sergio Gahona Salazar, Intendente Regional de la Regi&oacute;n de Coquimbo.</p>
+          <h3>Organizaciones Campesinas</h3>
           <ul>
             <li>Mirtha Gallardo Saavedra</li>
             <li>Jorge Mu&ntilde;oz Ramos</li>
@@ -18,9 +17,9 @@ Los representantes que la conforman, son los siguientes:</p>
             <li>In&eacute;s Gonz&aacute;lez Velasco</li>
             <li>Hugo Maturana Gonz&aacute;lez</li>
             <li>Jehov&aacute; Ibacache Robles<br></li>
-          </ul>
-          <h4>Gobierno Regional de Coquimbo          </h4>
-          <ul>
+  </ul>
+          <h3>Gobierno Regional de Coquimbo          </h3>
+            <ul>
             <li>Juan Francisco Garc&iacute;a, SEREMI de Agricultura</li>
             <li>Alejandro Cornejo, SEREMI de Planificaci&oacute;n</li>
             <li>Mario Burl&eacute; SEREMI de Bienes Nacionales</li>
@@ -28,8 +27,8 @@ Los representantes que la conforman, son los siguientes:</p>
             <li>Nathan Trigo, Consejero Regional</li>
             <li>Eduardo Alcayaga, Consejero Regional<br></li>
           </ul>
-          <h4>Asociaci&oacute;n de Municipios Rurales del Norte Chico </h4>
-          <ul>
+          <h3>Asociaci&oacute;n de Municipios Rurales del Norte Chico </h3>
+            <ul>
             <li>Sr. Juan Carlos Alfaro, Alcalde de Andacollo, Presidente AMR</li>
             <li>Sr. Sylvia Claver&iacute;a-Mondaca, Alcaldesa de La Higuera</li>
             <li>Sr. Juan Carlos Castillo, Alcalde de Monte Patria</li>
@@ -38,16 +37,13 @@ Los representantes que la conforman, son los siguientes:</p>
             <li>Sr. Norman Araya Araya, Alcalde de Canela</li>
             <li>Sr. Fernando Guam&aacute;n Guam&aacute;n Alcalde de Vicu&ntilde;a</li>
           </ul>
-          <h4>Secretario Ejecutivo
-          </h4>
-          <ul>
+          <h3>Secretario Ejecutivo</h3>
+            <ul>
             <li>Sr. Carlos Covarrubias Astudillo, Jefe de Divisi&oacute;n de Planificaci&oacute;n y Desarrollo Regional, GORE.</li>
-           
-            
           </ul>
-		  <h3>PRESENTACIONES Y DOCUMENTOS
-          </h3>
-		  <div id="descarga-pdf">
+          <h3>PRESENTACIONES Y DOCUMENTOS</h3>
+	        
+	      <div id="descarga-pdf">
 	<a href="<?php echo base_url(); ?>descargas/rural/politica_rural.pdf" target="_blank" title="Descargar documento PDF [1463 KB]"> &nbsp;Documento Pol&iacute;tica Regional para el Desarrollo Rural Campesino de la Regi&oacute;n de Coquimbo</a>
   </div>
 

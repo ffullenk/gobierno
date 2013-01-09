@@ -6,7 +6,7 @@
 		  <br />
     <div id="busqueda-noticias">
       <p><a href="#"> www.gobiernodechile.cl | 
-      </a>Página web del Gobierno de Chile</p>
+      </a>P&aacute;gina web del Gobierno de Chile</p>
   </div>
 		  <div id="busqueda-noticias">
 		    <p><a href="www.corfo.cl"> www.corfo.cl/credito</a> <a href="#">| </a>Creditos</p>

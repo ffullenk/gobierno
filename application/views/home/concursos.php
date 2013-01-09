@@ -5,20 +5,13 @@
   	 Concursos</div>
           <h1> CONCURSOS DE SELECCI&Oacute;N</h1>
           <hr />
+<br />
+<h3>Coordinador de Acuerdos de Producc&oacute;n Limpia (CONCURSO CERRADO)</h3>
+  	<div id="descarga-pdf"><a href="<?php echo base_url(); ?>descargas/concursopub/bases_cpl.pdf"> Bases Concurso</a></div>
+	<div id="descarga-pdf"><a href="<?php echo base_url(); ?>descargas/concursopub/desc_jur_cpl.doc">Formato Declaraci&oacute;n Jurada</a></div>
 
-<h4>
-Coordinador de Acuerdos de Producc&oacute;n Limpia (CONCURSO CERRADO) 
- </h4>
-  <div id="descarga-pdf">
-  	<a href="<?php echo base_url(); ?>descargas/concursopub/bases_cpl.pdf"> Bases Concurso</a>
-  </div>
-
-  <div id="descarga-pdf">
-  	<a href="<?php echo base_url(); ?>descargas/concursopub/desc_jur_cpl.doc">Formato Declaraci&oacute;n Jurada</a>
-  </div>
-
-<h4>Jefe(a) Departamento grado 6 EUR, para desempe&ntilde;arse en el Departamento de Ingenier&iacute;a y Proyectos (CONCURSO CERRADO) 
- </h4>
+<h3>Jefe(a) Departamento grado 6 EUR, para desempe&ntilde;arse en el Departamento de Ingenier&iacute;a y Proyectos (CONCURSO CERRADO) 
+ </h3>
   <div id="descarga-pdf">
   <a href="<?php echo base_url(); ?>descargas/concursopub/res_nombra_dip.pdf">Resoluci&oacute;n de nombramiento</a>
    </div>
@@ -32,9 +25,9 @@ Coordinador de Acuerdos de Producc&oacute;n Limpia (CONCURSO CERRADO)
  </div>
 
 
-<h4>
+<h3>
 Jefe(a) Departamento grado 6 EUR, para desempe&ntilde;arse en el Departamento Finanzas (CONCURSO CERRADO) 
- </h4>
+ </h3>
 
   <div id="descarga-pdf">
   <a href="http://www.gorecoquimbo.gob.cl/descargas/concursopub/res_nombra_finanzas.pdf">Resoluci&oacute;n de nombramiento</a>
@@ -53,8 +46,8 @@ Jefe(a) Departamento grado 6 EUR, para desempe&ntilde;arse en el Departamento Fi
  </div>
 
 
-<h4> Jefe(a) Departamento grado 6 EUR, para desempe&ntilde;arse en el Departamento Jur&iacute;dico (CONCURSO CERRADO) 
-  </h4>
+<h3> Jefe(a) Departamento grado 6 EUR, para desempe&ntilde;arse en el Departamento Jur&iacute;dico (CONCURSO CERRADO) 
+  </h3>
 <div id="descarga-pdf">
  <a href="<?php echo base_url(); ?>descargas/concursopub/res_designa_juridico.pdf">Resoluci&oacute;n de Nombramiento</a>
    </div>

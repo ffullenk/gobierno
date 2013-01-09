@@ -1,0 +1,120 @@
+body 
+{
+	margin-top: 0px;
+	background-color: #eeeeee;
+}
+
+a:link {
+text-decoration: none;
+}
+a:visited {
+text-decoration: none;
+}
+a:active {
+text-decoration: none;
+}
+a:hover {
+text-decoration: none;
+}
+
+.texto_menu_eje_social 
+{
+	color: #2D9E17;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.texto_menu_eje_economico 
+{
+	color: #990000;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.texto_menu_eje_territorial 
+{
+	color: #005050;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.texto_sub_categorias 
+{
+	color: #666666;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.textos_pie_pagina 
+{
+	color: #666666; 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 9px;
+}
+
+.textos_general 
+{
+	color: #666666; 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+}
+
+.titulos_general 
+{
+	color: #666666; 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+}
+
+.texto_comentario_pequenos
+{
+	color: #666666; 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 10px;
+}
+
+.textos_noticias 
+{
+	color: #666666; 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+}
+
+.titulos_noticias 
+{
+	color: #DA261E; 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.titulos_noticias_destacados
+{
+	color: #DA261E;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.titulos_eje_social 
+{
+	color: #2D9E17;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.titulos_eje_economico 
+{
+	color: #990000;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.titulos_eje_territorial 
+{
+	color: #005050;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
