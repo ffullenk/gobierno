@@ -244,7 +244,7 @@ document.write('<style type="text/css">.tabber{display:none;}<\/style>');
 		<div id="footer"><p> Consejo Regional de Coquimbo. <br>
 		  Dirección: Arturo Prat 350, primer piso, La Serena, República de Chile. <br>
 		  Fonos: +56 51 207240 - 207263 Correo Electrónico: consejo@gorecoquimbo.cl <br> 
-	    <a href="http://graficaprimate.com/" target="_blank"></a> </p></div>
+	    </p></div>
 		
   </div>
 </div>

@@ -14,9 +14,9 @@ document.write('<style type="text/css">.tabber{display:none;}<\/style>');
 </script>
 
 
-<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" >
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js" ></script>
-<script type="text/javascript" src="http://code.jquery.com/ui/1.9.1/jquery-ui.js" ></script>
+<link rel="stylesheet" href="<?php echo base_url(); ?>css/jquery-ui.css" >
+<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery-1.8.2.js" ></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>js/1.9.1/jquery-ui.js" ></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>js/mosaic.1.0.1.js" ></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>js/tabber.js" ></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>js/jMyCarousel.js" ></script>
@@ -53,41 +53,6 @@ document.write('<style type="text/css">.tabber{display:none;}<\/style>');
 
         });       
 
- $(function(){
-
-      $('#slides').slides({
-        preload: true,
-        preloadImage: 'img/loading.gif',
-        play: 5000,
-        pause: 2500,
-        hoverPause: true,
-        animationStart: function(current){
-          $('.caption').animate({
-            bottom:-35
-          },100);
-          if (window.console && console.log) {
-            // example return of current slide number
-            console.log('animationStart on slide: ', current);
-          };
-        },
-        animationComplete: function(current){
-          $('.caption').animate({
-            bottom:0
-          },200);
-          if (window.console && console.log) {
-            // example return of current slide number
-            console.log('animationComplete on slide: ', current);
-          };
-        },
-        slidesLoaded: function() {
-          $('.caption').animate({
-            bottom:0
-          },200);
-        }
-      });
-    });
-
-  
   </script>
 <!-- fin carrusel  -->
 
@@ -98,7 +63,6 @@ document.write('<style type="text/css">.tabber{display:none;}<\/style>');
 
       $('#slides').slides({
         preload: true,
-        preloadImage: 'img/loading.gif',
         play: 5000,
         pause: 2500,
         hoverPause: true,
@@ -333,12 +297,12 @@ $(document).ready(function() {
 	<div id="gallery_container">	
 		<div id="hWrapperAuto">
         <div id="carouselhAuto2">
-		<div><a href="#" title="1/6" target="_blank"><img alt="imagen carrusel" src="http://asisbo.guinetpro.com/core/imagenes/carrusel-sin-imagen.png" width="222" height="54" /></a></div>
-		<div><a href="#" title="2/6" target="_blank"><img alt="imagen carrusel" src="http://asisbo.guinetpro.com/core/imagenes/carrusel-sin-imagen.png" width="215" height="54" /></a></div>
-		<div><a href="#" title="3/6"  target="_blank"><img alt="imagen carrusel" src="http://asisbo.guinetpro.com/core/imagenes/trabajo-de-comisiones.jpg" width="215" height="54" /></a></div>
-		<div><a href="#" title="4/6"  target="_blank"><img alt="imagen carrusel" src="http://asisbo.guinetpro.com/core/imagenes/carrusel-sin-imagen.png" width="215" height="54" /></a></div>
-		<div><a href="#" title="5/6"  target="_blank"><img alt="imagen carrusel" src="http://asisbo.guinetpro.com/core/imagenes/carrusel-sin-imagen.png" width="215" height="54" /></a></div>
-		<div><a href="#"  title="6/6" target="_blank"><img alt="imagen carrusel" src="http://asisbo.guinetpro.com/core/imagenes/carrusel-sin-imagen.png" width="222" height="54" /></a></div>			
+		<div><a href="#" title="1/6" target="_blank"><img alt="imagen carrusel" src="<?php echo base_url(); ?>core/imagenes/carrusel-sin-imagen.png" width="222" height="54" /></a></div>
+		<div><a href="#" title="2/6" target="_blank"><img alt="imagen carrusel" src="<?php echo base_url(); ?>core/imagenes/carrusel-sin-imagen.png" width="215" height="54" /></a></div>
+		<div><a href="#" title="3/6"  target="_blank"><img alt="imagen carrusel" src="<?php echo base_url(); ?>core/imagenes/trabajo-de-comisiones.jpg" width="215" height="54" /></a></div>
+		<div><a href="#" title="4/6"  target="_blank"><img alt="imagen carrusel" src="<?php echo base_url(); ?>core/imagenes/carrusel-sin-imagen.png" width="215" height="54" /></a></div>
+		<div><a href="#" title="5/6"  target="_blank"><img alt="imagen carrusel" src="<?php echo base_url(); ?>core/imagenes/carrusel-sin-imagen.png" width="215" height="54" /></a></div>
+		<div><a href="#"  title="6/6" target="_blank"><img alt="imagen carrusel" src="<?php echo base_url(); ?>core/imagenes/carrusel-sin-imagen.png" width="222" height="54" /></a></div>			
 				     
 		</div>
 		</div>
@@ -351,7 +315,7 @@ $(document).ready(function() {
   <p> Consejo Regional de Coquimbo. <br>
   Dirección: Arturo Prat 350, primer piso, La Serena, República de Chile. <br>
   Fonos: +56 51 207240 - 207263 Correo Electrónico: consejo@gorecoquimbo.cl <br> 
-  <a href="http://graficaprimate.com/" target="_blank"></a> </p></div>
+   </p></div>
 </div>
 
 </body>

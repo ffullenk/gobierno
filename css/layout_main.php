@@ -53,44 +53,6 @@ document.write('<style type="text/css">.tabber{display:none;}<\/style>');
 
         });       
 
- $(function(){
-
-      $('#slides').slides({
-        preload: true,
-        preloadImage: 'img/loading.gif',
-        play: 5000,
-        pause: 2500,
-        hoverPause: true,
-        animationStart: function(current){
-          $('.caption').animate({
-            bottom:-35
-          },100);
-          if (window.console && console.log) {
-            // example return of current slide number
-            console.log('animationStart on slide: ', current);
-          };
-        },
-        animationComplete: function(current){
-          $('.caption').animate({
-            bottom:0
-          },200);
-          if (window.console && console.log) {
-            // example return of current slide number
-            console.log('animationComplete on slide: ', current);
-          };
-        },
-        slidesLoaded: function() {
-          $('.caption').animate({
-            bottom:0
-          },200);
-        }
-      });
-    });
-
-  $(document).ready(function() {
-            $('.tooltip').tooltipster();
-        });
-
   
   </script>
 <!-- fin carrusel  -->
@@ -308,12 +270,12 @@ $(document).ready(function() {
 	<div id="gallery_container">	
 		<div id="hWrapperAuto">
         <div id="carouselhAuto2">
-		<div><a href="#" title="1/6" target="_blank"><img alt="imagen carrusel" src="http://asisbo.guinetpro.com/core/imagenes/carrusel-sin-imagen.png" width="222" height="54" /></a></div>
-		<div><a href="#" title="2/6" target="_blank"><img alt="imagen carrusel" src="http://asisbo.guinetpro.com/core/imagenes/carrusel-sin-imagen.png" width="215" height="54" /></a></div>
-		<div><a href="#" title="3/6"  target="_blank"><img alt="imagen carrusel" src="http://asisbo.guinetpro.com/core/imagenes/trabajo-de-comisiones.jpg" width="215" height="54" /></a></div>
-		<div><a href="#" title="4/6"  target="_blank"><img alt="imagen carrusel" src="http://asisbo.guinetpro.com/core/imagenes/carrusel-sin-imagen.png" width="215" height="54" /></a></div>
-		<div><a href="#" title="5/6"  target="_blank"><img alt="imagen carrusel" src="http://asisbo.guinetpro.com/core/imagenes/carrusel-sin-imagen.png" width="215" height="54" /></a></div>
-		<div><a href="#"  title="6/6" target="_blank"><img alt="imagen carrusel" src="http://asisbo.guinetpro.com/core/imagenes/carrusel-sin-imagen.png" width="222" height="54" /></a></div>			
+		<div><a href="#" title="1/6" target="_blank"><img alt="imagen carrusel" src="<?php echo base_url(); ?>imagenes/carrusel-sin-imagen.png" width="222" height="54" /></a></div>
+		<div><a href="#" title="2/6" target="_blank"><img alt="imagen carrusel" src="<?php echo base_url(); ?>imagenes/carrusel-sin-imagen.png" width="215" height="54" /></a></div>
+		<div><a href="#" title="3/6"  target="_blank"><img alt="imagen carrusel" src="<?php echo base_url(); ?>imagenes/trabajo-de-comisiones.jpg" width="215" height="54" /></a></div>
+		<div><a href="#" title="4/6"  target="_blank"><img alt="imagen carrusel" src="<?php echo base_url(); ?>imagenes/carrusel-sin-imagen.png" width="215" height="54" /></a></div>
+		<div><a href="#" title="5/6"  target="_blank"><img alt="imagen carrusel" src="<?php echo base_url(); ?>imagenes/carrusel-sin-imagen.png" width="215" height="54" /></a></div>
+		<div><a href="#"  title="6/6" target="_blank"><img alt="imagen carrusel" src="<?php echo base_url(); ?>imagenes/carrusel-sin-imagen.png" width="222" height="54" /></a></div>			
 				     
 		</div>
 		</div>
@@ -326,7 +288,7 @@ $(document).ready(function() {
   <p> Consejo Regional de Coquimbo. <br>
   Dirección: Arturo Prat 350, primer piso, La Serena, República de Chile. <br>
   Fonos: +56 51 207240 - 207263 Correo Electrónico: consejo@gorecoquimbo.cl <br> 
-  <a href="http://graficaprimate.com/" target="_blank"></a> </p></div>
+   </p></div>
 </div>
 
 </body>

@@ -53,43 +53,6 @@ document.write('<style type="text/css">.tabber{display:none;}<\/style>');
 
         });       
 
- $(function(){
-
-      $('#slides').slides({
-        preload: true,
-        preloadImage: 'img/loading.gif',
-        play: 5000,
-        pause: 2500,
-        hoverPause: true,
-        animationStart: function(current){
-          $('.caption').animate({
-            bottom:-35
-          },100);
-          if (window.console && console.log) {
-            // example return of current slide number
-            console.log('animationStart on slide: ', current);
-          };
-        },
-        animationComplete: function(current){
-          $('.caption').animate({
-            bottom:0
-          },200);
-          if (window.console && console.log) {
-            // example return of current slide number
-            console.log('animationComplete on slide: ', current);
-          };
-        },
-        slidesLoaded: function() {
-          $('.caption').animate({
-            bottom:0
-          },200);
-        }
-      });
-    });
-
-  $(document).ready(function() {
-            $('.tooltip').tooltipster();
-        });
 
   
   </script>
@@ -101,7 +64,6 @@ document.write('<style type="text/css">.tabber{display:none;}<\/style>');
 
       $('#slides').slides({
         preload: true,
-        preloadImage: 'img/loading.gif',
         play: 5000,
         pause: 2500,
         hoverPause: true,
@@ -277,7 +239,7 @@ $(document).ready(function() {
   <p> Consejo Regional de Coquimbo. <br>
   Dirección: Arturo Prat 350, primer piso, La Serena, República de Chile. <br>
   Fonos: +56 51 207240 - 207263 Correo Electrónico: consejo@gorecoquimbo.cl <br> 
-  <a href="http://graficaprimate.com/" target="_blank"></a> </p></div>
+   </p></div>
 </div>
 
 </body>
