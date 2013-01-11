@@ -1,5 +1,7 @@
- <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
 <title>Gobierno Regional de Coquimbo</title>
 <link href="<?php echo base_url(); ?>css/style.css" rel="stylesheet" type="text/css" >
 <link href="<?php echo base_url(); ?>css/menus.css" rel="stylesheet" type="text/css" >
@@ -16,7 +18,7 @@ document.write('<style type="text/css">.tabber{display:none;}<\/style>');
 
 <link rel="stylesheet" href="<?php echo base_url(); ?>css/jquery-ui.css" >
 <script type="text/javascript" src="<?php echo base_url(); ?>js/jquery-1.8.2.js" ></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>js/1.9.1/jquery-ui.js" ></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery-ui.js" ></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>js/mosaic.1.0.1.js" ></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>js/tabber.js" ></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>js/jMyCarousel.js" ></script>
