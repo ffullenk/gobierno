@@ -223,12 +223,12 @@ $(document).ready(function() {
 	<div id="gallery_container">	
 		<div id="hWrapperAuto">
         <div id="carouselhAuto2">
-		<div><a href="#" title="1/6" target="_blank"><img alt="imagen carrusel" src="http://asisbo.guinetpro.com/core/imagenes/carrusel-sin-imagen.png" width="222" height="54" /></a></div>
-		<div><a href="#" title="2/6" target="_blank"><img alt="imagen carrusel" src="http://asisbo.guinetpro.com/core/imagenes/carrusel-sin-imagen.png" width="215" height="54" /></a></div>
-		<div><a href="#" title="3/6"  target="_blank"><img alt="imagen carrusel" src="http://asisbo.guinetpro.com/core/imagenes/trabajo-de-comisiones.jpg" width="215" height="54" /></a></div>
-		<div><a href="#" title="4/6"  target="_blank"><img alt="imagen carrusel" src="http://asisbo.guinetpro.com/core/imagenes/carrusel-sin-imagen.png" width="215" height="54" /></a></div>
-		<div><a href="#" title="5/6"  target="_blank"><img alt="imagen carrusel" src="http://asisbo.guinetpro.com/core/imagenes/carrusel-sin-imagen.png" width="215" height="54" /></a></div>
-		<div><a href="#"  title="6/6" target="_blank"><img alt="imagen carrusel" src="http://asisbo.guinetpro.com/core/imagenes/carrusel-sin-imagen.png" width="222" height="54" /></a></div>			
+		<div><a href="#" title="1/6" target="_blank"><img alt="imagen carrusel" src="<?php echo base_url(); ?>imagenes/carrusel-sin-imagen.png" width="222" height="54" /></a></div>
+		<div><a href="#" title="2/6" target="_blank"><img alt="imagen carrusel" src="<?php echo base_url(); ?>imagenes/carrusel-sin-imagen.png" width="215" height="54" /></a></div>
+		<div><a href="#" title="3/6"  target="_blank"><img alt="imagen carrusel" src="<?php echo base_url(); ?>imagenes/trabajo-de-comisiones.jpg" width="215" height="54" /></a></div>
+		<div><a href="#" title="4/6"  target="_blank"><img alt="imagen carrusel" src="<?php echo base_url(); ?>imagenes/carrusel-sin-imagen.png" width="215" height="54" /></a></div>
+		<div><a href="#" title="5/6"  target="_blank"><img alt="imagen carrusel" src="<?php echo base_url(); ?>imagenes/carrusel-sin-imagen.png" width="215" height="54" /></a></div>
+		<div><a href="#"  title="6/6" target="_blank"><img alt="imagen carrusel" src="h<?php echo base_url(); ?>imagenes/carrusel-sin-imagen.png" width="222" height="54" /></a></div>			
 				     
 		</div>
 		</div>
