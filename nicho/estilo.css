@@ -1,0 +1,230 @@
+/* CSS Document */
+BODY {
+	FONT-FAMILY: Verdana, "Trebuchet MS", "Lucida Console", Arial, san-serif;
+	font-size: 10px; color: #333
+}
+
+INPUT, SELECT {
+	BORDER-RIGHT: #999999 1px solid;
+	BORDER-TOP: #999999 1px solid;
+	FONT-SIZE: 10px;
+	BORDER-LEFT: #999999 1px solid;
+	BORDER-BOTTOM: #999999 1px solid;
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+
+#sep-menuizq {
+	BORDER-TOP: #20262D 1px solid; 
+	/* BORDER-LEFT: #20262D 1px solid;  */
+	HEIGHT: 15px;
+	WIDTH: 121px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	BACKGROUND-COLOR: #FFCC33
+}
+#sep-menuder {
+	BORDER-TOP: #20262D 1px solid; 
+	HEIGHT: 15px;
+	WIDTH: 191px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	BACKGROUND-COLOR: #FFCC33
+}
+#sep-footer {
+	BORDER-TOP: #20262D 1px dotted; 
+	/* BORDER-LEFT: #20262D 1px solid;  */
+	HEIGHT: 15px;
+	WIDTH: 760px;
+	MARGIN-TOP: 5px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	BACKGROUND-COLOR: #FFFFFF
+}
+#sep-men {
+	BORDER-BOTTOM: #20262D 1px solid;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	WIDTH: 2px
+}
+
+#lin-bot {
+	BORDER-BOTTOM: #20262D 1px dashed; 
+	PADDING-LEFT: 7px;
+	MARGIN-TOP: 0px;
+	FONT-SIZE: 12px;
+	HEIGHT: 15px
+}
+#mencab {
+	BORDER-RIGHT: #999 1px dotted; 
+	PADDING-RIGHT: 3px; 
+	BORDER-TOP: #999 1px dotted; 
+	PADDING-LEFT: 7px; 
+	PADDING-BOTTOM: 3px; 
+	MARGIN-TOP: 0px;
+	BORDER-LEFT: #999 1px dotted; 
+	BORDER-BOTTOM: #999 1px dotted
+}
+#lin-base {
+	BORDER-BOTTOM: #20262D 1px solid; 
+	PADDING-LEFT: 2px;
+	PADDING-RIGHT: 2px;
+	MARGIN-TOP: 0px;
+	HEIGHT: 15px
+}
+#lin-sup {
+	BORDER-TOP: #20262D 1px solid; 
+	PADDING-LEFT: 2px;
+	PADDING-RIGHT: 2px;
+	MARGIN-TOP: 0px;
+	HEIGHT: 15px
+}
+.secc-01 {
+	BORDER-BOTTOM: #20262D 1px dotted;
+	FONT-SIZE: 13px; COLOR: #000
+}
+#lin-subcat {
+	BORDER-BOTTOM: #20262D 1px solid; 
+	MARGIN-LEFT: 5px;
+	MARGIN-RIGHT: 5px;
+	MARGIN-TOP: 0px;
+	HEIGHT: 15px
+}
+#lin-sepz { BORDER-BOTTOM: #333 1px dotted;  }
+
+.info {
+	FONT-SIZE: 10px; COLOR: #666
+}
+.texto {
+	FONT-SIZE: 11px; COLOR: #666
+}
+.txtnrm {
+	FONT-SIZE: 11px; COLOR: #666
+}
+.vdestacado {
+border-right: 1px solid #D8CA94;
+border-bottom: 1px solid #D8CA94;
+padding: 2px 2px 2px 2px;
+background-color: #E7DFBD;
+FONT-FAMILY: Tahoma, Verdana, Geneva, Arial;
+FONT-SIZE: 11px;
+font-weight: bold
+}
+.btn_men-ppal {
+border-right: 1px solid #B5B53C;
+border-bottom: 1px solid #B5B53C;
+padding: 2px 2px 2px 2px;
+background-color: #CCCC66;
+FONT-FAMILY: Tahoma, Verdana, Geneva, Arial;
+FONT-SIZE: 11px;
+font-weight: bold
+}
+
+.btn_men-ppal A:link {
+	TEXT-DECORATION: none
+}
+.btn_men-ppal A:visited {
+	TEXT-DECORATION: none
+}
+.btn_men-ppal A.active:link {
+	BACKGROUND: #CCCC66; BORDER-BOTTOM-COLOR: #B5B53C; COLOR: #f60
+}
+.btn_men-ppal A.active:visited {
+	BACKGROUND: #CCCC66; BORDER-BOTTOM-COLOR: #B5B53C; COLOR: #f60
+}
+.btn_men-ppal A:hover {
+	BACKGROUND: #CCCC66; BORDER-BOTTOM-COLOR: #B5B53C; COLOR: #333
+}
+
+
+TABLE.tablemenppal {
+	FONT-SIZE: 11px; LINE-HEIGHT: 25px; WIDTH: 100%; COLOR: #666
+}
+TABLE.tablemenppal TD {
+	BORDER-BOTTOM: #ccc 1px solid
+}
+TABLE.tablemenppal TR TH {
+	BORDER-BOTTOM: #999 1px solid; BACKGROUND-COLOR: #E7E7B8
+}
+TABLE.tablemenppal TR:hover {
+	BACKGROUND-COLOR: #f7f7f7
+}
+.tablemenppal A:Hover {
+	color: #4c6792;
+        text-decoration: none;
+}
+
+.tablemenppal A:Link {
+        color: #7cb6de;
+        text-decoration: none;
+}
+.tablemenppal A:Visited {
+        color: #333333;
+        text-decoration: none;
+}
+
+.tablemenppal A:Active {
+        color: #7cb6de;
+        text-decoration: none;
+}
+
+TABLE.tablesup {
+	FONT-SIZE: 10px; WIDTH: 100%; COLOR: #666
+}
+TABLE.tablesup TD {
+	BORDER-BOTTOM: #ccc 1px dotted
+}
+TABLE.tablesup TR TH {
+	BORDER-BOTTOM: #999 1px dotted; BACKGROUND-COLOR: #f5f5f5
+}
+TABLE.tablesup TR:hover {
+	BACKGROUND-COLOR: #f7f7f7
+}
+.date {
+	font-family:verdana, geneva, helvetica, arial, sans-serif; 
+	font-size: 10px; 
+	color:  #333
+}
+TABLE.tablecat {
+	font-size: 12px; width: 100%; color: #666
+}
+TABLE.tablecat TD {
+	BORDER-BOTTOM: #ccc 1px dotted; BACKGROUND-COLOR: #f5f5f5
+}
+/*TABLE.tablecat TR TH {
+	BORDER-BOTTOM: #999 1px dotted; BACKGROUND-COLOR: #f5f5f5
+}*/
+TABLE.tableform TR:hover {
+	BACKGROUND-COLOR: #f7f7f7
+}
+TABLE.tableform {
+	FONT-SIZE: 10px; WIDTH: 100%; COLOR: #666;BACKGROUND-COLOR: #CCCCCC
+}
+TABLE.tableform TD {
+	BORDER-BOTTOM: #fff 1px dotted
+}
+TABLE.tableform TR TH {
+	BORDER-BOTTOM: #fff 1px dotted; BACKGROUND-COLOR: #f5f5f5
+}
+TABLE.tableform TR:hover {
+	BACKGROUND-COLOR: #f7f7f7
+}
+TABLE.tableadm {
+	FONT-SIZE: 10px; COLOR: #666
+}
+
+TABLE.tablesecc-01 {
+	FONT-SIZE: 11px; PADDING-LEFT:10px; PADDING-RIGHT:5px; WIDTH: 100%; COLOR: #666
+}
+TABLE.tablesecc-01 TR:hover {
+	BACKGROUND-COLOR: #f7f7f7
+}
+TABLE.tablesecc-01 TR TH { text-align:left}
+TABLE.tablesecc-01 TR TH A:Link {  color: #333;    text-decoration: none}
+TABLE.tablesecc-01 TR TH A:Hover { color: #666;    text-decoration: none}
+TABLE.tablesecc-01 TR TH A:Visited { color: #333;  text-decoration: none}
+TABLE.tablesecc-01 TR TH A:Active {  color: #333;  text-decoration: none}
+
+TABLE.tablesecc-01 A:Hover { color: #666;    text-decoration: none}
+TABLE.tablesecc-01 A:Link {  color: #7cb6de;    text-decoration: none}
+TABLE.tablesecc-01 A:Visited { color: #ff9933;  text-decoration: none}
+TABLE.tablesecc-01 A:Active {  color: #7cb6de;  text-decoration: none}
