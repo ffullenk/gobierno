@@ -15,9 +15,9 @@ session_start();
  if(estaActivo($userBackEnd, $passBackEnd)) {
 
    // Recibimos las variables
-   $idI = $HTTP_POST_VARS["idI"];
-   $institucion = $HTTP_POST_VARS["institucion"];
-   $estadoinst = $HTTP_POST_VARS["estadoinst"];
+   $idI = $_POST["idI"];
+   $institucion = $_POST["institucion"];
+   $estadoinst = $_POST["estadoinst"];
 
 
    $sB = "UPDATE orm_institucion SET INSTITUCION=\"$institucion\", ESTADOINST=\"$estadoinst\" WHERE ID_INSTITUCION=\"$idI\" ";

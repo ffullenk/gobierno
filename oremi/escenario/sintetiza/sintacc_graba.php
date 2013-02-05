@@ -16,9 +16,9 @@ session_start();
  if(estaActivo($userBackEnd, $passBackEnd)) {
 
    // Obtenemos los valores desde el formulario
-   $idE = $HTTP_POST_VARS["idE"];
-   $ids = $HTTP_POST_VARS["ids"];
-   $sintetiza = $HTTP_POST_VARS["sintetiza"];
+   $idE = $_POST["idE"];
+   $ids = $_POST["ids"];
+   $sintetiza = $_POST["sintetiza"];
 
    $qUpdPto = "UPDATE orm_acciones_servrel SET SINTETIZA=\"$sintetiza\" WHERE ID_ESCENARIO=\"$idE\" AND ID_ACCSERVREL=\"$ids\" ";
 

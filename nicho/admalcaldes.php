@@ -452,7 +452,7 @@ znbaja();
 if( $HTTP_GET_VARS[act] == "g" )
 {
 //Chequeamos que la categoria no haya sido ingresado previamente
-//$alcalde = trim( strtoupper( $HTTP_POST_VARS['alcalde'] ) );
+//$alcalde = trim( strtoupper( $_POST['alcalde'] ) );
 
 /* Foto Alcalde */
 if ($HTTP_POST_FILES["foto"]["name"] != "") {
@@ -597,7 +597,7 @@ znbaja();
 
 if( $HTTP_GET_VARS[act] == "a" ) {
 //Chequeamos que la categoria no haya sido ingresado previamente
-//$alcalde = trim( strtoupper( $HTTP_POST_VARS['alcalde'] ) );
+//$alcalde = trim( strtoupper( $_POST['alcalde'] ) );
 
 /* Foto Alcalde */
 if ($HTTP_POST_FILES["foto"]["name"] != "") {

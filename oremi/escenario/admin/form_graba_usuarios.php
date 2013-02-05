@@ -14,14 +14,14 @@ session_start();
 
  if(estaActivo($userBackEnd, $passBackEnd)) {
     // Recibimos Variables del Formulario
-    $nombre = $HTTP_POST_VARS['nombre'];
-    $emailusuarios = $HTTP_POST_VARS['emailusuarios'];
-    $rut = $HTTP_POST_VARS['rut'];
-    $institucion = $HTTP_POST_VARS['institucion'];
-    $clave = $HTTP_POST_VARS['clave'];
-    $reclave = $HTTP_POST_VARS['reclave'];
-    $tipo = $HTTP_POST_VARS['tipo'];
-    $estado = $HTTP_POST_VARS['estado'];
+    $nombre = $_POST['nombre'];
+    $emailusuarios = $_POST['emailusuarios'];
+    $rut = $_POST['rut'];
+    $institucion = $_POST['institucion'];
+    $clave = $_POST['clave'];
+    $reclave = $_POST['reclave'];
+    $tipo = $_POST['tipo'];
+    $estado = $_POST['estado'];
 
     if($clave<>$reclave) { echo "<script>alert('Las Contraseñas No Coinciden'); document.location.href='form_agrega_usuarios.php';</script>\n"; }
 			  

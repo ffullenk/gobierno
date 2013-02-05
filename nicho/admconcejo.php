@@ -402,7 +402,7 @@ znbaja();
 if( $HTTP_GET_VARS[act] == "g" )
 {
 //Chequeamos que la categoria no haya sido ingresado previamente
-$concejal = trim( $HTTP_POST_VARS['concejal'] );
+$concejal = trim( $_POST['concejal'] );
 
 /* Foto Alcalde */
 if ($HTTP_POST_FILES["foto"]["name"] != "") {
@@ -513,7 +513,7 @@ znbaja();
 
 if( $HTTP_GET_VARS[act] == "a" ) {
 //Chequeamos que la categoria no haya sido ingresado previamente
-$concejal = trim( $HTTP_POST_VARS['concejal'] );
+$concejal = trim( $_POST['concejal'] );
 
 /* Foto Alcalde */
 if ($HTTP_POST_FILES["foto"]["name"] != "") {

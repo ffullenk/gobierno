@@ -15,14 +15,14 @@ session_start();
  if(estaActivo($userBackEnd, $passBackEnd)) {
    
    // Recibimos las variables del Formulario de Actualizacion
-   $idEscenario = $HTTP_POST_VARS["idEscenario"];
-   $tipoevento = $HTTP_POST_VARS["tipoevento"];
-   $tipofeno = $HTTP_POST_VARS["tipofeno"];
-   $fecha = convertir_fecha($HTTP_POST_VARS["fecha"]);
-   $ocurrencia = $HTTP_POST_VARS["hora"] . ":" . $HTTP_POST_VARS["minutos"];
-   $lugar = $HTTP_POST_VARS["lugar"];
-   $describeevento = $HTTP_POST_VARS["describeevento"];
-   $estadoescenario = $HTTP_POST_VARS["estadoescenario"];
+   $idEscenario = $_POST["idEscenario"];
+   $tipoevento = $_POST["tipoevento"];
+   $tipofeno = $_POST["tipofeno"];
+   $fecha = convertir_fecha($_POST["fecha"]);
+   $ocurrencia = $_POST["hora"] . ":" . $_POST["minutos"];
+   $lugar = $_POST["lugar"];
+   $describeevento = $_POST["describeevento"];
+   $estadoescenario = $_POST["estadoescenario"];
 
 
    $sB = "UPDATE orm_escenario SET tpevento_id=\"$tipoevento\", DESCRIBEESCENARIO=\"$describeevento\", OCURRENCIA=\"$fecha\", HORA=\"$ocurrencia\", ESTADOESCENARIO=\"$estadoescenario\", ID_TIPOFENO=\"$tipofeno\" WHERE ID_ESCENARIO=\"$idEscenario\" ";

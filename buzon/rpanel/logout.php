@@ -1,7 +1,7 @@
 <?php
 //Nos aseguramos que hayamos recibido el userid
-if(isset($HTTP_POST_VARS['global_qk'])) {
-   $userid=$HTTP_POST_VARS['global_qk'];
+if(isset($_POST['global_qk'])) {
+   $userid=$_POST['global_qk'];
    //Nos aseguramos que el valor sea numerico
    if(is_numeric($userid)) {
      //Ahora, actualizo la Tabla

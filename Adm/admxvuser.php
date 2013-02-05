@@ -6,10 +6,10 @@
   $link = Conexion();
 
 
-  if(trim($HTTP_POST_VARS["uname"] != "") && trim($HTTP_POST_VARS["pname"] != ""))
+  if(trim($_POST["uname"] != "") && trim($_POST["pname"] != ""))
     {
-      $Ncta = $HTTP_POST_VARS["uname"];
-      $Npas = $HTTP_POST_VARS["pname"];
+      $Ncta = $_POST["uname"];
+      $Npas = $_POST["pname"];
 /*	echo "Password Npas: $Npas<BR>"; */
       $Npas = md5($Npas);
 /*	echo "Password Npas con md5: $Npas<BR>"; */

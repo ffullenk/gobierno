@@ -15,10 +15,10 @@ session_start();
  if(estaActivo($userBackEnd, $passBackEnd)) {
 
    // Recibimos las variables
-   $idP = $HTTP_POST_VARS["idP"];
-   $ptocritico = $HTTP_POST_VARS["ptocritico"];
-   $servicio = $HTTP_POST_VARS["servicio"];
-   $estadoptocritico = $HTTP_POST_VARS["estadoptocritico"];
+   $idP = $_POST["idP"];
+   $ptocritico = $_POST["ptocritico"];
+   $servicio = $_POST["servicio"];
+   $estadoptocritico = $_POST["estadoptocritico"];
 
 
    $sB = "UPDATE orm_ptoscriticos SET PTOCRITICO=\"$ptocritico\", SERVREL=\"$servicio\", ESTADOPTOCRITICO=\"$estadoptocritico\" WHERE ID_PTOCRITICO=\"$idP\" ";

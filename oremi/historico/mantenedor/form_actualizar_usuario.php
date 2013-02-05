@@ -14,13 +14,13 @@
  if(estaActivo($userBackEnd, $passBackEnd)) {
   // Recibimos las variables del formulario
 			  
-			  $id = $HTTP_POST_VARS['id'];
-			  $func_nombre = $HTTP_POST_VARS['nombre'];
-			  $func_rut = $HTTP_POST_VARS['rut'];
-			  $func_email = $HTTP_POST_VARS['email'];
-			  $func_clave = encrypt($HTTP_POST_VARS['clave'],0);
-			  $func_tipo = $HTTP_POST_VARS['tipo'];
-			  $func_estado = $HTTP_POST_VARS['estado'];
+			  $id = $_POST['id'];
+			  $func_nombre = $_POST['nombre'];
+			  $func_rut = $_POST['rut'];
+			  $func_email = $_POST['email'];
+			  $func_clave = encrypt($_POST['clave'],0);
+			  $func_tipo = $_POST['tipo'];
+			  $func_estado = $_POST['estado'];
 			  
 			  // Encripta la clave
 			  $fechaHoy = date("Y-m-d");

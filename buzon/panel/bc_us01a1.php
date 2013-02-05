@@ -109,13 +109,13 @@ if($loginCorrecto ) {
 							<tr><td>
 								<table>
 									<tr><td class='formtitulo' colspan='2' align='center' >Registro de Usuario</td></tr>
-									<tr><td class='formlabel'>Rut:</td><td class='formlabel'>".$HTTP_POST_VARS['rut_persona']."</td></tr>
-									<tr><td class='formlabel'>Nombres:</td><td class='formlabel'>".$HTTP_POST_VARS['nombres_persona']."</td></tr>
-									<tr><td class='formlabel'>Apellido Paterno:</td><td class='formlabel'>".$HTTP_POST_VARS['paterno_persona']."</td></tr>
-									<tr><td class='formlabel'>Apellido Materno:</td><td class='formlabel'>".$HTTP_POST_VARS['materno_persona']."</td></tr>
-									<tr><td class='formlabel'>Email:</td><td class='formlabel'> ".$HTTP_POST_VARS['email_persona']."</td></tr>
-									<tr><td class='formlabel'>Nombre de Usuario:</td><td class='formlabel'> ".$HTTP_POST_VARS['user_persona']."</td></tr>
-									<tr><td class='formlabel'>Contraseña:</td><td class='formlabel'> ".$HTTP_POST_VARS['password_persona']."</td></tr>
+									<tr><td class='formlabel'>Rut:</td><td class='formlabel'>".$_POST['rut_persona']."</td></tr>
+									<tr><td class='formlabel'>Nombres:</td><td class='formlabel'>".$_POST['nombres_persona']."</td></tr>
+									<tr><td class='formlabel'>Apellido Paterno:</td><td class='formlabel'>".$_POST['paterno_persona']."</td></tr>
+									<tr><td class='formlabel'>Apellido Materno:</td><td class='formlabel'>".$_POST['materno_persona']."</td></tr>
+									<tr><td class='formlabel'>Email:</td><td class='formlabel'> ".$_POST['email_persona']."</td></tr>
+									<tr><td class='formlabel'>Nombre de Usuario:</td><td class='formlabel'> ".$_POST['user_persona']."</td></tr>
+									<tr><td class='formlabel'>Contraseña:</td><td class='formlabel'> ".$_POST['password_persona']."</td></tr>
 								</table>
 							</td></tr>";
 		

@@ -1,10 +1,10 @@
 <?
-if(trim($HTTP_POST_VARS["name"] != "") && trim($HTTP_POST_VARS["uname"] != "") &&  trim($HTTP_POST_VARS["pname"] != ""))
+if(trim($_POST["name"] != "") && trim($_POST["uname"] != "") &&  trim($_POST["pname"] != ""))
     {
-	$Nnom = $HTTP_POST_VARS["name"];
-	$Ncta = $HTTP_POST_VARS["uname"];
-	$Npas = $HTTP_POST_VARS["pname"];
-	$Nniv = $HTTP_POST_VARS["acceso"];
+	$Nnom = $_POST["name"];
+	$Ncta = $_POST["uname"];
+	$Npas = $_POST["pname"];
+	$Nniv = $_POST["acceso"];
 
 	// Conectar con Base de Datos
 	include("conexion.php");

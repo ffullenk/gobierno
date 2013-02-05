@@ -14,11 +14,11 @@
  if(estaActivo($userBackEnd, $passBackEnd)) {
   // Recibimos las variables del formulario
 			  
-			  $id = $HTTP_POST_VARS['id'];
-			  $tipoevento = $HTTP_POST_VARS['tipoevento'];
-			  $atributo = $HTTP_POST_VARS['atributo'];
-			  $tipounidad = $HTTP_POST_VARS['tipounidad'];
-			  $func_estado = $HTTP_POST_VARS['estado'];
+			  $id = $_POST['id'];
+			  $tipoevento = $_POST['tipoevento'];
+			  $atributo = $_POST['atributo'];
+			  $tipounidad = $_POST['tipounidad'];
+			  $func_estado = $_POST['estado'];
 			  			  	  
               $ModificaReg = "UPDATE orm_datostipoevento SET dtatributo=\"$atributo\", dtunidad_id=\"$tipounidad\", dtevento_id=\"$tipoevento\", estado=\"$func_estado\" WHERE dt_id=\"$id\"";
               $query = mysql_query($ModificaReg);

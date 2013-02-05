@@ -16,9 +16,9 @@ session_start();
  if(estaActivo($userBackEnd, $passBackEnd)) {
 
    // Obtenemos los valores desde el formulario
-   $idE = $HTTP_POST_VARS["idE"];
-   $idp = $HTTP_POST_VARS["idp"];
-   $sintetiza = $HTTP_POST_VARS["sintetiza"];
+   $idE = $_POST["idE"];
+   $idp = $_POST["idp"];
+   $sintetiza = $_POST["sintetiza"];
 
    $qUpdPto = "UPDATE orm_acciones_ptoscriticos SET SINTETIZA=\"$sintetiza\" WHERE ID_ESCENARIO=\"$idE\" AND ID_PTOCRITICO=\"$idp\" ";
 

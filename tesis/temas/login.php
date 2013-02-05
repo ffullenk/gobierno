@@ -9,10 +9,10 @@ return $mensaje;
 }
 
 
-if( (trim($HTTP_POST_VARS["usname"])) & (trim($HTTP_POST_VARS["uspass"])) ) {
+if( (trim($_POST["usname"])) & (trim($_POST["uspass"])) ) {
 // leemos los valores asociados a estos atributos
-   $usname=quitar($HTTP_POST_VARS["usname"]);
-   $uspass=quitar($HTTP_POST_VARS["uspass"]);
+   $usname=quitar($_POST["usname"]);
+   $uspass=quitar($_POST["uspass"]);
    include("../bd/conecta.php");
    $link=conexion();
    $res=mysql_query("SELECT id, lastaccess, lasttime FROM admemp WHERE nameus='$usname' AND passus='$uspass'") or die(mysql_error());

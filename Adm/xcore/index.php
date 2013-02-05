@@ -1,7 +1,7 @@
 <?
 include("calendario.php");
 
-if (!$HTTP_POST_VARS && !$HTTP_GET_VARS){
+if (!$_POST && !$_GET){
         $tiempo_actual = time();
         $mes = date("n", $tiempo_actual);
         $ano = date("Y", $tiempo_actual);
@@ -161,7 +161,7 @@ HTML;
 }
 
 
-if (isset($HTTP_GET_VARS['error'])){
+if (isset($_GET['error'])){
 
 $error_accion_ms[0]= "No se puede borrar la actividad, debe existir por lo menos una.<br>Si desea borrarlo, primero cree una neva.";
 $error_accion_ms[1]= "Faltan Datos.";
@@ -169,7 +169,7 @@ $error_accion_ms[2]= "Passwords no coinciden.";
 $error_accion_ms[3]= "No es Correcto el Valor Hora.";
 $error_accion_ms[4]= "La Sesion ya está registrada.";
 
-$error_cod = $HTTP_GET_VARS['error'];
+$error_cod = $_GET['error'];
 }
 
 $db_conexion= mysql_connect("130.0.4.206", "root", "espaciva") or die("No se pudo conectar a la Base de datos") or die(mysql_error());
@@ -177,7 +177,7 @@ mysql_select_db("gore") or die(mysql_error());
 
 
 
-if (!isset($HTTP_GET_VARS['accion'])){
+if (!isset($_GET['accion'])){
 
 cabeceraHTML();
 headHTML();
@@ -208,14 +208,14 @@ headerHTML();
 /* **************************************** */
 /* ***        M O D I F I C A R         *** */
 /* **************************************** */
-if ($HTTP_GET_VARS['accion']=="modifica"){
-  if ($HTTP_GET_VARS['idses'] == "cambiasesion"){
-        $eleccion = $HTTP_POST_VARS['ses_mod'];
+if ($_GET['accion']=="modifica"){
+  if ($_GET['idses'] == "cambiasesion"){
+        $eleccion = $_POST['ses_mod'];
      if ($eleccion == " Modificar "){
         /* Modificar */
-           $sesname= $HTTP_POST_VARS['sesname'];
-           $sesfecha = $HTTP_POST_VARS['sesfecha'];
-           $seshora = $HTTP_POST_VARS['seshora'];
+           $sesname= $_POST['sesname'];
+           $sesfecha = $_POST['sesfecha'];
+           $seshora = $_POST['seshora'];
 
            mysql_query("UPDATE cr_sesion SET fecha='$sesfecha', hora='$seshora' WHERE id_sesion='$sesname'") or DIE(mysql_error());
            mysql_close();
@@ -235,12 +235,12 @@ if ($HTTP_GET_VARS['accion']=="modifica"){
 /* ***            N U E V A         *** */
 /* ************************************ */
 /* ************************************ */
-if ($HTTP_GET_VARS['accion']=="nueva"){
-  if ($HTTP_GET_VARS['idses'] == "nuevasesion"){
+if ($_GET['accion']=="nueva"){
+  if ($_GET['idses'] == "nuevasesion"){
 
- $sesname= $HTTP_POST_VARS['sesname'];
- $sesfecha = $HTTP_POST_VARS['sesfecha'];
- $seshora = $HTTP_POST_VARS['seshora'];
+ $sesname= $_POST['sesname'];
+ $sesfecha = $_POST['sesfecha'];
+ $seshora = $_POST['seshora'];
 
 
  $con_sesion = mysql_query("SELECT id_sesion FROM cr_sesion where id_sesion=$sesname") or DIE(mysql_error());
@@ -274,9 +274,9 @@ mysql_close();
 /* ****************************************  */
 /* ***         A C T U A L I Z A        ***  */
 /* ****************************************  */
-if ($HTTP_GET_VARS['accion']=="actualiza"){
-  if ($HTTP_GET_VARS['idses'] == "actsesion"){
-    $nrosesion = $HTTP_POST_VARS['seslista'];
+if ($_GET['accion']=="actualiza"){
+  if ($_GET['idses'] == "actsesion"){
+    $nrosesion = $_POST['seslista'];
     $con_sesion = mysql_query("SELECT * FROM cr_sesion WHERE id_sesion='$nrosesion'") or die(mysql_error());
     if($edita = mysql_fetch_array($con_sesion)){
        $fecha = $edita["fecha"];
@@ -337,14 +337,14 @@ headerHTML();
 /*  ==================                                                                   ====================== */
 /*  =========================================================================================================== */
 
-if ($HTTP_GET_VARS['accion']=="sesion")
+if ($_GET['accion']=="sesion")
 {
 cabeceraHTML();
 headHTML();
 menutopHTML();
 
 
-if ($HTTP_GET_VARS['idses'] == "creasesion"){
+if ($_GET['idses'] == "creasesion"){
 
 echo <<< HTML
 <tr>
@@ -421,7 +421,7 @@ mysql_close();
 
 
 /* ******************************************************   */
-if ($HTTP_GET_VARS['idses']=="actsesion"){
+if ($_GET['idses']=="actsesion"){
    $con_sesion = mysql_query("SELECT id_sesion FROM cr_sesion") or die(mysql_error());
 menutop12HTML();
 echo <<< HTML

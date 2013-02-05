@@ -14,9 +14,9 @@
  if(estaActivo($userBackEnd, $passBackEnd)) {
   // Recibimos las variables del formulario
 			  
-			  $id = $HTTP_POST_VARS['id'];
-			  $tipounidadnombre = $HTTP_POST_VARS['tipounidadnombre'];
-			  $func_estado = $HTTP_POST_VARS['estado'];
+			  $id = $_POST['id'];
+			  $tipounidadnombre = $_POST['tipounidadnombre'];
+			  $func_estado = $_POST['estado'];
 			  			  	  
               $ModificaReg = "UPDATE orm_tipounidad SET tpunidad=\"$tipounidadnombre\", estado=\"$func_estado\" WHERE tpunidad_id=\"$id\"";
               $query = mysql_query($ModificaReg);

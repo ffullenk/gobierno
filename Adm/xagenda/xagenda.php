@@ -24,7 +24,7 @@ HTML;
 }
 
 
-if (!$HTTP_POST_VARS && !$HTTP_GET_VARS){
+if (!$_POST && !$HTTP_GET_VARS){
         $tiempo_actual = time();
         $mes = date("n", $tiempo_actual);
         $ano = date("Y", $tiempo_actual);
@@ -183,7 +183,7 @@ HTML;
 }
 
 if ($HTTP_GET_VARS['accion']=="edita_actividad"){
-   $id = $HTTP_POST_VARS['id'];
+   $id = $_POST['id'];
 
    mysql_query("UPDATE agen_activ SET hora='$hora', actividad='$actividad' WHERE id='$id'") or DIE(mysql_error());
    mysql_close();
@@ -246,11 +246,11 @@ HTML;
 /* ***                                     *** */
 if ($HTTP_GET_VARS['accion']=="hacernuevo"){
 
-  $hora=$HTTP_POST_VARS["hora"];
-  $actividad=$HTTP_POST_VARS["actividad"];
-  $dia=$HTTP_POST_VARS["dia"];
-  $mes=$HTTP_POST_VARS["mes"];
-  $ano=$HTTP_POST_VARS["ano"];
+  $hora=$_POST["hora"];
+  $actividad=$_POST["actividad"];
+  $dia=$_POST["dia"];
+  $mes=$_POST["mes"];
+  $ano=$_POST["ano"];
 
 /* echo "Hora: $hora -- Actividad: $actividad<BR>"; */
 

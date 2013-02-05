@@ -432,10 +432,10 @@ znbaja();
 if( $HTTP_GET_VARS[act] == "g" )
 {
 //Chequeamos que la categoria no haya sido ingresado previamente
-$vtitu = trim( $HTTP_POST_VARS['titulo'] );
-$vdesc = trim( $HTTP_POST_VARS['descripcion'] );
-$vcont = trim( $HTTP_POST_VARS['contacto'] );
-$vweb = trim( $HTTP_POST_VARS['web'] );
+$vtitu = trim( $_POST['titulo'] );
+$vdesc = trim( $_POST['descripcion'] );
+$vcont = trim( $_POST['contacto'] );
+$vweb = trim( $_POST['web'] );
 $splfecha = split('[/.-]', $fecha);
 $day = $splfecha[0];
 $month = $splfecha[1];
@@ -564,10 +564,10 @@ znbaja();
 if( $HTTP_GET_VARS[act] == "a" )
 {
 //Chequeamos que la categoria no haya sido ingresado previamente
-$vtitu = trim( $HTTP_POST_VARS['titulo'] );
-$vdesc = trim( $HTTP_POST_VARS['descripcion'] );
-$vcont = trim( $HTTP_POST_VARS['contacto'] );
-$vweb = trim( $HTTP_POST_VARS['web'] );
+$vtitu = trim( $_POST['titulo'] );
+$vdesc = trim( $_POST['descripcion'] );
+$vcont = trim( $_POST['contacto'] );
+$vweb = trim( $_POST['web'] );
 $splfecha = split('[/.-]', $fecha);
 $day = $splfecha[0];
 $month = $splfecha[1];

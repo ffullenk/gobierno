@@ -1491,7 +1491,7 @@ HTML;
 
 
 if ($HTTP_GET_VARS['accion']=="edita_region"){
-  $id = $HTTP_POST_VARS['id'];
+  $id = $_POST['id'];
   $id = trim($id);
   // Convertir a Mayúsculas Nombre de la Región
      $nnombreregion = strtoupper($nnombreregion);
@@ -1741,8 +1741,8 @@ restoHTML();
 }
 
 if ($HTTP_GET_VARS['accion']=="edita_provincia"){
-  $id_r = $HTTP_POST_VARS['id'];
-  $id_p = $HTTP_POST_VARS['id_p'];
+  $id_r = $_POST['id'];
+  $id_p = $_POST['id_p'];
 
   // Convertir a Mayúsculas Nombre de la Región
      $nombreprovincia = strtoupper($nombreprovincia);
@@ -1897,8 +1897,8 @@ restoHTML();
 }
 
 if ($HTTP_GET_VARS['accion']=="edita_comuna"){
-  $id_p = $HTTP_POST_VARS['id'];
-  $id_c = $HTTP_POST_VARS['id_c'];
+  $id_p = $_POST['id'];
+  $id_c = $_POST['id_c'];
 
   // Convertir a Mayúsculas Nombre de la Comuna
      $nombrecomuna = strtoupper($nombrecomuna);
@@ -2043,7 +2043,7 @@ restoHTML();
 }
 
 if ($HTTP_GET_VARS['accion']=="edita_tipoevento"){
-  $id = $HTTP_POST_VARS['id'];
+  $id = $_POST['id'];
   $id = trim($id);
   // Convertir a Mayúsculas Nombre del TipoEvento
      $nombretipoevento = strtoupper($nombretipoevento);
@@ -2196,7 +2196,7 @@ restoHTML();
 }
 
 if ($HTTP_GET_VARS['accion']=="edita_nivelrespuesta"){
-  $id = $HTTP_POST_VARS['id'];
+  $id = $_POST['id'];
   $id = trim($id);
   // Convertir a Mayúsculas Nombre del Nivel de Respuesta
      $nombrenivel = strtoupper($nombrenivel);
@@ -2341,7 +2341,7 @@ restoHTML();
 
 
 if ($HTTP_GET_VARS['accion']=="edita_estadoalfa"){
-  $id = $HTTP_POST_VARS['id'];
+  $id = $_POST['id'];
   $id = trim($id);
   // Convertir a Mayúsculas Nombre del Estado Alfa
      $nombreestadoalfa = strtoupper($nombreestadoalfa);
@@ -2486,7 +2486,7 @@ restoHTML();
 
 
 if ($HTTP_GET_VARS['accion']=="edita_estadoevento"){
-  $id = $HTTP_POST_VARS['id'];
+  $id = $_POST['id'];
   $id = trim($id);
   // Convertir a Mayúsculas Nombre del Estado evento
      $nombreestadoevento = strtoupper($nombreestadoevento);
@@ -2631,7 +2631,7 @@ restoHTML();
 
 
 if ($HTTP_GET_VARS['accion']=="edita_tiporecurso"){
-  $id = $HTTP_POST_VARS['id'];
+  $id = $_POST['id'];
   $id = trim($id);
   // Convertir a Mayúsculas Nombre del tiporecurso
      $nombrerecurso = strtoupper($nombrerecurso);
@@ -3017,8 +3017,8 @@ restoHTML();
 
 if ($HTTP_GET_VARS['accion'] == "nueva_fuente") {
 
-	$fuenteId = $HTTP_POST_VARS[fuenteId];
-        $tipo = $HTTP_POST_VARS[tipo];
+	$fuenteId = $_POST[fuenteId];
+        $tipo = $_POST[tipo];
                 if ($regId > 0) {
                     if (strlen($regId) == 1) { $regId = "0".$regId; }
                     $tipo = "REG".$regId;

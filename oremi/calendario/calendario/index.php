@@ -49,8 +49,8 @@ if (!$_POST && !isset($HTTP_GET_VARS["nuevo_mes"]) && !isset($HTTP_GET_VARS["nue
 	$mes = date("n", $tiempo_actual);
 	$ano = date("Y", $tiempo_actual);
 }elseif ($_POST) {
-	$mes = $HTTP_POST_VARS["nuevo_mes"];
-	$ano = $HTTP_POST_VARS["nuevo_ano"];
+	$mes = $_POST["nuevo_mes"];
+	$ano = $_POST["nuevo_ano"];
 }else{
 	$mes = $HTTP_GET_VARS["nuevo_mes"];
 	$ano = $HTTP_GET_VARS["nuevo_ano"];

@@ -60,7 +60,7 @@ include("../../conexbd/conexion.php");
 
 
 
-if (!$HTTP_POST_VARS && !$HTTP_GET_VARS){
+if (!$_POST && !$HTTP_GET_VARS){
 	$tiempo_actual = time();
 	$mes = date("n", $tiempo_actual);
 	$ano = date("Y", $tiempo_actual);

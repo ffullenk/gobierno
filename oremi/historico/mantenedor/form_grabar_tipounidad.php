@@ -13,8 +13,8 @@ include("../incluir/funciones.php");
 if(estaActivo($userBackEnd, $passBackEnd)) {
 
 		      // Recibimos las variables del formulario
-			  $tipounidadnombre = $HTTP_POST_VARS['tipounidadnombre'];
-			  $estado = $HTTP_POST_VARS['estado'];
+			  $tipounidadnombre = $_POST['tipounidadnombre'];
+			  $estado = $_POST['estado'];
 			  
               $InsertaReg = "INSERT INTO orm_tipounidad(tpunidad,estado) VALUES('".$tipounidadnombre."','".$estado."');";
               $query = mysql_query($InsertaReg);

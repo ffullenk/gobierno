@@ -14,19 +14,19 @@ session_start();
 
  if(estaActivo($userBackEnd, $passBackEnd)) {
 
-    $idU = $HTTP_POST_VARS['idU'];
-    $nombre = $HTTP_POST_VARS['nombre'];
-    $emailusuario = $HTTP_POST_VARS['emailusuario'];
-    $rut = $HTTP_POST_VARS['rut'];
-    $institucion = $HTTP_POST_VARS['institucion'];
-    $clave = $HTTP_POST_VARS['clave'];
-    $reclave = $HTTP_POST_VARS['reclave'];
-    $tipo = $HTTP_POST_VARS['tipo'];
-    $estado = $HTTP_POST_VARS['estado'];
+    $idU = $_POST['idU'];
+    $nombre = $_POST['nombre'];
+    $emailusuario = $_POST['emailusuario'];
+    $rut = $_POST['rut'];
+    $institucion = $_POST['institucion'];
+    $clave = $_POST['clave'];
+    $reclave = $_POST['reclave'];
+    $tipo = $_POST['tipo'];
+    $estado = $_POST['estado'];
 
-    $chbx = $HTTP_POST_VARS['chbx'];
+    $chbx = $_POST['chbx'];
     $nroptos = count($chbx);
-    $ixNroCampos = $HTTP_POST_VARS['ixNroCampos'];
+    $ixNroCampos = $_POST['ixNroCampos'];
 
 
     if($clave<>$reclave) { echo "<script>alert('Las Contraseñas No Coinciden'); document.location.href='iusuarios.php';</script>\n"; }

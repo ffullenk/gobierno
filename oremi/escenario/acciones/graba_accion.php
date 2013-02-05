@@ -16,21 +16,21 @@ session_start();
  if(estaActivo($userBackEnd, $passBackEnd)) {
 
    // Obtenemos los valores desde el formulario
-   $idE = $HTTP_POST_VARS["idE"];
-   $fecha = convertir_fecha($HTTP_POST_VARS["fecha"]);
-   $horax = $HTTP_POST_VARS["hora"].":".$HTTP_POST_VARS["minutos"];
-   $tieneservrel = $HTTP_POST_VARS["tieneservrel"];
+   $idE = $_POST["idE"];
+   $fecha = convertir_fecha($_POST["fecha"]);
+   $horax = $_POST["hora"].":".$_POST["minutos"];
+   $tieneservrel = $_POST["tieneservrel"];
 
-   $Idpto = $HTTP_POST_VARS['Idpto'];
-   $Depto = $HTTP_POST_VARS['Depto'];
+   $Idpto = $_POST['Idpto'];
+   $Depto = $_POST['Depto'];
    $nroptos = count($Idpto);
-   $ixNC_ptos = $HTTP_POST_VARS['ixNC_ptos'];
+   $ixNC_ptos = $_POST['ixNC_ptos'];
 
-   $Idser = $HTTP_POST_VARS['Idser'];
-   $Idptoser = $HTTP_POST_VARS['Idptoser'];
-   $Deser = $HTTP_POST_VARS['Deser'];
+   $Idser = $_POST['Idser'];
+   $Idptoser = $_POST['Idptoser'];
+   $Deser = $_POST['Deser'];
    $nroserv = count($Idser);
-   $ixNC_serv = $HTTP_POST_VARS['ixNC_serv'];
+   $ixNC_serv = $_POST['ixNC_serv'];
 
 
    // Grabamos en Acciones Puntos Criticos
