@@ -262,7 +262,7 @@ global $tiempo_actual, $mes, $ano, $dia, $fecha, $nuevo_mes, $nuevo_ano, $fecha_
 
 if( $loginCorrecto ) {
 
-if ( ( !$HTTP_GET_VARS[act] ) || ( $HTTP_GET_VARS[act] == "I" ) ) {
+if ( ( !$_GET[act] ) || ( $_GET[act] == "I" ) ) {
 if(!isset($nuevo_mes)) {
         $tiempo_actual = time();
         $mes = date("n", $tiempo_actual);
@@ -333,7 +333,7 @@ znbaja();
 }
 
 
-if( $HTTP_GET_VARS[act] == "k" )
+if( $_GET[act] == "k" )
 {
 znsuperior();
 ?>
@@ -429,7 +429,7 @@ znbaja();
 }
 
 
-if( $HTTP_GET_VARS[act] == "g" )
+if( $_GET[act] == "g" )
 {
 //Chequeamos que la categoria no haya sido ingresado previamente
 $vtitu = trim( $_POST['titulo'] );
@@ -452,7 +452,7 @@ if(mysql_num_rows($res) == 0 )
 
 
 
-if( $HTTP_GET_VARS[act] == "m" )
+if( $_GET[act] == "m" )
 {
 $res=mysql_query("SELECT * FROM calendario WHERE id=$id") or die(mysql_error());
 if($fila=mysql_fetch_object($res)) {
@@ -561,7 +561,7 @@ znbaja();
 }
 
 
-if( $HTTP_GET_VARS[act] == "a" )
+if( $_GET[act] == "a" )
 {
 //Chequeamos que la categoria no haya sido ingresado previamente
 $vtitu = trim( $_POST['titulo'] );

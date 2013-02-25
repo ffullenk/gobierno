@@ -9,10 +9,10 @@ $mensaje = str_replace("\\\\","&#92",$mensaje);
 return $mensaje;
 }
 
-if(trim($HTTP_POST_VARS["username"] != "") && trim($HTTP_POST_VARS["password"] != ""))
+if(trim($_POST["username"] != "") && trim($_POST["password"] != ""))
 {
-   $username=quitar($HTTP_POST_VARS["username"]);
-   $password=quitar($HTTP_POST_VARS["password"]);
+   $username=quitar($_POST["username"]);
+   $password=quitar($_POST["password"]);
    //$mdpass=md5($password);
    include("../bd/conecta.php");
    $link = Conexion();

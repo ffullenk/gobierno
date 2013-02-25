@@ -208,7 +208,7 @@ global $global_qk, $loginCorrecto;
 
 if( $loginCorrecto ) {
 
-if ( ( !$HTTP_GET_VARS[act] ) || ( $HTTP_GET_VARS[act] == "dmin" ) ) {
+if ( ( !$_GET[act] ) || ( $_GET[act] == "dmin" ) ) {
 znsuperior();
 ?>
 			  <!-- COMIENZO: Fila Principal Administracion -->
@@ -224,7 +224,7 @@ znsuperior();
 									$TAMANO_PAGINA = 9;
 
 								  /* examino la p&aacute;gina a mostrar y el inicio del registro a mostrar */
-								   $pagina = $HTTP_GET_VARS["pagina"];
+								   $pagina = $_GET["pagina"];
 								   if (!$pagina) {
 								        $inicio = 0;
 								        $pagina = 1;
@@ -274,7 +274,7 @@ znsuperior();
 /* muestro los distintos &iacute;ndices de las p&aacute;ginas, si es que hay varias p&aacute;ginas */
    if($pagina > 1)
    {
-     echo "<a href='".$HTTP_SERVER["PHP_SELF"]."?act=dmin&pagina=".($pagina-1)."'>";
+     echo "<a href='".$_SERVER["PHP_SELF"]."?act=dmin&pagina=".($pagina-1)."'>";
      echo "<font face='verdana' size='-2'> anterior</font>";
      echo "</a>&nbsp;";
    }
@@ -282,19 +282,19 @@ znsuperior();
    if ($total_paginas > 1)
    {
       for ($i=$minimo; $i<$pagina; $i++){
-         echo "<a href='".$HTTP_SERVER["PHP_SELF"]."?act=dmin&pagina=".$i."'> $i</a>&nbsp;";
+         echo "<a href='".$_SERVER["PHP_SELF"]."?act=dmin&pagina=".$i."'> $i</a>&nbsp;";
       }
 	  
 	  echo "<font face='verdana' size='-2'>[". $pagina. "] </font>&nbsp;";
 
       for ($i=$pagina+1; $i<=$maximo; $i++){
-         echo "<a href='".$HTTP_SERVER["PHP_SELF"]."?act=dmin&pagina=".$i."'>$i</a>&nbsp;";
+         echo "<a href='".$_SERVER["PHP_SELF"]."?act=dmin&pagina=".$i."'>$i</a>&nbsp;";
       }
    }
 
    if($pagina<$total_paginas)
    {
-     echo "&nbsp;<a href='".$HTTP_SERVER["PHP_SELF"]."?act=dmin&pagina=" .($pagina+1). "'>";
+     echo "&nbsp;<a href='".$_SERVER["PHP_SELF"]."?act=dmin&pagina=" .($pagina+1). "'>";
      echo "<font face='verdana' size='-2'>siguiente</font></a>";
    }
 ?>
@@ -310,7 +310,7 @@ znbaja();
 }
 
 
-if( $HTTP_GET_VARS[act] == "k" )
+if( $_GET[act] == "k" )
 {
 znsuperior();
 ?>
@@ -450,7 +450,7 @@ znbaja();
 }
 
 
-if( $HTTP_GET_VARS[act] == "g" )
+if( $_GET[act] == "g" )
 {
 //Chequeamos que la categoria no haya sido ingresado previamente
 $titulo = trim( strtoupper( $HTTP_POST_VARS['titulo'] ) );
@@ -514,7 +514,7 @@ if(mysql_num_rows($res) == 0 )
 
 
 
-if( $HTTP_GET_VARS[act] == "m" )
+if( $_GET[act] == "m" )
 {
 $res = mysql_query("SELECT * FROM eventos WHERE id=$id") or die(mysql_error());
 if(mysql_num_rows($res) > 0 ) {
@@ -672,7 +672,7 @@ znbaja();
 }
 
 
-if( $HTTP_GET_VARS[act] == "a" )
+if( $_GET[act] == "a" )
 {
 //Chequeamos que la categoria no haya sido ingresado previamente
 $titulo = trim( strtoupper( $titulo ) );

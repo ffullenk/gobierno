@@ -233,7 +233,7 @@ global $global_qk, $loginCorrecto;
 
 if( $loginCorrecto ) {
 
-if ( ( !$HTTP_GET_VARS[act] ) || ( $HTTP_GET_VARS[act] == "dmin" ) ) {
+if ( ( !$_GET[act] ) || ( $_GET[act] == "dmin" ) ) {
 znsuperior();
 ?>
 			  <!-- COMIENZO: Fila Principal Administracion -->
@@ -249,7 +249,7 @@ znsuperior();
 									$TAMANO_PAGINA = 25;
 
 								  /* examino la p&aacute;gina a mostrar y el inicio del registro a mostrar */
-								   $pagina = $HTTP_GET_VARS["pagina"];
+								   $pagina = $_GET["pagina"];
 								   if (!$pagina) {
 								        $inicio = 0;
 								        $pagina = 1;
@@ -336,7 +336,7 @@ znbaja();
 }
 
 
-if( $HTTP_GET_VARS[act] == "k" )
+if( $_GET[act] == "k" )
 {
 znsuperior();
 ?>
@@ -449,7 +449,7 @@ znbaja();
 }
 
 
-if( $HTTP_GET_VARS[act] == "g" )
+if( $_GET[act] == "g" )
 {
 //Chequeamos que la categoria no haya sido ingresado previamente
 //$alcalde = trim( strtoupper( $_POST['alcalde'] ) );
@@ -476,7 +476,7 @@ if(mysql_num_rows($res) == 0 )
 
 
 
-if( $HTTP_GET_VARS[act] == "m" )
+if( $_GET[act] == "m" )
 {
 $res=mysql_query("SELECT * FROM alcaldes WHERE idalcalde=$id") or die("Error ... Imposible Seleccionar Info de Alcaldes en BDTabla.");
 if($flgob = mysql_fetch_object($res)) {
@@ -595,7 +595,7 @@ znbaja();
 }
 
 
-if( $HTTP_GET_VARS[act] == "a" ) {
+if( $_GET[act] == "a" ) {
 //Chequeamos que la categoria no haya sido ingresado previamente
 //$alcalde = trim( strtoupper( $_POST['alcalde'] ) );
 
