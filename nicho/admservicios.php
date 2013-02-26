@@ -10,6 +10,10 @@ $global_qk=0;
 //exit;
 include("detectuser.php");
 
+if(isset($_GET['id'])){
+
+   $id= $_GET['id'];
+}
 
 function znsuperior() {
 global $global_qk, $loginCorrecto;

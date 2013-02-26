@@ -7,7 +7,10 @@ $legal_require_php = "k28stv7s4";
 global $global_qk;
 $global_qk=0;
 include("detectuser.php");
+if(isset($_GET['id'])){
 
+   $id= $_GET['id'];
+}
 function znsuperior() {
 global $global_qk, $loginCorrecto;
 ?>
@@ -209,7 +212,7 @@ global $global_qk, $loginCorrecto;
 
 if( $_SESSION['logeado'] ) {
 
-if ( ( !$_GET[act] ) || ( $_GET[act] == "dmin" ) ) {
+if ( ( !$_GET['act'] ) || ( $_GET['act'] == "dmin" ) ) {
 znsuperior();
 ?>
 			  <!-- COMIENZO: Fila Principal Administracion -->
