@@ -37,18 +37,19 @@ if( $legal_require_php != "k28stv7s4" ) exit;
 				     // Primero, elimino la cookie
 					    setcookie('qknicho', '', 0, '/nicho', '', 0);
                      // Luego, retorno a la pagina principal
-					    header( "Location: index.html");
+					    //header( "Location: index.html");
                  }
               } else { // No es la misma sesionid
 				     // Primero, elimino la cookie
 					    setcookie('qknicho', '', 0, '/nicho', '', 0);
                      // Luego, retorno a la pagina principal
-					    header( "Location: index.html");
+					    //header( "Location: index.html");
               }
            } else {
 				     // Primero, elimino la cookie
 					    setcookie('qknicho', '', 0, '/nicho', '', 0);
                      // Luego, retorno a la pagina principal
-					    header( "Location: index.html");
+					    //header( "Location: index.html");
            }
-        } else { header( "Location: index.html"); } ?>
+        } else { //header( "Location: index.html"); 
+      } ?>

@@ -1,6 +1,7 @@
 <?php
+session_start();
 umask(0);
-include('../bd/conecta.php');
+ include("conecta.php");
 $link = Conexion();
 $legal_require_php = "k28stv7s4";
 global $global_qk;
@@ -206,7 +207,7 @@ global $global_qk, $loginCorrecto;
 <?php
 }
 
-if( $loginCorrecto ) {
+if( $_SESSION['logeado'] ) {
 
 if ( ( !$_GET[act] ) || ( $_GET[act] == "dmin" ) ) {
 znsuperior();

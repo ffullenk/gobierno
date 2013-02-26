@@ -1,6 +1,7 @@
 <?php
+session_start();
 umask(0);
-include('../bd/conecta.php');
+ include("conecta.php");
 $link = Conexion();
 $legal_require_php = "k28stv7s4";
 global $global_qk;
@@ -260,7 +261,7 @@ global $tiempo_actual, $mes, $ano, $dia, $fecha, $nuevo_mes, $nuevo_ano, $fecha_
 <?php
 }
 
-if( $loginCorrecto ) {
+if( $_SESSION['logeado'] ) {
 
 if ( ( !$_GET[act] ) || ( $_GET[act] == "I" ) ) {
 if(!isset($nuevo_mes)) {

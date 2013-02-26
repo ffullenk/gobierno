@@ -1,6 +1,6 @@
 <?php 
 function conexion() {
-if(!($link=mysql_connect("localhost","","") )) {
+if(!($link=mysql_connect("","","") )) {
    echo "Error ... No se puede establecer conexion con la base de datos en estos momentos";
    exit();
 }

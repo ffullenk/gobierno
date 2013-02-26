@@ -1,10 +1,13 @@
 <?php
+session_start();
 umask(0);
-include('../bd/conecta.php');
+ include("conecta.php");
 $link = Conexion();
 $legal_require_php = "k28stv7s4";
 global $global_qk;
 $global_qk=0;
+//echo "bien";
+//exit;
 include("detectuser.php");
 
 
@@ -183,11 +186,14 @@ global $global_qk, $loginCorrecto;
 </body>
 </html>
 <?php
+
+
 }
 
-if( $loginCorrecto ) {
 
-if ( ( !$_GET[act] ) || ( $_GET[act] == "dmin" ) ) {
+if( $_SESSION['logeado'] ) {
+
+if ( ( !$_GET['act'] ) || ( $_GET['act'] == "dmin" ) ) {
 znsuperior();
 ?>
 			  <!-- COMIENZO: Fila Principal Administracion -->
@@ -289,7 +295,7 @@ znbaja();
 }
 
 
-if( $_GET[act] == "k" )
+if( $_GET['act'] == "k" )
 {
 znsuperior();
 ?>
@@ -451,7 +457,7 @@ znbaja();
 }
 
 
-if( $_GET[act] == "g" )
+if( $_GET['act'] == "g" )
 {
 //Chequeamos que la categoria no haya sido ingresado previamente
 $vacro = trim( $_POST['acronimo'] );
@@ -485,7 +491,7 @@ if(mysql_num_rows($res) == 0 )
 
 
 
-if( $_GET[act] == "m" )
+if( $_GET['act'] == "m" )
 {
 
 $res=mysql_query("SELECT * FROM servpub WHERE id=$id") or die("Error ... Imposible Seleccionar Info de Servicio Publico en BDTabla.");
@@ -680,7 +686,7 @@ znbaja();
 }
 
 
-if( $_GET[act] == "a" )
+if( $_GET['act'] == "a" )
 {
 //Chequeamos que la categoria no haya sido ingresado previamente
 $vacro = trim( $_POST['acronimo'] );

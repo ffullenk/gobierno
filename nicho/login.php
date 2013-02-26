@@ -1,4 +1,5 @@
 <?php
+session_start();
 function quitar($mensaje)
 {
 $mensaje = str_replace("<","&lt;",$mensaje);
@@ -9,12 +10,14 @@ $mensaje = str_replace("\\\\","&#92",$mensaje);
 return $mensaje;
 }
 
+
 if(trim($_POST["username"] != "") && trim($_POST["password"] != ""))
 {
    $username=quitar($_POST["username"]);
    $password=quitar($_POST["password"]);
    //$mdpass=md5($password);
-   include("../bd/conecta.php");
+
+   include("conecta.php");
    $link = Conexion();
    $res=mysql_query("SELECT id, lastaccess, lasttime FROM usuarios WHERE nick='$username' AND password='$password'") or die("No se puede localizar usuario.");
    if($row = mysql_fetch_object($res)) {
@@ -28,6 +31,9 @@ $qk="$iduser:$sesionid";
 setcookie('qknicho', $qk, time() + 60*60*24*30, '/nicho', '', 0);
         mysql_query("UPDATE usuarios SET sesionid='$sesionid', lastaccess='$ultimoacceso', lasttime='$t', lastipad='$ipaddr' WHERE id=$iduser") or die(mysql_error());
         mysql_free_result($res); unset($row);
+         //echo "hola";
+         //exit;
+        $_SESSION['logeado'] = true;
            header('Location: admservicios.php');
       } else {
 	      // No Existe en tabla user ni passw
