@@ -1,4 +1,4 @@
-<?
+<?php
 
 function limpiar_acentos($s) 
 { 
@@ -713,4 +713,9 @@ return $edad;
 function extension($filename){
     return substr(strrchr($filename, '.'), 1);
 }
+
+function toHtml($buff){
+	return @htmlspecialchars((string)$buff, ENT_QUOTES);
+}
+
 ?>

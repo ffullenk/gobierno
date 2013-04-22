@@ -45,7 +45,10 @@
 
 			<div class="categoria">Noticias</div>
 			<h2>
-				 <?php echo anchor('noticias-vista/'.$n['id'].'/1', $n['titulo']); ?>
+			
+				 <a href="<?php echo base_url()?>noticias-vista/<?php echo $n['id'];?>/1">
+					<?php echo ucfirst(strtolower($n['titulo'])); ?>	
+				</a>
 			</h2>
 
 			<p class="texto-noticias">
@@ -74,7 +77,9 @@
 			
 			<div class="titulo-noticias-secundarias">
 				<h2>
-					 <?php echo anchor('noticias-vista/'.$f['id'].'/1', $f['titulo']); ?>
+				<a href="<?php echo base_url()?>noticias-vista/<?php echo $f['id'];?>/1">
+					<?php echo ucfirst(strtolower($f['titulo'])); ?>	
+				</a>	
 				</h2>
 			</div>
 			<div class="fecha-noticia"><?php echo fecha_formato_espanol_gore($f['fecha'])?> | Santiago</div>
@@ -102,16 +107,22 @@
 		</div>
 		<div class="info-noticias-sidebar">
 			<h5>
-			   <?php echo anchor('noticias-vista/'.$breve['id_breves'].'/2', ajustatexto_titular_secundaria($breve['titulo'])); ?>
+			   <a href="<?php echo base_url()?>noticias-vista/<?php echo $breve['id_breves'];?>/2">
+					<?php echo ucfirst(strtolower($breve['titulo'])); ?>	
+				</a>
 			</h5>
 			<p class="parrafo-noticia-sidebar">
 				<?php echo substr(strip_tags($breve['cuerpo']),0,150).'....';?>
 			</p>
-		</div>	
+		</div>
+
 	</div>
 
 	 <?php endforeach;?>
 
+	 <img style="width:320px" src="<?php echo base_url()?>imagenes/chile-cumple.jpg">	
+	 <img style="width:320px" src="<?php echo base_url()?>imagenes/chile-cumple.jpg">	
+	
 			   
 </div>
 
