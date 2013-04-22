@@ -1,7 +1,5 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="utf-8" />
+ <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Gobierno Regional de Coquimbo</title>
 <link href="<?php echo base_url(); ?>css/style.css" rel="stylesheet" type="text/css" >
 <link href="<?php echo base_url(); ?>css/menus.css" rel="stylesheet" type="text/css" >
@@ -16,9 +14,9 @@ document.write('<style type="text/css">.tabber{display:none;}<\/style>');
 </script>
 
 
-<link rel="stylesheet" href="<?php echo base_url(); ?>css/jquery-ui.css" >
-<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery-1.8.2.js" ></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery-ui.js" ></script>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" >
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js" ></script>
+<script type="text/javascript" src="http://code.jquery.com/ui/1.9.1/jquery-ui.js" ></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>js/mosaic.1.0.1.js" ></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>js/tabber.js" ></script>
 <script type="text/javascript" src="<?php echo base_url(); ?>js/jMyCarousel.js" ></script>
@@ -54,6 +52,41 @@ document.write('<style type="text/css">.tabber{display:none;}<\/style>');
 
         });       
 
+ $(function(){
+
+      $('#slides').slides({
+        preload: true,
+        preloadImage: 'img/loading.gif',
+        play: 5000,
+        pause: 2500,
+        hoverPause: true,
+        animationStart: function(current){
+          $('.caption').animate({
+            bottom:-35
+          },100);
+          if (window.console && console.log) {
+            // example return of current slide number
+            console.log('animationStart on slide: ', current);
+          };
+        },
+        animationComplete: function(current){
+          $('.caption').animate({
+            bottom:0
+          },200);
+          if (window.console && console.log) {
+            // example return of current slide number
+            console.log('animationComplete on slide: ', current);
+          };
+        },
+        slidesLoaded: function() {
+          $('.caption').animate({
+            bottom:0
+          },200);
+        }
+      });
+    });
+
+
   
   </script>
 <!-- fin carrusel  -->
@@ -65,6 +98,7 @@ document.write('<style type="text/css">.tabber{display:none;}<\/style>');
 
       $('#slides').slides({
         preload: true,
+        preloadImage: 'img/loading.gif',
         play: 5000,
         pause: 2500,
         hoverPause: true,

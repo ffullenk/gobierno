@@ -47,7 +47,7 @@
 			<h2>
 			
 				 <a href="<?php echo base_url()?>noticias-vista/<?php echo $n['id'];?>/1">
-					<?php echo ucfirst(strtolower($n['titulo'])); ?>	
+					<?php echo toHtml(ucfirst(strtolower($n['titulo']))); ?>	
 				</a>
 			</h2>
 
@@ -78,7 +78,7 @@
 			<div class="titulo-noticias-secundarias">
 				<h2>
 				<a href="<?php echo base_url()?>noticias-vista/<?php echo $f['id'];?>/1">
-					<?php echo ucfirst(strtolower($f['titulo'])); ?>	
+					<?php echo toHtml(ucfirst(strtolower($f['titulo']))); ?>	
 				</a>	
 				</h2>
 			</div>
@@ -108,7 +108,7 @@
 		<div class="info-noticias-sidebar">
 			<h5>
 			   <a href="<?php echo base_url()?>noticias-vista/<?php echo $breve['id_breves'];?>/2">
-					<?php echo ucfirst(strtolower($breve['titulo'])); ?>	
+					<?php echo toHtml(ucfirst(strtolower($breve['titulo']))); ?>	
 				</a>
 			</h5>
 			<p class="parrafo-noticia-sidebar">
