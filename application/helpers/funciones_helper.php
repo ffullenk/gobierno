@@ -717,6 +717,7 @@ function extension($filename){
 function toHtml($buff){
 	//return @htmlspecialchars((string)$buff, ENT_QUOTES);
 	return htmlentities((string)$buff, ENT_NOQUOTES, 'UTF-8');
+	return utf8_decode((string)$buff);
 	
 }
 
