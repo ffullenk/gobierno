@@ -1,5 +1,8 @@
- <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title>Gobierno Regional de Coquimbo</title>
 <link href="<?php echo base_url(); ?>css/style.css" rel="stylesheet" type="text/css" >
 <link href="<?php echo base_url(); ?>css/menus.css" rel="stylesheet" type="text/css" >
@@ -221,13 +224,44 @@ $(document).ready(function() {
 	<div id="gallery_container">	
 		<div id="hWrapperAuto">
         <div id="carouselhAuto2">
-		<div><a href="#" title="1/6" target="_blank"><img alt="imagen carrusel" src="http://asisbo.guinetpro.com/core/imagenes/carrusel-sin-imagen.png" width="222" height="54" /></a></div>
-		<div><a href="#" title="2/6" target="_blank"><img alt="imagen carrusel" src="http://asisbo.guinetpro.com/core/imagenes/carrusel-sin-imagen.png" width="215" height="54" /></a></div>
-		<div><a href="#" title="3/6"  target="_blank"><img alt="imagen carrusel" src="http://asisbo.guinetpro.com/core/imagenes/trabajo-de-comisiones.jpg" width="215" height="54" /></a></div>
-		<div><a href="#" title="4/6"  target="_blank"><img alt="imagen carrusel" src="http://asisbo.guinetpro.com/core/imagenes/carrusel-sin-imagen.png" width="215" height="54" /></a></div>
-		<div><a href="#" title="5/6"  target="_blank"><img alt="imagen carrusel" src="http://asisbo.guinetpro.com/core/imagenes/carrusel-sin-imagen.png" width="215" height="54" /></a></div>
-		<div><a href="#"  title="6/6" target="_blank"><img alt="imagen carrusel" src="http://asisbo.guinetpro.com/core/imagenes/carrusel-sin-imagen.png" width="222" height="54" /></a></div>			
-				     
+		
+    <div>
+      <a href="#" title="1/6" target="_blank">
+        <img alt="imagen carrusel" src="<?php echo base_url(); ?>imagenes/gobierno-de-chile.png" width="222" height="54" />
+      </a>
+    </div>
+		
+    <div>
+      <a href="#" title="2/6" target="_blank">
+        <img alt="imagen carrusel" src="<?php echo base_url(); ?>imagenes/chile-atiende.jpg" width="215" height="54" />
+      </a>
+    </div>
+		
+    <div>
+      <a href="#" title="3/6"  target="_blank">
+        <img alt="imagen carrusel" src="<?php echo base_url(); ?>imagenes/vivir-sano.jpg" width="215" height="54" />
+      </a>
+    </div>
+		
+    <div>
+      <a href="#" title="4/6"  target="_blank">
+        <img alt="imagen carrusel" src="<?php echo base_url(); ?>imagenes/chile-cumple.jpg" width="215" height="54" />
+      </a>
+    </div>
+		
+    <div>
+      <a href="#" title="5/6"  target="_blank">
+        <img alt="imagen carrusel" src="<?php echo base_url(); ?>imagenes/vallas-camineras.jpg" width="215" height="54" />
+      </a>
+    </div>
+		
+    <div>
+      <a href="#"  title="6/6" target="_blank">
+        <img alt="imagen carrusel" src="<?php echo base_url(); ?>imagenes/ley-de-transparencia.jpg" width="222" height="54" />
+      </a>
+    </div>			
+	           
+
 		</div>
 		</div>
 	</div>
